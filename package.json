@@ -1,10 +1,12 @@
 {
-  "name": "xyzes",
+  "name": "xyzes.github.io",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://xyzes.github.io/",
   "dependencies": {
     "@babel/core": "^7.16.0",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/material": "^5.14.14",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -83,6 +85,7 @@
     ]
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "gh-pages": "^6.0.0"
   },
   "jest": {

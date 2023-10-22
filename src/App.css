@@ -1,38 +1,79 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.green-button {
+  background-color: white;
+  color: black;
+  border: 1px solid gray; /* Add a border to distinguish the button */
+  display: block; /* Display as block-level elements to take full width */
+  text-align: center; /* Center-align text within the button */
+  margin: 10px auto; /* Center horizontally with a little margin between buttons */
+  width: 100%; /* Set a fixed width of 100% */
+  font-weight: bold; /* Set the font weight to bold */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.green-button.MuiButton-root:hover {
+  background-color: green;
   color: white;
+  border: 1px solid green; /* Add a border to distinguish the button */}
+
+.blue-button {
+  background-color: white;
+  color: black;
+  border: 1px solid gray; /* Add a border to distinguish the button */
+  display: block; /* Display as block-level elements to take full width */
+  text-align: center; /* Center-align text within the button */
+  margin: 10px auto; /* Center horizontally with a little margin between buttons */
+  width: 100%; /* Set a fixed width of 100% */
+  font-weight: bold; /* Set the font weight to bold */
 }
 
-.App-link {
-  color: #61dafb;
+.blue-button.MuiButton-root:hover {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue; /* Add a border to distinguish the button */}
+
+.yellow-button {
+  background-color: white;
+  color: black;
+  border: 1px solid gray; /* Add a border to distinguish the button */
+  display: block; /* Display as block-level elements to take full width */
+  text-align: center; /* Center-align text within the button */
+  margin: 10px auto; /* Center horizontally with a little margin between buttons */
+  width: 100%; /* Set a fixed width of 100% */
+  font-weight: bold; /* Set the font weight to bold */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yellow-button.MuiButton-root:hover {
+  background-color: #c78203;
+  color: white;
+  border: 1px solid #c78203; /* Add a border to distinguish the button */}
+
+.red-button {
+  background-color: white;
+  color: black;
+  border: 1px solid gray; /* Add a border to distinguish the button */
+  display: block; /* Display as block-level elements to take full width */
+  text-align: center; /* Center-align text within the button */
+  margin: 10px auto; /* Center horizontally with a little margin between buttons */
+  width: 100%; /* Set a fixed width of 100% */
+  font-weight: bold; /* Set the font weight to bold */
+}
+
+.red-button.MuiButton-root:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red; /* Add a border to distinguish the button */
+}
+
+/* Updated default button styles */
+.MuiButton-root {
+  background-color: white;
+  color: black;
+  border: 1px solid gray; /* Add a border to distinguish the button */
+  display: block; /* Display as block-level elements to take full width */
+  text-align: center; /* Center-align text within the button */
+  margin: 10px auto; /* Center horizontally with a little margin between buttons */
+  width: 100%; /* Set a fixed width of 100% */
+  font-weight: bold; /* Set the font weight to bold */
 }
