@@ -11,12 +11,30 @@ interface Props {
 
 export default function About(props: Props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [fadeIn, setFadeIn] = React.useState(false);
+  const [slowFadeIn, setSlowFadeIn] = React.useState(false);
+
+  React.useEffect(() => {
+    // After the component is mounted, trigger the fade-in effect
+    setFadeIn(true);
+  }, []);
+
+  React.useEffect(() => {
+    // Use setTimeout to delay the start of the fade-in effect by one second
+    const delay = setTimeout(() => {
+      setSlowFadeIn(true); // Trigger the fade-in effect after the delay
+    }, 500); // 1000 milliseconds = 1 second
+
+    // Clear the timeout when the component unmounts to prevent memory leaks
+    return () => clearTimeout(delay);
+  }, []);
 
   return (
     <Box sx={{ display: 'flex', flexDirection:'column', height: '100vh', width: '100%', backgroundColor: '#c78203' }}>
     <img
         src="assets/projects-background.png" // Replace with your background image
         alt="Background"
+        className={`fast-fade-in ${fadeIn ? 'show' : ''}`}
         style={{
           position: 'fixed',
           top: 0,
@@ -37,7 +55,19 @@ export default function About(props: Props) {
           width: '100%',
           height: 'calc(50vh + 70px)',
           backgroundColor: 'white',
-          opacity: 0.8, // Adjust the opacity
+          opacity: 0.4, // Adjust the opacity
+          zIndex: 0, // Place it behind the content
+        }}
+      />
+      <div
+        style={{
+          position: 'fixed',
+          bottom: '10%',
+          left: 0,
+          width: '100%',
+          height: 'calc(15vh + 70px)',
+          backgroundColor: 'white',
+          opacity: 1, // Adjust the opacity
           zIndex: 0, // Place it behind the content
         }}
       />
@@ -51,7 +81,8 @@ export default function About(props: Props) {
             <img
                 src="assets/Projects.png" 
                 alt="A description of your image" 
-                style={{ height: 'auto', width: '54%', right:'calc(100vw - 50%)', position: 'fixed' }} // Adjust the margins to offset the image
+                style={{ transform: 'scaleX(-1)', marginTop:'5%', height:'60%', width: 'auto', position: 'fixed' }} // Adjust the margins to offset the image
+                className={`fade-in ${slowFadeIn ? 'show' : ''}`}
                 /> 
         </Box>
         {/** Content is here: */}

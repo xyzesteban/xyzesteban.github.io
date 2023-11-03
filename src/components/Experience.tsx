@@ -11,6 +11,23 @@ interface Props {
 
 export default function About(props: Props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [fadeIn, setFadeIn] = React.useState(false);
+  const [slowFadeIn, setSlowFadeIn] = React.useState(false);
+
+  React.useEffect(() => {
+    // After the component is mounted, trigger the fade-in effect
+    setFadeIn(true);
+  }, []);
+
+  React.useEffect(() => {
+    // Use setTimeout to delay the start of the fade-in effect by one second
+    const delay = setTimeout(() => {
+      setSlowFadeIn(true); // Trigger the fade-in effect after the delay
+    }, 500); // 1000 milliseconds = 1 second
+
+    // Clear the timeout when the component unmounts to prevent memory leaks
+    return () => clearTimeout(delay);
+  }, []);
 
   return (
     <Box sx={{ display: 'flex', flexDirection:'column', height: '100vh', width: '100%', backgroundColor: 'green' }}>
@@ -18,6 +35,7 @@ export default function About(props: Props) {
       <img
         src="assets/education-background.png" // Replace with your background image
         alt="Background"
+        className={`fast-fade-in ${fadeIn ? 'show' : ''}`}
         style={{
           position: 'fixed',
           top: 0,
@@ -40,6 +58,7 @@ export default function About(props: Props) {
                 src="assets/Education.png" 
                 alt="A description of your image" 
                 style={{ height: 'auto', width: '39%', marginLeft: '-6%', position: 'fixed' }} // Adjust the margins to offset the image
+                className={`fade-in ${slowFadeIn ? 'show' : ''}`}
                 />
         </Box>
         {/** Content is here: */}
