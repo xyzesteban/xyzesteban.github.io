@@ -33,7 +33,7 @@ export default function About(props: Props) {
   }, []);
 
   return (
-    <Box sx={{ display:'flex', flexDirection:'row', height: '100%', width: '100%', backgroundColor: 'blue', position:'absolute' }}>
+    <Box sx={{ display:'flex', flexDirection:'column', height: '100%', width: '100%', backgroundColor: 'blue', position:'absolute' }}>
       <img
         src="assets/projects-background.png" // Replace with your background image
         alt="Background"
@@ -47,7 +47,7 @@ export default function About(props: Props) {
           marginLeft: '-2.5px',
           transform: 'scaleX(-1)',
           objectFit: 'cover',
-          opacity: 0.5,
+          opacity: 0.40,
           zIndex: 0, // Place it behind other elements
         }}
       />
@@ -61,7 +61,7 @@ export default function About(props: Props) {
             <img
                 src="assets/About.png" 
                 alt="A description of your image" 
-                style={{ height: '100%', width: 'auto', marginLeft: '-15%', position: 'absolute' }} // Adjust the margins to offset the image
+                style={{ height: 'auto', width: 'calc(50vw - 100px)', marginLeft: '-13.5%', position: 'absolute' }} // Adjust the margins to offset the image
                 className={`fade-in ${slowFadeIn ? 'show' : ''}`}
                 />
         </Box>
@@ -69,7 +69,6 @@ export default function About(props: Props) {
         <Box sx={{margin: '30px', borderRadius:'15px', height:'calc(100vh - 200px)', flex: 2.5, boxShadow: '1px 1px 2px 1.5px rgba(0, 0, 0, 0.3)', backgroundColor: 'white', position: 'relative', zIndex: 5 }}>
             
         </Box>
-        
       </Box>
     </Box>
   );

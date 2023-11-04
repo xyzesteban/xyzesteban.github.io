@@ -57,7 +57,7 @@ export default function About(props: Props) {
             <img
                 src="assets/Music.png" 
                 alt="A description of your image" 
-                style={{ height: 'auto', width: '50%', marginLeft: '-14.5%', marginTop: '1%', position: 'fixed' }} // Adjust the margins to offset the image
+                style={{ height: 'auto', width: '54%', marginLeft: '-14.25%', marginTop: '-1%', position: 'fixed' }} // Adjust the margins to offset the image
                 className={`fade-in ${slowFadeIn ? 'show' : ''}`}
                 />
         </Box>

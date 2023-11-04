@@ -154,3 +154,97 @@ header {
   margin: 5px !important;
   transition: all 0.8s ease !important; /* Adjust the duration and timing function as needed */
 }
+
+.content-section {
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin: 0; /* Reset margins */
+
+    /* Hide the scrollbar track */
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+.fading-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.fading-image img {
+  width: 100%;
+  transition: opacity 0.5s; /* Fading transition */
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column; /* Set the direction to column for vertical stacking */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: '100%';
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 200px; /* Adjust card width as needed */
+  margin-right: 10px; /* Spacing between cards */
+}
+
+
+.about-title {
+  position: absolute;
+  top: 10px;
+  right: -200px;
+  
+
+  transform-origin: top left; /* Set the transform origin to the top-left corner */
+  transform: rotate(90deg);
+  z-index: 200; /* Place it above the image */
+  opacity: 0.75;
+  color: white;
+  font-size: 31px;
+}
+
+.cv-title {
+  position: absolute;
+  top: 10px;
+  right: -80px;
+  
+
+  transform-origin: top left; /* Set the transform origin to the top-left corner */
+  transform: rotate(90deg);
+  z-index: 200; /* Place it above the image */
+  opacity: 0.75;
+  color: white;
+  font-size: 31px;
+}
+
+.music-title {
+  position: absolute;
+  top: 10px;
+  right: -190px;
+  
+
+  transform-origin: top left; /* Set the transform origin to the top-left corner */
+  transform: rotate(90deg);
+  z-index: 200; /* Place it above the image */
+  opacity: 0.75;
+  color: white;
+  font-size: 31px;
+}
+
+.software-title {
+  position: absolute;
+  top: 10px;
+  right: -330px;
+  
+
+  transform-origin: top left; /* Set the transform origin to the top-left corner */
+  transform: rotate(90deg);
+  z-index: 200; /* Place it above the image */
+  opacity: 0.75;
+  color: white;
+  font-size: 31px;
+}

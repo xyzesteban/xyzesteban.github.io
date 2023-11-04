@@ -44,6 +44,7 @@ export default function About(props: Props) {
           height: '100%',
           marginLeft: '-10px',
           objectFit: 'cover',
+          opacity: 0.6,
           zIndex: 0, // Place it behind other elements
         }}
       />
