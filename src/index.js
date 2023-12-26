@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { AppProvider } from "./context/AppContext";
 import App from './App';
+import './assets/App.css'; // Import your global CSS file
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

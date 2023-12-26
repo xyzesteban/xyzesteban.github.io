@@ -3,21 +3,21 @@ import { useResponsive } from '../../context/ResponsiveContext';
 import useLayout from '../../hooks/useLayout';
 import ResponsiveLayout from '../../layouts/ResponsiveLayout';
 
+// Function to calculate the device type based on window dimensions
+const CalculateDeviceType = (windowWidth, windowHeight) => {
+    return useLayout(windowWidth, windowHeight);
+}
+
 const ResponsiveWrapper = ({ children }) => {
     // State variables to track the screen dimensions:
     const { windowWidth, windowHeight } = useResponsive(); // Access window dimensions
 
-    // Function to calculate the device type based on window dimensions
-    const calculateDeviceType = () => {
-        return useLayout(windowWidth, windowHeight);
-    };
-
     // State variable to track the device type
-    const [deviceType, setDeviceType] = useState(calculateDeviceType());
+    const [deviceType, setDeviceType] = useState(CalculateDeviceType(windowWidth, windowHeight));
 
     // Use useEffect to update deviceType when window dimensions change
     useEffect(() => {
-        setDeviceType(calculateDeviceType());
+        setDeviceType(CalculateDeviceType(windowWidth, windowHeight));
     }, [windowWidth, windowHeight]);
 
     return <ResponsiveLayout deviceType={deviceType}>{children}</ResponsiveLayout>;

@@ -1,31 +1,67 @@
 import React from 'react';
+import AppHeader from './AppHeader';
+import NavigationFooter from './navigation/NavigationFooter';
+import NavigationSidebar from './navigation/NavigationSidebar';
+import ContentWrapper from '../components/containers/ContentWrapper';
 
 const ResponsiveLayout = ({ deviceType, children }) => {
-
     return (
         <>
             {deviceType === 'smartphonePortrait' && (
-                <p>This content is displayed on smartphones in portrait mode.</p>
+                <>
+                <AppHeader isCompact={true} />
+                <ContentWrapper>
+                    {children}
+                </ContentWrapper>
+                <NavigationFooter />
+                </>
             )}
             {deviceType === 'smartphoneLandscape' && (
-                <p>This content is displayed on smartphones in landscape mode.</p>
+                <>
+                <AppHeader isCompact={true} />
+                <NavigationSidebar />
+                <ContentWrapper>
+                {children}
+                </ContentWrapper>
+                </>            
             )}
             {deviceType === 'tabletPortrait' && (
-                <p>This content is displayed on tablets in portrait mode.</p>
+                <>
+                <AppHeader isCompact={false} />
+                <NavigationSidebar/>
+                <ContentWrapper>
+                {children}                
+                </ContentWrapper>
+                </>            
             )}
             {deviceType === 'tabletLandscape' && (
-                <p>This content is displayed on tablets in landscape mode.</p>
-            )}
+                <>
+                <AppHeader isCompact={false} />
+                <NavigationSidebar/>
+                <ContentWrapper>
+                {children}                
+                </ContentWrapper>
+                </>            )}
             {deviceType === 'laptopDesktop' && (
-                <p>This content is displayed on laptops & desktops.</p>
+                <div className="flexible-container">
+                    <div className="header-object" style={{flex: 1}}><AppHeader isCompact={false} />
+                
+                </div>
+                <div className="main-object">{/* <ContentWrapper>
+                {children}                
+                </ContentWrapper> */} <NavigationSidebar /></div>
+                </div>
+                      
             )}
             {deviceType === 'veryLarge' && (
-                <p>This content is displayed on really large screens!.</p>
-            )}
-            <main>
+                <>
+                <AppHeader isCompact={false} />
+                <NavigationSidebar />
+                <ContentWrapper>
                 {children}
-            </main>
-
+                </ContentWrapper>
+                </>            
+            )}
         </>
     );
 }

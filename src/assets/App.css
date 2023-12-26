@@ -1,0 +1,62 @@
+/* Reset default browser styles */
+body,
+p,
+h1,
+h2,
+h3,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Pica';
+    src: url('./fonts/Pica.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Wavefont';
+    src: url('./fonts/Wavefont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'ZillaSlab';
+    src: url('./fonts/ZillaSlab.ttf') format('ttf');
+}
+
+:root {
+    --header-height: 80px;
+}
+
+.flexible-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-object {
+    height: var(--header-height);
+}
+
+.main-object {
+    background-color: lightgreen;
+    height: calc(100% - var(--header-height));
+    /* Takes up the bottom half */
+}
+

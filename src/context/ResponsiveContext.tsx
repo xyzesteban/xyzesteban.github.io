@@ -10,7 +10,7 @@ const initialDimensions = {
 // Define context using createContext hook (this requires a default value always):
 const ResponsiveContext = createContext(initialDimensions);
 
-// ResponsiveProvider is needed for accessing context
+// ResponsiveProvider is needed for accessing window size
 const ResponsiveProvider = ({ children }) => {
   const [windowDimensions, setWindowDimensions] = useState({
     windowWidth: window.innerWidth,

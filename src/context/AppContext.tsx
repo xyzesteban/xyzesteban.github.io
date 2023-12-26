@@ -1,45 +1,60 @@
-// AppContext.js
-import React, { createContext, useContext, useReducer } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
-// Create a placeholder initial state
-const initialAppState = {
-//   user: null,
-//   theme: 'light',
-//   cart: [],
-};
+// Define initial state variables to initialize the context:
+const initialState = {
+  page: 'About',
+  changePage: (newPage) => {return newPage;},
+  sidebarOpen: false,
+  toggleSidebar: () => {},
+  modalOpen: false,
+  toggleModal: () => {}
+}
 
-const AppContext = createContext(initialAppState);
+// Define context using createContext hook (this requires a default value always):
+const AppContext = createContext(initialState);
 
-const appReducer = (state, action) => {
-  switch (action.type) {
-    case 'SET_USER':
-      return { ...state, user: action.payload };
-    case 'TOGGLE_THEME':
-      return { ...state, theme: state.theme === 'light' ? 'dark' : 'light' };
-    case 'ADD_TO_CART':
-      return { ...state, cart: [...state.cart, action.payload] };
-    // Handle other actions here
-    default:
-      return state;
-  }
-};
-
+// AppProvider is needed for accessing application state
 const AppProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(appReducer, initialAppState);
+  const [page, setPage] = useState('About');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  // These functions will be called by the application in order to update the state:
+  const changePage = (newPage) => {
+    setPage(newPage);
+  };
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
+  const toggleModal = () => {
+    setModalOpen(!modalOpen);
+  };
+
+  const contextValue = {
+    page,
+    changePage,
+    sidebarOpen,
+    toggleSidebar,
+    modalOpen,
+    toggleModal
+  };
 
   return (
-    <AppContext.Provider value={{ state, dispatch }}>
+    <AppContext.Provider value={contextValue}>
       {children}
     </AppContext.Provider>
   );
-};
+}
 
-const useApp = () => {
-  const context = useContext(AppContext);
-  if (!context) {
-    throw new Error('useApp must be used within an AppProvider');
-  }
-  return context;
-};
+/**
+ * Custom hook to access the state from the AppContext
+ *
+ * @returns An object containing the state.
+ */
+const useAppContext = () => {
+  return useContext(AppContext);
+}
 
-export { AppProvider, useApp };
+export { AppProvider, useAppContext };
