@@ -6,24 +6,28 @@ const ResponsiveContent = ({ imagePath, deviceType, children }) => {
     return (
         <>
             {deviceType === 'smartphonePortrait' && (
-                <>
-                {children}
-                </> 
+                <div className="sideways-container">
+                <AnimatedForeground imagePath={imagePath}/>
+                <ContentScroller children={children} />
+                </div>
             )}
             {deviceType === 'smartphoneLandscape' && (
-                <>
-                {children}
-                </>            
+                <div className="sideways-container">
+                <AnimatedForeground imagePath={imagePath}/>
+                <ContentScroller children={children} />
+                </div>            
             )}
             {deviceType === 'tabletPortrait' && (
-                <>
-                {children}
-                </>           
+                <div className="sideways-container">
+                <AnimatedForeground imagePath={imagePath}/>
+                <ContentScroller children={children} />
+                </div>          
             )}
             {deviceType === 'tabletLandscape' && (
-                <>
-                {children}
-                </>          
+                <div className="sideways-container">
+                <AnimatedForeground imagePath={imagePath}/>
+                <ContentScroller children={children} />
+                </div>        
             )}
             {deviceType === 'laptopDesktop' && (
                 <div className="sideways-container">
@@ -32,9 +36,10 @@ const ResponsiveContent = ({ imagePath, deviceType, children }) => {
                 </div>
             )}
             {deviceType === 'veryLarge' && (
-                <>
-                {children}
-                </>       
+                <div className="sideways-container">
+                <AnimatedForeground imagePath={imagePath}/>
+                <ContentScroller children={children} />
+                </div>    
             )}
         </>
     );

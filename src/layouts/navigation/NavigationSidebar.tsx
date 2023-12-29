@@ -9,6 +9,7 @@ import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import CodeIcon from "@mui/icons-material/Code";
 import HeadsetIcon from "@mui/icons-material/Headset";
 import SidebarAvatar from '../../components/ui/SidebarAvatar';
+import Typography from '@mui/material/Typography';
 
 const NavigationSidebar = ({ isCompactSidebar }) => {
 
@@ -31,16 +32,16 @@ const NavigationSidebar = ({ isCompactSidebar }) => {
                 }
                 <SidebarAvatar isCompactSidebar={isCompactSidebar}/>
                 <Button className="blue-button" onClick={() => navigateTo('')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <p>About</p> : <div className="icon-wrapper"><HomeIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">About</h2> : <div className="icon-wrapper"><HomeIcon/></div>}
                 </Button>
                 <Button className="green-button" onClick={() => navigateTo('experience')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <p>CV</p> : <div className="icon-wrapper"><BusinessCenterIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">CV</h2> : <div className="icon-wrapper"><BusinessCenterIcon/></div>}
                 </Button>
                 <Button className="yellow-button" onClick={() => navigateTo('software')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <p>Software</p> : <div className="icon-wrapper"><CodeIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">Software</h2> : <div className="icon-wrapper"><CodeIcon/></div>}
                 </Button>
                 <Button className="red-button" onClick={() => navigateTo('music')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <p>Music</p> :<div className="icon-wrapper"><HeadsetIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">Music</h2> :<div className="icon-wrapper"><HeadsetIcon/></div>}
                 </Button>
             </div>
         </div>

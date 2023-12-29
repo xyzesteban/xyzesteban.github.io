@@ -1,31 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Box } from '@mui/material';
 
 const AnimatedForeground = ({ imagePath }) => {
-    const [slowFadeIn, setSlowFadeIn] = React.useState(false);
+    const [slowFadeIn, setSlowFadeIn] = useState(false);
+
+  const handleImageLoad = () => {
+    setSlowFadeIn(true);
+  };
 
     return (
-        <Box
+        <Box 
+            className="foreground-container"
             sx={{
-                flex: 1,
-                display: 'flex',
-                flexDirection: 'column',
-                maxHeight: '100vh',
-                overflow: 'hidden',
-                zIndex: 300,
+                opacity: slowFadeIn ? 1 : 0,
             }}
         >
             <img
                 src={imagePath}
                 alt="Foreground"
-                className={`fade-in ${slowFadeIn ? 'show' : ''}`}
-                style={{
-                    width: '100%',
-                    maxHeight: '100%', // Set max height to 100% of the parent Box
-                    objectFit: 'cover',
-                    zIndex: 1,
-                    transition: 'opacity 500ms ease-in-out',
-                }}
+                onLoad={(handleImageLoad)}
+                className="foreground-picture"
             />
         </Box>
     );

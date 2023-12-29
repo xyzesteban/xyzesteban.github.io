@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { Box } from '@mui/material';
 
-const ContentScroller = ({ children }) => {
+const ContentIntro = ({children}) => {
 
     return (
         <Box
-            className="content-scroller"
+            className="content-intro"
         >
             {children}
         </Box>
     );
 }
 
-export default ContentScroller;
+export default ContentIntro;

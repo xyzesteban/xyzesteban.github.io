@@ -2,11 +2,11 @@ import * as React from 'react';
 import { Box } from '@mui/material';
 
 const ContentGrid = ({ children }) => {
-  
-    return (
-          <Box sx={{display: 'flex', flexDirection: 'column', flex: 1 }}>
 
-          </Box>
+    return (
+        <Box>
+
+        </Box>
     );
 }
 

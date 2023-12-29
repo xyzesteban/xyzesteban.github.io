@@ -11,7 +11,6 @@ const ResponsiveLayout = ({ deviceType, children }) => {
                 <AppHeader isCompactHeader={true} />
                 <AppWrapper sidebarType={'none'}>
                     {children}
-                    <p>This website is on a phone in portrait mode</p>
                 </AppWrapper>
                 <NavigationFooter />
                 </div>  
@@ -21,7 +20,6 @@ const ResponsiveLayout = ({ deviceType, children }) => {
                 <AppHeader isCompactHeader={true} />
                 <AppWrapper sidebarType={'compact'}>
                     {children}
-                    <p>This website is on a phone in landscape mode</p>
                 </AppWrapper>
                 </div>            
             )}
@@ -30,7 +28,6 @@ const ResponsiveLayout = ({ deviceType, children }) => {
                 <AppHeader isCompactHeader={true} />
                 <AppWrapper sidebarType={'none'}>
                     {children}
-                    <p>This website is on a Tablet in portrait mode</p>
                 </AppWrapper>
                 <NavigationFooter />
                 </div>            
@@ -40,7 +37,6 @@ const ResponsiveLayout = ({ deviceType, children }) => {
                 <AppHeader isCompactHeader={true} />
                 <AppWrapper sidebarType={'compact'}>
                     {children}
-                    <p>This website is on a Tablet in landscape mode</p>
                 </AppWrapper>
                 </div>           
             )}
@@ -49,7 +45,6 @@ const ResponsiveLayout = ({ deviceType, children }) => {
                     <AppHeader isCompactHeader={false} />
                     <AppWrapper sidebarType={'default'}>
                         {children}
-                        <p>This website is viewed on a Laptop/Desktop</p>
                     </AppWrapper>
                 </div>
             )}
@@ -58,7 +53,6 @@ const ResponsiveLayout = ({ deviceType, children }) => {
                 <AppHeader isCompactHeader={false} />
                 <AppWrapper sidebarType={'default'}>
                     {children}
-                    <p>This screen is very large!</p>
                 </AppWrapper>
             </div>        
             )}
