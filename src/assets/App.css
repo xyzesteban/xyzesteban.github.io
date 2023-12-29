@@ -63,14 +63,6 @@ li {
     outline-color: black !important;
 }
 
-.header-title {
-    font-family: "IM Fell DW Pica", "Zilla Slab", serif !important;
-    text-align: center;
-    color: black; 
-    width: 100%; 
-    font-size: 24px;
-}
-
 .sidebar-button {
     border-radius: 0px 0px 0px 0px !important; 
     text-align: center; 
@@ -204,6 +196,7 @@ li {
 
 .main-object {
     display: flex;
+    overflow: hidden;
     height: calc(100% - var(--header-height));
 }
 
@@ -266,23 +259,24 @@ li {
     z-index: 0;
 }
 
+.button-text {
+    font-family: "Helvetica", sans-serif;
+}
+
 .content-scroller {
     background-color: transparent;
     flex: 2;
     flex-direction: column;
     position: relative; /* Add relative positioning */
+    overflow-y: auto;
     z-index: 600; /* Set a higher z-index value than the .foreground-picture */
-}
-
-.button-text {
-    font-family: "Helvetica", sans-serif;
 }
 
 .content-intro {
     border-radius: 15px;
-    margin: 15px; 
-    height: 100%; 
-    width: 100%;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+    margin: 15px;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
     background-color: white;
     display: flex; 
@@ -291,6 +285,29 @@ li {
     z-index: 100;
 }
 
-.h2 {
-    font-family: "Zilla Slab", serif;
+h1 {
+    font-family: "IM Fell DW Pica", "Zilla Slab", serif !important;
+    text-align: center;
+    color: black; 
+    width: 100%; 
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Zilla Slab", serif !important;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "Zilla Slab", serif !important;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: "Helvetica", sans-serif !important;
+    padding-bottom: 30px;
 }

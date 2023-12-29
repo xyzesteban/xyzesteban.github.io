@@ -4,9 +4,7 @@ import { Box } from '@mui/material';
 const ContentIntro = ({children}) => {
 
     return (
-        <Box
-            className="content-intro"
-        >
+        <Box className="content-intro">
             {children}
         </Box>
     );

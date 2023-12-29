@@ -32,16 +32,16 @@ const NavigationSidebar = ({ isCompactSidebar }) => {
                 }
                 <SidebarAvatar isCompactSidebar={isCompactSidebar}/>
                 <Button className="blue-button" onClick={() => navigateTo('')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">About</h2> : <div className="icon-wrapper"><HomeIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h3>About</h3> : <div className="icon-wrapper"><HomeIcon/></div>}
                 </Button>
                 <Button className="green-button" onClick={() => navigateTo('experience')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">CV</h2> : <div className="icon-wrapper"><BusinessCenterIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h3>CV</h3> : <div className="icon-wrapper"><BusinessCenterIcon/></div>}
                 </Button>
                 <Button className="yellow-button" onClick={() => navigateTo('software')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">Software</h2> : <div className="icon-wrapper"><CodeIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h3>Software</h3> : <div className="icon-wrapper"><CodeIcon/></div>}
                 </Button>
                 <Button className="red-button" onClick={() => navigateTo('music')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
-                    {sidebarOpen && !isCompactSidebar ? <h2 className="button-text">Music</h2> :<div className="icon-wrapper"><HeadsetIcon/></div>}
+                    {sidebarOpen && !isCompactSidebar ? <h3>Music</h3> :<div className="icon-wrapper"><HeadsetIcon/></div>}
                 </Button>
             </div>
         </div>

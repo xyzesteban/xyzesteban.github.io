@@ -8,37 +8,49 @@ const ResponsiveContent = ({ imagePath, deviceType, children }) => {
             {deviceType === 'smartphonePortrait' && (
                 <div className="sideways-container">
                 <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller children={children} />
+                <ContentScroller>
+                    {children}
+                </ContentScroller>
                 </div>
             )}
             {deviceType === 'smartphoneLandscape' && (
                 <div className="sideways-container">
                 <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller children={children} />
+                <ContentScroller>
+                    {children}
+                </ContentScroller>
                 </div>            
             )}
             {deviceType === 'tabletPortrait' && (
                 <div className="sideways-container">
                 <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller children={children} />
+                <ContentScroller>
+                    {children}
+                </ContentScroller>
                 </div>          
             )}
             {deviceType === 'tabletLandscape' && (
                 <div className="sideways-container">
                 <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller children={children} />
+                <ContentScroller>
+                    {children}
+                </ContentScroller>
                 </div>        
             )}
             {deviceType === 'laptopDesktop' && (
                 <div className="sideways-container">
                 <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller children={children} />
+                <ContentScroller>
+                    {children}
+                </ContentScroller>
                 </div>
             )}
             {deviceType === 'veryLarge' && (
                 <div className="sideways-container">
                 <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller children={children} />
+                <ContentScroller>
+                    {children}
+                </ContentScroller>
                 </div>    
             )}
         </>
