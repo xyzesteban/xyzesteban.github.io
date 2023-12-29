@@ -11,10 +11,11 @@ import HeadsetIcon from "@mui/icons-material/Headset";
 
 const NavigationFooter = () => {
 
-    const { changePage } = useAppContext(); // Use the context hook to access the state and functions
+    const { page, changePage } = useAppContext(); // Use the context hook to access the state and functions
     const navigate = useNavigate();
 
     const navigateTo = (route) => {
+        console.log(route)
         changePage(route);
         // Use the navigate function to navigate to the selected route
         navigate(`/${route}`);
@@ -25,7 +26,7 @@ const NavigationFooter = () => {
             <Box sx={{ position: 'fixed', bottom: 0, width: '100%', zIndex: 101 }}>
                 <BottomNavigation
                     showLabels
-                    value={""}
+                    value={page}
                     onChange={(event, newValue) => {
                         navigateTo(newValue);
                     }}

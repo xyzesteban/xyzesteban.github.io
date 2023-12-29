@@ -1,33 +1,17 @@
-import React, { useState } from 'react';
-import { useAppContext } from '../context/AppContext';
+import React from 'react';
 
-import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+import SidebarToggle from '../components/ui/SidebarToggle';
 
-const AppHeader = ({ isCompact }) => {
-
-    const { toggleSidebar } = useAppContext(); // Use the context hook to access the state and functions
-
+const AppHeader = ({ isCompactHeader }) => {
     return (
-                <Toolbar disableGutters sx={{ backgroundColor: 'white' }}>
-                    {!isCompact && (
-                        <IconButton
-                            aria-label="add"
-                            color="info"
-                            onClick={() => {
-                                toggleSidebar();
-                            }}
-                            style={{ borderRadius: "0px 0px 0px 0px", textAlign: "center", height: '100%', position: 'absolute', alignSelf: 'left' }}
-                        >
-                            <MenuIcon />
-                        </IconButton>
+                <Toolbar aria-label="app-header" disableGutters className="header-object">
+                    {!isCompactHeader && (
+                        <SidebarToggle />
                     )}
-                    <Typography component="h1" align='center' sx={{ fontFamily: 'Helvetica', color: 'black', width: '100%', fontSize: 24 }}>
+                    <h1 className="header-title">
                         Esteban D. Espinoza
-                    </Typography>
+                    </h1>
                 </Toolbar>
     );
 }

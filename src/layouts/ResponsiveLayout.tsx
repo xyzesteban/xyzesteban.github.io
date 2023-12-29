@@ -1,66 +1,66 @@
 import React from 'react';
 import AppHeader from './AppHeader';
 import NavigationFooter from './navigation/NavigationFooter';
-import NavigationSidebar from './navigation/NavigationSidebar';
-import ContentWrapper from '../components/containers/ContentWrapper';
+import AppWrapper from '../components/containers/AppWrapper';
 
 const ResponsiveLayout = ({ deviceType, children }) => {
     return (
         <>
             {deviceType === 'smartphonePortrait' && (
-                <>
-                <AppHeader isCompact={true} />
-                <ContentWrapper>
+                <div className="flexible-container">
+                <AppHeader isCompactHeader={true} />
+                <AppWrapper sidebarType={'none'}>
                     {children}
-                </ContentWrapper>
+                    <p>This website is on a phone in portrait mode</p>
+                </AppWrapper>
                 <NavigationFooter />
-                </>
+                </div>  
             )}
             {deviceType === 'smartphoneLandscape' && (
-                <>
-                <AppHeader isCompact={true} />
-                <NavigationSidebar />
-                <ContentWrapper>
-                {children}
-                </ContentWrapper>
-                </>            
+                <div className="flexible-container">
+                <AppHeader isCompactHeader={true} />
+                <AppWrapper sidebarType={'compact'}>
+                    {children}
+                    <p>This website is on a phone in landscape mode</p>
+                </AppWrapper>
+                </div>            
             )}
             {deviceType === 'tabletPortrait' && (
-                <>
-                <AppHeader isCompact={false} />
-                <NavigationSidebar/>
-                <ContentWrapper>
-                {children}                
-                </ContentWrapper>
-                </>            
+                <div className="flexible-container">
+                <AppHeader isCompactHeader={true} />
+                <AppWrapper sidebarType={'none'}>
+                    {children}
+                    <p>This website is on a Tablet in portrait mode</p>
+                </AppWrapper>
+                <NavigationFooter />
+                </div>            
             )}
             {deviceType === 'tabletLandscape' && (
-                <>
-                <AppHeader isCompact={false} />
-                <NavigationSidebar/>
-                <ContentWrapper>
-                {children}                
-                </ContentWrapper>
-                </>            )}
+                <div className="flexible-container">
+                <AppHeader isCompactHeader={true} />
+                <AppWrapper sidebarType={'compact'}>
+                    {children}
+                    <p>This website is on a Tablet in landscape mode</p>
+                </AppWrapper>
+                </div>           
+            )}
             {deviceType === 'laptopDesktop' && (
                 <div className="flexible-container">
-                    <div className="header-object" style={{flex: 1}}><AppHeader isCompact={false} />
-                
+                    <AppHeader isCompactHeader={false} />
+                    <AppWrapper sidebarType={'default'}>
+                        {children}
+                        <p>This website is viewed on a Laptop/Desktop</p>
+                    </AppWrapper>
                 </div>
-                <div className="main-object">{/* <ContentWrapper>
-                {children}                
-                </ContentWrapper> */} <NavigationSidebar /></div>
-                </div>
-                      
             )}
             {deviceType === 'veryLarge' && (
-                <>
-                <AppHeader isCompact={false} />
-                <NavigationSidebar />
-                <ContentWrapper>
-                {children}
-                </ContentWrapper>
-                </>            
+                <div className="flexible-container">
+                <AppHeader isCompactHeader={false} />
+                <AppWrapper sidebarType={'default'}>
+                    {children}
+                    <p>This screen is very large!</p>
+                </AppWrapper>
+            </div>        
             )}
         </>
     );

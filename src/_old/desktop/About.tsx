@@ -1,18 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
 
-interface Props {
-    /**
-     * Injected by the documentation to work in an iframe.
-     * You won't need it on your project.
-     */
-    window?: () => Window;
-  }
-
-export default function About(props: Props) {
+export default function About() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [fadeIn, setFadeIn] = React.useState(false);
   const [slowFadeIn, setSlowFadeIn] = React.useState(false);

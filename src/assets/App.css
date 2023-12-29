@@ -26,7 +26,7 @@ li {
 }
 
 @font-face {
-    font-family: 'Pica';
+    font-family: 'IM Fell DW Pica';
     src: url('./fonts/Pica.ttf') format('ttf');
 }
 
@@ -36,12 +36,12 @@ li {
 }
 
 @font-face {
-    font-family: 'ZillaSlab';
+    font-family: 'Zilla Slab';
     src: url('./fonts/ZillaSlab.ttf') format('ttf');
 }
 
 :root {
-    --header-height: 80px;
+    --header-height: 60px;
 }
 
 .flexible-container {
@@ -52,11 +52,174 @@ li {
 
 .header-object {
     height: var(--header-height);
+    outline-width: 1px !important;
+    outline-color: black;
+    z-index: 75;
+}
+
+.header-title {
+    font-family: "IM Fell DW Pica", "Zilla Slab", serif !important;
+    text-align: center;
+    color: black; 
+    width: 100%; 
+    font-size: 24px;
 }
 
 .main-object {
-    background-color: lightgreen;
+    display: flex;
     height: calc(100% - var(--header-height));
     /* Takes up the bottom half */
 }
 
+.sidebar-button {
+    border-radius: 0px 0px 0px 0px !important; 
+    text-align: center; 
+    height: 100%; 
+    position: absolute;
+    width: 80px;
+    margin: 10px !important;
+}
+
+.collapsed-avatar {
+    width: 38px !important;
+    height: 38px !important;
+    transition: all 0.8s ease !important; /* Adjust the duration and timing function as needed */
+  }
+  
+.expanded-avatar {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 5px !important;
+    transition: all 0.8s ease !important; /* Adjust the duration and timing function as needed */
+}
+
+.sidebar-wrapper {
+    display: flex;
+    position: relative;
+    transition: width 1.3s ease;
+    background-color: rgb(250, 250, 250, 0.2);
+}
+
+/* Updated default button styles */
+.MuiButton-root {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; /* Add a border to distinguish the button */
+    display: block; /* Display as block-level elements to take full width */
+    text-align: center; /* Center-align text within the button */
+    margin: 0px auto !important; /* Center horizontally with a little margin between buttons */
+    width: 80%; /* Set a fixed width of 100% */
+    font-weight: bold; /* Set the font weight to bold */
+}
+
+.green-button {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; /* Add a border to distinguish the button */
+    display: block !important; /* Display as block-level elements to take full width */
+    text-align: center; /* Center-align text within the button */
+    margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
+    width: 80%; /* Set a fixed width of 100% */
+    font-weight: bold !important; /* Set the font weight to bold */
+    transition: opacity 1s ease !important; /* Add a transition for the opacity property */
+}
+  
+.green-button:hover {
+    background-color: green !important;
+    color: white !important;
+    border: 1px solid green; /* Add a border to distinguish the button */
+}
+  
+.blue-button {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; /* Add a border to distinguish the button */
+    display: block !important; /* Display as block-level elements to take full width */
+    text-align: center; /* Center-align text within the button */
+    margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
+    width: 80%; /* Set a fixed width of 100% */
+    font-weight: bold !important; /* Set the font weight to bold */
+    transition: opacity 1s ease !important; /* Add a transition for the opacity property */
+}
+  
+.blue-button:hover {
+    background-color: blue !important;
+    color: white !important;
+    border: 1px solid blue; /* Add a border to distinguish the button */
+}
+  
+.yellow-button {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; /* Add a border to distinguish the button */
+    display: block !important; /* Display as block-level elements to take full width */
+    text-align: center; /* Center-align text within the button */
+    margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
+    width: 80%; /* Set a fixed width of 100% */
+    font-weight: bold !important; /* Set the font weight to bold */
+    transition: opacity 1s ease !important; /* Add a transition for the opacity property */
+}
+  
+.yellow-button:hover {
+    background-color: #c78203 !important;
+    color: white !important;
+    border: 1px solid #c78203; /* Add a border to distinguish the button */}
+  
+.red-button {
+    background-color: white;
+    color: black;
+    border: 1px solid gray; /* Add a border to distinguish the button */
+    display: block !important; /* Display as block-level elements to take full width */
+    text-align: center; /* Center-align text within the button */
+    margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
+    width: 80%; /* Set a fixed width of 100% */
+    font-weight: bold !important; /* Set the font weight to bold */
+    transition: opacity 1s ease !important; /* Add a transition for the opacity property */
+}
+  
+.red-button:hover {
+    background-color: red !important;
+    color: white !important;
+    border: 1px solid red; /* Add a border to distinguish the button */
+}
+
+
+.navigation-sidebar {
+    border-radius: 15px;
+    margin: 15px; 
+    height: calc(100% - var(--header-height) + 15px); 
+    width: 100%;
+    box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    z-index: 20;
+}
+
+/* Default styles for the icons */
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.icon-wrapper p,
+.icon-wrapper svg {
+    width: 18px; /* Default width */
+    height: 18px; /* Default height */
+}
+  
+/* Responsive styles for larger screens */
+@media screen and (min-width: 480px) {
+    .icon-wrapper p,
+    .icon-wrapper svg {
+      width: 24px;
+      height: 24px;
+    }
+}
+
+.sideways-container {
+    display: flex;
+    height: 100vh;
+}

@@ -1,18 +1,16 @@
-import React, { useState } from 'react';
-import { Sidebar, Menu } from "react-pro-sidebar";
+import React from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate from React Router
 
-import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import HomeIcon from "@mui/icons-material/Home";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import CodeIcon from "@mui/icons-material/Code";
 import HeadsetIcon from "@mui/icons-material/Headset";
+import SidebarAvatar from '../../components/ui/SidebarAvatar';
 
-const NavigationSidebar = () => {
+const NavigationSidebar = ({ isCompactSidebar }) => {
 
     const { changePage, sidebarOpen } = useAppContext(); // Use the context hook to access the state and functions
     const navigate = useNavigate();
@@ -24,41 +22,30 @@ const NavigationSidebar = () => {
     };
 
     return (
-        <Sidebar transitionDuration={800} style={{ display: "flex", position: 'relative', height: '100%' }}>
-            <Box sx={{ borderRadius: '15px', margin: '12px', height: '100%', flex: 1, boxShadow: '1px 1px 2px 1.5px rgba(0, 0, 0, 0.3)', position: 'relative', }}>
+        <div className="sidebar-wrapper" style={{ width: !isCompactSidebar && sidebarOpen ? '200px' : '100px' }}>
+            <div className="navigation-sidebar" style={{ width: !isCompactSidebar ? '200px' : '80px'}}>
                 {!sidebarOpen ?
                     <Box sx={{ height: '30px' }}></Box>
                     :
                     <Box sx={{ height: '20px' }}></Box>
                 }
-                <Button className="avatar">
-                    <Avatar
-                        alt="Profile"
-                        src="assets/Main.jpg"
-                        className={!sidebarOpen ? 'expanded-avatar' : 'default-avatar'}
-                    />
+                <SidebarAvatar isCompactSidebar={isCompactSidebar}/>
+                <Button className="blue-button" onClick={() => navigateTo('')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
+                    {sidebarOpen && !isCompactSidebar ? <p>About</p> : <div className="icon-wrapper"><HomeIcon/></div>}
                 </Button>
-                <Button className="blue-button" onClick={() => navigateTo('')}>
-                    {!sidebarOpen ? <Typography>About</Typography> : <HomeIcon></HomeIcon>}
+                <Button className="green-button" onClick={() => navigateTo('experience')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
+                    {sidebarOpen && !isCompactSidebar ? <p>CV</p> : <div className="icon-wrapper"><BusinessCenterIcon/></div>}
                 </Button>
-                <Button className="green-button" onClick={() => navigateTo('experience')}>
-                    {!sidebarOpen ? <Typography>CV</Typography> : <BusinessCenterIcon></BusinessCenterIcon>}
+                <Button className="yellow-button" onClick={() => navigateTo('software')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
+                    {sidebarOpen && !isCompactSidebar ? <p>Software</p> : <div className="icon-wrapper"><CodeIcon/></div>}
                 </Button>
-                <Button className="yellow-button" onClick={() => navigateTo('software')}>
-                    {!sidebarOpen ? <Typography>Software</Typography> : <CodeIcon></CodeIcon>}
+                <Button className="red-button" onClick={() => navigateTo('music')} sx={{margin: isCompactSidebar ? '1px' : '10px' }}>
+                    {sidebarOpen && !isCompactSidebar ? <p>Music</p> :<div className="icon-wrapper"><HeadsetIcon/></div>}
                 </Button>
-                <Button className="red-button" onClick={() => navigateTo('music')}>
-                    {!sidebarOpen ? <Typography>Music</Typography> : <HeadsetIcon></HeadsetIcon>}
-                </Button>
-            </Box>
-        </Sidebar>
+            </div>
+        </div>
     );
 
 }
 
 export default NavigationSidebar;
-
-function Large() {
-
-}
-

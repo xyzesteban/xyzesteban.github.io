@@ -2,9 +2,9 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 // Define initial state variables to initialize the context:
 const initialState = {
-  page: 'About',
+  page: '',
   changePage: (newPage) => {return newPage;},
-  sidebarOpen: false,
+  sidebarOpen: true,
   toggleSidebar: () => {},
   modalOpen: false,
   toggleModal: () => {}
@@ -15,8 +15,8 @@ const AppContext = createContext(initialState);
 
 // AppProvider is needed for accessing application state
 const AppProvider = ({ children }) => {
-  const [page, setPage] = useState('About');
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [page, setPage] = useState('');
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
 
   // These functions will be called by the application in order to update the state:
