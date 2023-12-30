@@ -268,19 +268,38 @@ li {
     flex: 2;
     flex-direction: column;
     position: relative; /* Add relative positioning */
+    min-width: 33%;
     overflow-y: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: calc(35% - var(--header-height));
     z-index: 600; /* Set a higher z-index value than the .foreground-picture */
 }
 
 .content-intro {
     border-radius: 15px;
-    padding-inline-start: 12px;
+    padding-inline-start: 14px;
     padding-inline-end: 12px;
     margin: 15px;
+    min-width: 50%;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
     background-color: white;
     display: flex; 
     flex-direction: column;
+    position: relative; /* Make sure it's positioned relative to allow z-index to work */
+    z-index: 100;
+}
+
+.content-experience {
+    border-radius: 15px;
+    padding-inline-start: 14px;
+    padding-inline-end: 12px;
+    margin: 15px;
+    min-width: 50%;
+    box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+    display: flex; 
+    flex-direction: row;
     position: relative; /* Make sure it's positioned relative to allow z-index to work */
     z-index: 100;
 }
@@ -296,18 +315,22 @@ h1 {
 h2 {
     font-family: "Zilla Slab", serif !important;
     font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: azure;
+    padding-left: 24px;
 }
 
 h3 {
     font-family: "Zilla Slab", serif !important;
     font-size: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: black;
+}
+
+h3:hover {
+    color: white;
 }
 
 p {
     font-family: "Helvetica", sans-serif !important;
+    padding-top: 15px;
     padding-bottom: 30px;
 }

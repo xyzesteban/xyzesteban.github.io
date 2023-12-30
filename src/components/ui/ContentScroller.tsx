@@ -4,9 +4,7 @@ import { Box } from '@mui/material';
 const ContentScroller = ({ children }) => {
 
     return (
-        <Box
-            className="content-scroller"
-        >
+        <Box className="content-scroller">
             {children}
         </Box>
     );

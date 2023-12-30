@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import ResponsiveWrapper from '../components/containers/ResponsiveWrapper';
 import LoremIpsum from '../data/LoremIpsum';
-import ContentScroller from '../components/ui/ContentScroller';
 import ContentIntro from '../components/ui/ContentIntro';
 
 const About = () => {
@@ -41,20 +40,20 @@ const About = () => {
 
   return (
     <ResponsiveWrapper>
+        <h2>About</h2>
         <ContentIntro>
-          <h2>About</h2>
           <p><LoremIpsum /></p>
         </ContentIntro>
+        <h2>Brief Education Summary</h2>
         <ContentIntro>
-          <h2>Brief Education Summary</h2>
           <p>To be added...</p>
         </ContentIntro>
+        <h2>Brief Music Summary</h2>
         <ContentIntro>
-          <h2>Brief Music Summary</h2>
           <p>To be added...</p>
         </ContentIntro>
+        <h2>Contact</h2>
         <ContentIntro>
-          <h2>Contact</h2>
           <p>To be added...</p>
         </ContentIntro>
     </ResponsiveWrapper>
