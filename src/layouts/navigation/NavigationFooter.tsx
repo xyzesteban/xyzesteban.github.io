@@ -23,7 +23,7 @@ const NavigationFooter = () => {
 
     return (
         <>
-            <Box sx={{ position: 'fixed', bottom: 0, width: '100%', zIndex: 101 }}>
+            <Box sx={{ position: 'fixed', bottom: 0, width: '100%', zIndex: 600 }}>
                 <BottomNavigation
                     showLabels
                     value={page}

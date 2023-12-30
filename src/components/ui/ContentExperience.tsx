@@ -4,6 +4,7 @@ import LoremIpsum from '../../data/LoremIpsum';
 
 const ContentExperience = ({children, imagePath}) => {
 
+    // TODO: Make it so that it formats the fields properly and displays an image:
     return (
         <Box className="content-experience">
             {imagePath && 

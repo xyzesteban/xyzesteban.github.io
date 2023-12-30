@@ -1,12 +1,15 @@
 import * as React from 'react';
 import { Box } from '@mui/material';
 
-const ContentCard = ({ children }) => {
+const ContentCard = ({children, imagePath}) => {
   
     return (
-          <Box sx={{display: 'flex', flexDirection: 'column', flex: 1 }}>
-
-          </Box>
+          <div className="content-card">
+            {imagePath && 
+                <img src={imagePath} style={{width: '100px', height: '100px'}}/>
+            }
+            {children}
+          </div>
     );
 }
 
