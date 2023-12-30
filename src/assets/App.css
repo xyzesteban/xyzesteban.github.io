@@ -88,7 +88,7 @@ li {
 .MuiButton-root {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    border: 1px solid transparent !important; /* Add a border to distinguish the button */
     display: block; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 0px auto !important; /* Center horizontally with a little margin between buttons */
@@ -99,7 +99,7 @@ li {
 .green-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -117,7 +117,7 @@ li {
 .blue-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -135,7 +135,7 @@ li {
 .yellow-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -152,7 +152,7 @@ li {
 .red-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -325,8 +325,8 @@ h1 {
 h2 {
     font-family: "Zilla Slab", serif !important;
     font-size: 24px;
-    color: azure;
-    padding-left: 24px;
+    color: black;
+    padding-left: 20px;
 }
 
 h3 {
@@ -335,7 +335,7 @@ h3 {
     color: black;
 }
 
-h3:hover {
+.button-title:hover {
     color: white;
 }
 
@@ -343,4 +343,9 @@ p {
     font-family: "Helvetica", sans-serif !important;
     padding-top: 15px;
     padding-bottom: 30px;
+}
+
+/* Disable selection */
+.disable-select {
+    user-select: none;
 }

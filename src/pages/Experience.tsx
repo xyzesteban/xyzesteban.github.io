@@ -40,7 +40,7 @@ const Experience = () => {
 
   return (
     <ResponsiveWrapper>
-        <h2>Education</h2>
+        <h2 style={{color:'white'}}>Education</h2>
         <ContentExperience imagePath={"assets/education-placeholder.jpg"}>
           <p>Northeastern University - B.S. in Computer Science and Music Composition and Technology</p>
         </ContentExperience>
@@ -50,7 +50,7 @@ const Experience = () => {
         <ContentExperience imagePath={"assets/education-placeholder.jpg"}>
           <p>Saint Augustine High School - Laredo, TX</p>
         </ContentExperience>
-        <h2>Experience</h2>
+        <h2 style={{color:'white'}}>Experience</h2>
         <ContentExperience imagePath={"assets/experience-placeholder.png"}>
           <p>IBM</p>
         </ContentExperience>
@@ -60,7 +60,7 @@ const Experience = () => {
         <ContentExperience imagePath={"assets/experience-placeholder.png"}>
           <p>Texas A&M International University</p>
         </ContentExperience>
-        <h2>Skills</h2>
+        <h2 style={{color:'white'}}>Skills</h2>
         <ContentExperience imagePath={"assets/experience-placeholder.png"}>
           <p></p>
         </ContentExperience>

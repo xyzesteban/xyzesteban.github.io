@@ -40,15 +40,15 @@ const Experience = () => {
 
   return (
     <ResponsiveWrapper>
-        <h2>Saint Dvorak</h2>
+        <h2 style={{color:'white'}}>Saint Dvorak</h2>
         <ContentExperience imagePath={""}>
           <p>To Be Added...</p>
         </ContentExperience>
-        <h2>AGES</h2>
+        <h2 style={{color:'white'}}>AGES</h2>
         <ContentExperience imagePath={""}>
           <p>To be added...</p>
         </ContentExperience>
-        <h2>RNGLDR Records Ltd</h2>
+        <h2 style={{color:'white'}}>RNGLDR Records Ltd</h2>
         <ContentExperience imagePath={""}>
           <p>To be added...</p>
         </ContentExperience>
