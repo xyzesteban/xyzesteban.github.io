@@ -33,7 +33,7 @@ const AppWrapper = ({ sidebarType, children }) => {
   return (
     <div aria-label="main-wrapper" className="main-object" style={{ backgroundColor }}>
       {sidebarComponent}
-      <ContentWrapper children={children} />
+      <ContentWrapper children={children}/>
     </div>
   );
 };

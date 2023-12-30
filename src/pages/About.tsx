@@ -42,7 +42,7 @@ const About = () => {
     <ResponsiveWrapper>
         <h2>About</h2>
         <ContentIntro>
-          <p><LoremIpsum /></p>
+          <p><LoremIpsum/></p>
         </ContentIntro>
         <h2>Brief Education Summary</h2>
         <ContentIntro>

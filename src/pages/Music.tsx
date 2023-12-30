@@ -43,17 +43,14 @@ const Experience = () => {
         <h2>Saint Dvorak</h2>
         <ContentExperience imagePath={""}>
           <p>To Be Added...</p>
-          <LoremIpsum />
         </ContentExperience>
         <h2>AGES</h2>
         <ContentExperience imagePath={""}>
           <p>To be added...</p>
-          <LoremIpsum />
         </ContentExperience>
         <h2>RNGLDR Records Ltd</h2>
         <ContentExperience imagePath={""}>
           <p>To be added...</p>
-          <LoremIpsum />
         </ContentExperience>
     </ResponsiveWrapper>
   )
