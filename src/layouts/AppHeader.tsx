@@ -9,7 +9,7 @@ const AppHeader = ({ isCompactHeader }) => {
                     {!isCompactHeader && (
                         <SidebarToggle />
                     )}
-                    <h1>Esteban D. Espinoza</h1>
+                    <h1 className="disable-select">Esteban D. Espinoza</h1>
                 </Toolbar>
     );
 }

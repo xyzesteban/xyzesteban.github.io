@@ -88,7 +88,7 @@ li {
 .MuiButton-root {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    border: 1px solid transparent !important; /* Add a border to distinguish the button */
     display: block; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 0px auto !important; /* Center horizontally with a little margin between buttons */
@@ -99,7 +99,7 @@ li {
 .green-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -117,7 +117,7 @@ li {
 .blue-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -135,7 +135,7 @@ li {
 .yellow-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -152,7 +152,7 @@ li {
 .red-button {
     background-color: white;
     color: black;
-    border: 1px solid gray; /* Add a border to distinguish the button */
+    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -191,7 +191,9 @@ li {
 
 .sideways-container {
     display: flex;
+    width: 100%;
     height: 100%;
+    flex: 1;
 }
 
 .main-object {
@@ -239,9 +241,14 @@ li {
     z-index: 100;
 }
 
+.button-text {
+    font-family: "Helvetica", sans-serif;
+}
+
 .foreground-container {
     flex: 1;
     display: flex;
+    flex-shrink: 0; /* Add this line */
     flex-direction: column;
     height: 100%;
     position: relative; /* Added relative positioning */
@@ -259,8 +266,8 @@ li {
     z-index: 0;
 }
 
-.button-text {
-    font-family: "Helvetica", sans-serif;
+.content-wrapper {
+    flex: 1;
 }
 
 .content-scroller {
@@ -268,18 +275,40 @@ li {
     flex: 2;
     flex-direction: column;
     position: relative; /* Add relative positioning */
+    min-width: 33%;
     overflow-y: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: calc(35% - var(--header-height));
     z-index: 600; /* Set a higher z-index value than the .foreground-picture */
 }
 
 .content-intro {
     border-radius: 15px;
-    padding-inline-start: 12px;
+    padding-inline-start: 14px;
     padding-inline-end: 12px;
     margin: 15px;
+    min-width: 50%; /* Adjust as needed */
+    box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+}
+
+.content-experience {
+    border-radius: 15px;
+    padding-inline-start: 14px;
+    padding-inline-end: 12px;
+    margin: 15px;
+    min-width: 33%;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
     background-color: white;
-    display: flex; 
+    display: flex;
+    flex-shrink: 0; /* Prevent shrinking */
+    flex-basis: 0;
     flex-direction: column;
     position: relative; /* Make sure it's positioned relative to allow z-index to work */
     z-index: 100;
@@ -296,18 +325,27 @@ h1 {
 h2 {
     font-family: "Zilla Slab", serif !important;
     font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: black;
+    padding-left: 20px;
 }
 
 h3 {
     font-family: "Zilla Slab", serif !important;
     font-size: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: black;
+}
+
+.button-title:hover {
+    color: white;
 }
 
 p {
     font-family: "Helvetica", sans-serif !important;
+    padding-top: 15px;
     padding-bottom: 30px;
+}
+
+/* Disable selection */
+.disable-select {
+    user-select: none;
 }

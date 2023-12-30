@@ -14,7 +14,7 @@ const SidebarAvatar = ({ isCompactSidebar }) => {
                     <Avatar
                         alt="Profile"
                         src="assets/Main.jpg"
-                        className={sidebarOpen && !isCompactSidebar ? 'expanded-avatar' : 'collapsed-avatar'}
+                        className={sidebarOpen && !isCompactSidebar ? 'disable-select expanded-avatar' : 'disable-select collapsed-avatar'}
                     />
                 </Button>
     );
