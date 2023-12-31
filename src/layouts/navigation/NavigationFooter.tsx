@@ -23,7 +23,7 @@ const NavigationFooter = () => {
 
     return (
         <>
-            <div style={{ position: 'relative', bottom: 0, width: '100%', zIndex: 600 }}>
+            <div style={{ bottom: 0, width: '100%', zIndex: 600 }}>
                 <BottomNavigation
                     showLabels
                     value={page}

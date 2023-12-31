@@ -252,7 +252,7 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
-    padding-bottom: 50% !important;
+    /* padding-bottom: 50% !important; */
 }
 
 .main-object {
@@ -359,7 +359,7 @@ body {
     overflow-y: auto;
     padding-right: 20px;
     padding-top: 20px;
-    padding-bottom: calc(30% - var(--header-height));
+    padding-bottom: calc(44vh - var(--header-height));
     z-index: 600; /* Set a higher z-index value than the .foreground-picture */
 }
 
@@ -368,8 +368,9 @@ body {
     flex-direction: row !important;
     height: 100% !important;
     width: 100vw !important;
-    padding-bottom: 56px !important;
+    padding-bottom: 44vh !important;
     padding-top: 0px !important;
+    padding-right: 0px !important;
     min-height: 100vh;
 }
 
