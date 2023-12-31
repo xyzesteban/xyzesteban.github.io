@@ -23,7 +23,7 @@ const NavigationFooter = () => {
 
     return (
         <>
-            <div style={{ position: "absolute", bottom: 0, width: '100%', zIndex: 600 }}>
+            <Box style={{ position: "fixed", bottom: 0, width: '100%', zIndex: 600 }}>
                 <BottomNavigation
                     showLabels
                     value={page}
@@ -36,7 +36,7 @@ const NavigationFooter = () => {
                     <BottomNavigationAction label="Tech" icon={<CodeIcon />} value="software" />
                     <BottomNavigationAction label="Music" icon={<HeadsetIcon />} value="music" />
                 </BottomNavigation>
-            </div>
+            </Box>
         </>
     )
 }
