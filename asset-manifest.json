@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.36ba3c1b.css",
-    "main.js": "/static/js/main.5bbfa00f.js",
+    "main.css": "/static/css/main.a57a8d76.css",
+    "main.js": "/static/js/main.3cf5785b.js",
     "static/js/787.6cf6b794.chunk.js": "/static/js/787.6cf6b794.chunk.js",
     "static/fonts/Helvetica.ttf": "/static/fonts/Helvetica.ttf",
     "static/fonts/ZillaSlab.ttf": "/static/fonts/ZillaSlab.ttf",
@@ -18,12 +18,12 @@
     "static/media/Wavefont.ttf": "/static/media/Wavefont.b27d20275435f456d883.ttf",
     "static/media/Pica.woff": "/static/media/Pica.0ef5935363a6cb5098e6.woff",
     "static/media/Pica.ttf": "/static/media/Pica.08a95400d06a02c571c8.ttf",
-    "main.36ba3c1b.css.map": "/static/css/main.36ba3c1b.css.map",
-    "main.5bbfa00f.js.map": "/static/js/main.5bbfa00f.js.map",
+    "main.a57a8d76.css.map": "/static/css/main.a57a8d76.css.map",
+    "main.3cf5785b.js.map": "/static/js/main.3cf5785b.js.map",
     "787.6cf6b794.chunk.js.map": "/static/js/787.6cf6b794.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36ba3c1b.css",
-    "static/js/main.5bbfa00f.js"
+    "static/css/main.a57a8d76.css",
+    "static/js/main.3cf5785b.js"
   ]
 }
