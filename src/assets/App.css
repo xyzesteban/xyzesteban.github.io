@@ -80,11 +80,13 @@ li {
 .MuiButton-toolbar {
     height: 48px !important;
     position: fixed !important;
-    outline-width: 1px !important;
+    outline-width: 0px !important;
     outline-color: black !important;
 }
 
 .MuiButton-root {
+    border: 0px !important;
+    padding: 0px 0px !important;
     min-width: 0px !important;
 }
 
@@ -94,14 +96,17 @@ li {
 
 .sidebar-button {
     border-radius: 0px 0px 0px 0px !important; 
+    padding-inline: 0px !important;
     text-align: center; 
     position: absolute;
+    padding: 0px;
     width: 80px;
     height: 100%;
     margin-left: 10px !important;
 }
 
-.sidebar-button:hover {
+.sidebar-button:hover,
+.sidebar-button:hover h3 {
     color: white !important;
 }
 
@@ -117,13 +122,14 @@ li {
 .collapsed-avatar {
     width: 38px !important;
     height: 38px !important;
+    margin-bottom: 12px !important;
     transition: all 0.8s ease !important; /* Adjust the duration and timing function as needed */
   }
   
 .expanded-avatar {
     width: 120px !important;
     height: 120px !important;
-    margin: 5px !important;
+    margin: 8px !important;
     transition: all 0.8s ease !important; /* Adjust the duration and timing function as needed */
 }
 
@@ -154,7 +160,6 @@ li {
 .green-button:hover {
     background-color: green !important;
     color: white !important;
-    border: 1px solid green; /* Add a border to distinguish the button */
 }
   
 .blue-button {
@@ -172,7 +177,6 @@ li {
 .blue-button:hover {
     background-color: blue !important;
     color: white !important;
-    border: 1px solid blue; /* Add a border to distinguish the button */
 }
   
 .yellow-button {
@@ -190,7 +194,7 @@ li {
 .yellow-button:hover {
     background-color: #c78203 !important;
     color: white !important;
-    border: 1px solid #c78203; /* Add a border to distinguish the button */}
+}
   
 .red-button {
     background-color: white;
@@ -207,11 +211,11 @@ li {
 .red-button:hover {
     background-color: red !important;
     color: white !important;
-    border: 1px solid red; /* Add a border to distinguish the button */
 }
 
 /* Default styles for the icons */
 .icon-wrapper {
+    padding: 3px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -424,6 +428,13 @@ h2 {
 
 h3 {
     font-family: "Zilla Slab", serif !important;
+    font-size: 16px;
+    color: black;
+}
+
+.button-title {
+    font-family: "Zilla Slab", serif !important;
+    padding: 6px 8px !important;
     font-size: 16px;
     color: black;
 }
