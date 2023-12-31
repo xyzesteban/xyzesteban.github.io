@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.78436df8.css",
+    "main.css": "/static/css/main.8cc71329.css",
     "main.js": "/static/js/main.f591e127.js",
     "static/js/787.6cf6b794.chunk.js": "/static/js/787.6cf6b794.chunk.js",
     "static/fonts/Helvetica.ttf": "/static/fonts/Helvetica.ttf",
     "static/fonts/ZillaSlab.ttf": "/static/fonts/ZillaSlab.ttf",
     "static/fonts/Pica.ttf": "/static/fonts/Pica.ttf",
+    "static/fonts/Pica.woff": "/static/fonts/Pica.woff",
+    "static/fonts/ZillaSlab.woff": "/static/fonts/ZillaSlab.woff",
     "static/fonts/Wavefont.ttf": "/static/fonts/Wavefont.ttf",
+    "static/fonts/Wavefont.woff": "/static/fonts/Wavefont.woff",
     "index.html": "/index.html",
+    "static/media/ZillaSlab.woff": "/static/media/ZillaSlab.ba04bc379538de16fdf2.woff",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.e2b79d2f3c2a8013fd29.ttf",
+    "static/media/Wavefont.woff": "/static/media/Wavefont.7d6647e9b886ca8935b9.woff",
     "static/media/ZillaSlab.ttf": "/static/media/ZillaSlab.9d1030969d54d9810062.ttf",
     "static/media/Wavefont.ttf": "/static/media/Wavefont.b27d20275435f456d883.ttf",
+    "static/media/Pica.woff": "/static/media/Pica.0ef5935363a6cb5098e6.woff",
     "static/media/Pica.ttf": "/static/media/Pica.08a95400d06a02c571c8.ttf",
-    "main.78436df8.css.map": "/static/css/main.78436df8.css.map",
+    "main.8cc71329.css.map": "/static/css/main.8cc71329.css.map",
     "main.f591e127.js.map": "/static/js/main.f591e127.js.map",
     "787.6cf6b794.chunk.js.map": "/static/js/787.6cf6b794.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78436df8.css",
+    "static/css/main.8cc71329.css",
     "static/js/main.f591e127.js"
   ]
 }
