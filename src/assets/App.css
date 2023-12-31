@@ -78,6 +78,10 @@ li {
     outline-color: black !important;
 }
 
+.MuiButton-root {
+    min-width: 0px !important;
+}
+
 .MuiToolbar-root {
     min-height: 0px !important;
 }
@@ -118,7 +122,7 @@ li {
 .green-button {
     background-color: white;
     color: black;
-    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -136,7 +140,7 @@ li {
 .blue-button {
     background-color: white;
     color: black;
-    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -154,7 +158,7 @@ li {
 .yellow-button {
     background-color: white;
     color: black;
-    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */
@@ -171,7 +175,7 @@ li {
 .red-button {
     background-color: white;
     color: black;
-    box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 5px auto !important; /* Center horizontally with a little margin between buttons */

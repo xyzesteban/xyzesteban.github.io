@@ -20,6 +20,7 @@ const Projects = () => {
         <ContentCard imagePath='assets/projects-placeholder.jpg'>Metaversal</ContentCard>
         <ContentCard imagePath='assets/projects-placeholder.jpg'>Amadeus</ContentCard>
         <ContentCard imagePath='assets/projects-placeholder.jpg'>Corbal ArtistLaunch</ContentCard>
+        <ContentCard imagePath='assets/projects-placeholder.jpg'>Shortfall</ContentCard>
         <ContentCard imagePath='assets/projects-placeholder.jpg'>Max/MSP Messina</ContentCard>
         <ContentCard imagePath='assets/projects-placeholder.jpg'>Burncam</ContentCard>
         <ContentCard imagePath='assets/projects-placeholder.jpg'>Gradpath</ContentCard>
