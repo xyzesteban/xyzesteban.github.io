@@ -22,16 +22,37 @@ const ContentWrapper = ({ children }) => {
     const currentRoute = window.location.pathname;
     if (currentRoute === '/') {
       setBackgroundImage('assets/projects-background.png');
-      setForegroundImage('assets/About.png');
+      if (deviceType === 'smartphonePortrait' || deviceType === 'tabletPortrait') {
+        setForegroundImage('assets/About-Center.png');
+      }
+      else {
+        setForegroundImage('assets/About.png');
+      }
     } else if (currentRoute === '/experience') {
       setBackgroundImage('assets/education-background.png');
-      setForegroundImage('assets/Education.png');
+      if (deviceType === 'smartphonePortrait' || deviceType === 'tabletPortrait') {
+        setForegroundImage('assets/Education-Center.png');
+      }
+      else {
+        setForegroundImage('assets/Education.png');
+      }
     } else if (currentRoute === '/software') {
       setBackgroundImage('assets/projects-background.png');
-      setForegroundImage('assets/Projects.png');
+      if (deviceType === 'smartphonePortrait' || deviceType === 'tabletPortrait') {
+        setForegroundImage('assets/Projects-Center.png');
+      }
+      else {
+        setForegroundImage('assets/Projects.png');
+      }
     } else if (currentRoute === '/music') {
       setBackgroundImage('assets/music-background.png');
-      setForegroundImage('assets/Music.png');
+      
+      if (deviceType === 'smartphonePortrait' || deviceType === 'tabletPortrait') {
+        setForegroundImage('assets/Music-Center.png');
+      }
+      else {
+        setForegroundImage('assets/Music.png');
+      }
     }
 
     // Trigger a re-render by updating state

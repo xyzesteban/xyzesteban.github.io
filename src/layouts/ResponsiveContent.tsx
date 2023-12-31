@@ -6,9 +6,9 @@ const ResponsiveContent = ({ imagePath, deviceType, children }) => {
     return (
         <>
             {deviceType === 'smartphonePortrait' && (
-                <div className="sideways-container">
-                <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller>
+                <div className="mobile-container">
+                <ContentScroller mobile>
+                    <AnimatedForeground imagePath={imagePath} mobile/>
                     {children}
                 </ContentScroller>
                 </div>
@@ -22,9 +22,9 @@ const ResponsiveContent = ({ imagePath, deviceType, children }) => {
                 </div>            
             )}
             {deviceType === 'tabletPortrait' && (
-                <div className="sideways-container">
-                <AnimatedForeground imagePath={imagePath}/>
-                <ContentScroller>
+                <div className="mobile-container">
+                <ContentScroller mobile>
+                    <AnimatedForeground imagePath={imagePath} mobile/>
                     {children}
                 </ContentScroller>
                 </div>          

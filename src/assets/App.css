@@ -41,7 +41,13 @@ li {
 }
 
 :root {
-    --header-height: 50px;
+    --header-height: 60px;
+}
+
+@media screen and (max-height: 480px) {
+    :root {
+        --header-height: 30px !important;
+    }
 }
 
 .flexible-container {
@@ -59,8 +65,13 @@ li {
 
 /* Updated default button styles */
 .MuiButton-toolbar {
+    height: 48px !important;
     outline-width: 1px !important;
     outline-color: black !important;
+}
+
+.MuiToolbar-root {
+    min-height: 0px !important;
 }
 
 .sidebar-button {
@@ -196,6 +207,12 @@ li {
     flex: 1;
 }
 
+.mobile-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .main-object {
     display: flex;
     overflow: hidden;
@@ -250,13 +267,25 @@ li {
     display: flex;
     flex-shrink: 0; /* Add this line */
     flex-direction: column;
+    min-height: 100px;
     height: 100%;
     position: relative; /* Added relative positioning */
     transition: opacity 1000ms ease 500ms;
 }
 
+.foreground-center {
+    max-height: 50vh;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    width: 100% !important; 
+}
+
 .foreground-picture {
     height: 100%;
+    min-height: 450px;
     object-fit: cover;
     position: absolute;
     overflow: hidden; /* Clip the image at the bottom */
@@ -264,6 +293,13 @@ li {
     right: 0;
     bottom: auto;
     z-index: 0;
+}
+
+.foreground-mobile {
+    min-height: 100px !important;
+    left: 0px !important;
+    align-self: center !important;
+    position: relative !important;
 }
 
 .content-wrapper {
@@ -275,12 +311,20 @@ li {
     flex: 2;
     flex-direction: column;
     position: relative; /* Add relative positioning */
+    align-items: center;
     min-width: 33%;
     overflow-y: auto;
     padding-right: 20px;
     padding-top: 20px;
-    padding-bottom: calc(35% - var(--header-height));
+    padding-bottom: calc(30% - var(--header-height)) !important;
     z-index: 600; /* Set a higher z-index value than the .foreground-picture */
+}
+
+.content-full {
+    padding-top: 0px !important;
+    flex-direction: row !important;
+    width: 100vw !important;
+    height: calc(100% - 64px) !important;
 }
 
 .content-intro {
@@ -348,6 +392,11 @@ p {
 /* Disable selection */
 .disable-select {
     user-select: none;
+}
+
+.compact-title {
+    align-items: end !important;
+    vertical-align: text-bottom !important;
 }
 
 .content-card {

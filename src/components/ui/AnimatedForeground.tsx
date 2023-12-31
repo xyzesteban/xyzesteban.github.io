@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Box } from '@mui/material';
 
-const AnimatedForeground = ({ imagePath }) => {
+const AnimatedForeground = ({ imagePath, mobile = false }) => {
     const [slowFadeIn, setSlowFadeIn] = useState(false);
 
   const handleImageLoad = () => {
@@ -10,8 +10,10 @@ const AnimatedForeground = ({ imagePath }) => {
 
     return (
         <Box 
-            className="foreground-container"
+            className={mobile? "foreground-container foreground-center" : "foreground-container"}
             sx={{
+                display: 'flex',
+                justifyContent: mobile ? 'center' : 'initial', // Center horizontally if mobile is true
                 opacity: slowFadeIn ? 1 : 0,
             }}
         >
@@ -19,7 +21,8 @@ const AnimatedForeground = ({ imagePath }) => {
                 src={imagePath}
                 alt="Foreground"
                 onLoad={(handleImageLoad)}
-                className="foreground-picture"
+                className={mobile? "foreground-picture foreground-mobile" : "foreground-picture"}
+                style={{flex: 1}}
             />
         </Box>
     );
