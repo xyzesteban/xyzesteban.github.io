@@ -5,14 +5,14 @@ import SidebarToggle from '../components/ui/SidebarToggle';
 
 const AppHeader = ({ isCompactHeader }) => {
     return (
-                <Toolbar aria-label="app-header" disableGutters className={isCompactHeader? "compact-title header-object" : "header-object"}>
+                <div aria-label="app-header" className={isCompactHeader? "compact-title header-object" : "header-object"}>
                     {!isCompactHeader && (
                         <SidebarToggle />
                     )}
                     <h1 className={isCompactHeader? "compact-title disable-select" : "disable-select"}>
                         Esteban D. Espinoza
                     </h1>
-                </Toolbar>
+                </div>
     );
 }
 

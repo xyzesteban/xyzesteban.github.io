@@ -65,8 +65,11 @@ li {
 
 .header-object {
     height: var(--header-height);
+    display: flex;
+    align-items: center;
     outline-width: 1px !important;
     outline-color: black;
+    flex-direction: row;
     z-index: 75;
 }
 
@@ -91,7 +94,12 @@ li {
     text-align: center; 
     position: absolute;
     width: 80px;
+    height: 100%;
     margin-left: 10px !important;
+}
+
+.sidebar-button:hover {
+    color: white !important;
 }
 
 .collapsed-avatar {
@@ -382,7 +390,7 @@ li {
 
 .experience-text {
     flex: 1; /* Allow the text div to grow and take available space */
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 
@@ -429,16 +437,39 @@ p {
 
 .content-card {
     border-radius: 15px;
-    padding-inline-start: 14px;
-    padding-inline-end: 12px;
     margin: 15px;
+    min-height: 125px;
     min-width: 66%; /* Adjust as needed */
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
     background-color: white;
+    overflow: hidden;
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     z-index: 100;
 }
 
+.project-thumbnail {
+    z-index: 200;
+    position: relative;
+    height: auto;
+    max-width: 35%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.project-description-short {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px !important;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
