@@ -37,7 +37,14 @@ const NavigationSidebar = ({ isCompactSidebar }) => {
     };
 
     return (
-        <div className="sidebar-wrapper" style={{ width: !isCompactSidebar && sidebarOpen ? '200px' : '100px', transition: 'width 500ms' }}>
+        <div 
+            className="sidebar-wrapper" 
+            style={{ 
+                    width: !isCompactSidebar && sidebarOpen ? '200px' : '100px', 
+                    transition: 'width 500ms',
+                    marginBottom: !isCompactSidebar ? '0px' : '45px',
+                    }}
+        >
             <div className="navigation-sidebar" style={{ width: !isCompactSidebar ? '200px' : '80px' }}>
                 {!sidebarOpen ?
                     <Box sx={{ height: '30px' }}></Box>
@@ -50,28 +57,28 @@ const NavigationSidebar = ({ isCompactSidebar }) => {
                     onClick={() => navigateTo('')}
                     style={{ margin: isCompactSidebar ? '1px' : '10px' }}
                 >
-                    {showText ? <h3 className="button-title">About</h3> : <div className="icon-wrapper"><HomeIcon /></div>}
+                    {showText && !isCompactSidebar ? <h3 className="button-title">About</h3> : <div className="icon-wrapper"><HomeIcon /></div>}
                 </Button>
                 <Button
                     className="green-button"
                     onClick={() => navigateTo('experience')}
                     style={{ margin: isCompactSidebar ? '1px' : '10px' }}
                 >
-                    {showText ? <h3 className="button-title">CV</h3> : <div className="icon-wrapper"><BusinessCenterIcon /></div>}
+                    {showText && !isCompactSidebar ? <h3 className="button-title">CV</h3> : <div className="icon-wrapper"><BusinessCenterIcon /></div>}
                 </Button>
                 <Button
                     className="yellow-button"
                     onClick={() => navigateTo('software')}
                     style={{ margin: isCompactSidebar ? '1px' : '10px' }}
                 >
-                    {showText ? <h3 className="button-title">Software</h3> : <div className="icon-wrapper"><CodeIcon /></div>}
+                    {showText && !isCompactSidebar ? <h3 className="button-title">Software</h3> : <div className="icon-wrapper"><CodeIcon /></div>}
                 </Button>
                 <Button
                     className="red-button"
                     onClick={() => navigateTo('music')}
                     style={{ margin: isCompactSidebar ? '1px' : '10px' }}
                 >
-                    {showText ? <h3 className="button-title">Music</h3> : <div className="icon-wrapper"><HeadsetIcon /></div>}
+                    {showText && !isCompactSidebar ? <h3 className="button-title">Music</h3> : <div className="icon-wrapper"><HeadsetIcon /></div>}
                 </Button>
             </div>
         </div>

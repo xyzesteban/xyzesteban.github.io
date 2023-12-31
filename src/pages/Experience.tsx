@@ -33,7 +33,7 @@ const Experience = () => {
         </ContentExperience>
         <h2 style={{color:'white'}}>Skills</h2>
         <ContentExperience imagePath={"assets/experience-placeholder.png"}>
-          <p></p>
+          <p>Under Construction...</p>
         </ContentExperience>
     </ResponsiveWrapper>
   )

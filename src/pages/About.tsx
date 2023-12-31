@@ -13,10 +13,10 @@ const About = () => {
           {/* <h3>Recent Updates</h3>
           <p>To be added...</p> */}
         </ContentIntro>
-        {/* <h2 style={{color:'white'}}>Contact</h2>
+        <h2 style={{color:'white'}}>Contact</h2>
         <ContentIntro>
           <p>Under construction...</p>
-        </ContentIntro> */}
+        </ContentIntro>
     </ResponsiveWrapper>
   );
 }
