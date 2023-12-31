@@ -6,14 +6,16 @@ const ContentExperience = ({children, imagePath}) => {
 
     // TODO: Make it so that it formats the fields properly and displays an image:
     return (
-        <Box className="content-experience">
-            {imagePath && 
-                <img src={imagePath} style={{width: '100px', height: '100px'}}/>
+        <div className="content-experience">
+            {imagePath &&
+                <div className="experience-image">
+                    <img src={imagePath} style={{width: '100px', height: '100px', fill: 'cover', borderRadius: '10px'}}/>
+                </div>
             }
-            <div>
+            <div className="experience-text">
             {children}
             </div>
-        </Box>
+        </div>
     );
 }
 
