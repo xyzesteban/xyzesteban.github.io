@@ -12,11 +12,11 @@ const Experience = () => {
           <h3>Northeastern University - Boston, MA</h3><p>2018-2022</p>
           <p>B.S. in Computer Science + Music Composition and Technology</p>
         </ContentExperience>
-        <ContentExperience imagePath={"assets/TAMIU.svg.png"}>
+        <ContentExperience imagePath={"assets/TexasAcademy.png"}>
           <h3>Julieta & Frank Staggs Academy of International and STEM Studies - Laredo, TX</h3><p>2016-2018</p>
         </ContentExperience>
         <ContentExperience imagePath={"assets/SAHS.jpeg"}>
-          <h3>Saint Augustine High School - Laredo, TX</h3><p>2013-2015</p>
+          <h3>St. Augustine High School - Laredo, TX</h3><p>2013-2015</p>
         </ContentExperience>
         <h2 style={{color:'white'}}>Experience</h2>
         <ContentExperience imagePath={"assets/IBM-Logo.jpeg"}>
