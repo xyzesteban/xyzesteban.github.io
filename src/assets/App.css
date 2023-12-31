@@ -27,17 +27,23 @@ li {
 
 @font-face {
     font-family: 'IM Fell DW Pica';
-    src: url('./fonts/Pica.ttf') format('ttf');
+    src: url('./fonts/Pica.ttf') format('truetype'), /* Corrected format specifier */
+         url('./fonts/Pica.woff') format('woff'),
+         url('https://fonts.gstatic.com/s/imfelldwpica/v16/2sDGZGRQotv9nbn2qSl0TxXVYNwNYwnVnCwsMA.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Wavefont';
-    src: url('./fonts/Wavefont.ttf') format('ttf');
+    src: url('./fonts/Wavefont.ttf') format('truetype'),
+         url('./fonts/Wavefont.woff') format('woff'),
+         url('https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DCXKtOXeA4.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Zilla Slab';
-    src: url('./fonts/ZillaSlab.ttf') format('ttf');
+    src: url('./fonts/ZillaSlab.ttf') format('truetype'),
+         url('./fonts/ZillaSlab.woff') format('woff'),
+         url('https://fonts.gstatic.com/s/zillaslab/v11/dFa6ZfeM_74wlPZtksIFajo6_V6LVlA.woff2') format('woff2');
 }
 
 :root {
