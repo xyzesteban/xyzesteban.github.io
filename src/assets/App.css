@@ -58,6 +58,7 @@ li {
 
 .flexible-container {
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     height: 100vh;
 }
@@ -72,6 +73,7 @@ li {
 /* Updated default button styles */
 .MuiButton-toolbar {
     height: 48px !important;
+    position: fixed !important;
     outline-width: 1px !important;
     outline-color: black !important;
 }
