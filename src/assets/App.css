@@ -84,12 +84,6 @@ li {
     outline-color: black !important;
 }
 
-.MuiButton-root {
-    border: 0px !important;
-    padding: 0px 0px !important;
-    min-width: 0px !important;
-}
-
 .MuiToolbar-root {
     min-height: 0px !important;
 }
@@ -137,12 +131,14 @@ li {
 .MuiButton-root {
     background-color: white;
     color: black;
-    border: 1px solid transparent !important; /* Add a border to distinguish the button */
+    border: 0px solid transparent !important; /* Add a border to distinguish the button */
     display: block; /* Display as block-level elements to take full width */
     text-align: center; /* Center-align text within the button */
     margin: 0px auto !important; /* Center horizontally with a little margin between buttons */
     width: 80%; /* Set a fixed width of 100% */
     font-weight: bold; /* Set the font weight to bold */
+    padding: 0px 0px !important;
+    min-width: 0px !important;
 }
 
 .green-button {
