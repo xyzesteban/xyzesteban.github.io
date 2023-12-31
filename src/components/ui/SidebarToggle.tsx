@@ -14,7 +14,7 @@ const SidebarToggle = () => {
                             onClick={() => {
                                 toggleSidebar();
                             }}
-                            className="sidebar-button"
+                            className="sidebar-toggle"
                         >
                             <MenuIcon />
                         </IconButton>

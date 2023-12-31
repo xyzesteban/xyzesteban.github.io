@@ -67,10 +67,12 @@ li {
     height: var(--header-height);
     display: flex;
     align-items: center;
+    width: 100%;
+    background-color: white;
     outline-width: 1px !important;
     outline-color: black;
     flex-direction: row;
-    position: relative;
+    position: fixed;
     z-index: 75;
 }
 
@@ -101,6 +103,15 @@ li {
 
 .sidebar-button:hover {
     color: white !important;
+}
+
+.sidebar-toggle {
+    border-radius: 0px 0px 0px 0px !important; 
+    text-align: center; 
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    margin-left: 10px !important;
 }
 
 .collapsed-avatar {
@@ -235,6 +246,7 @@ li {
 }
 
 .main-object {
+    margin-top: var(--header-height);
     display: flex;
     overflow: hidden;
     height: calc(100% - var(--header-height));
