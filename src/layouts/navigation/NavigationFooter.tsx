@@ -23,7 +23,7 @@ const NavigationFooter = () => {
 
     return (
         <>
-            <div style={{ bottom: 0, width: '100%', zIndex: 600 }}>
+            <div style={{ position: "absolute", bottom: 0, width: '100%', zIndex: 600 }}>
                 <BottomNavigation
                     showLabels
                     value={page}
