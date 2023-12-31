@@ -70,6 +70,7 @@ li {
     outline-width: 1px !important;
     outline-color: black;
     flex-direction: row;
+    position: relative;
     z-index: 75;
 }
 
