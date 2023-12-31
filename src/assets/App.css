@@ -332,6 +332,7 @@ li {
     padding-top: 0px !important;
     flex-direction: row !important;
     width: 100vw !important;
+    padding-bottom: calc(30% - 64px) !important;
     height: calc(100% - 64px) !important;
 }
 
