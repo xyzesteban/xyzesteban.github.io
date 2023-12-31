@@ -50,6 +50,10 @@ li {
     --header-height: 60px;
 }
 
+:root {
+    --footer-height: 60px;
+}
+
 @media screen and (max-height: 480px) {
     :root {
         --header-height: 30px !important;
@@ -355,7 +359,7 @@ body {
     overflow-y: auto;
     padding-right: 20px;
     padding-top: 20px;
-    padding-bottom: calc(30% - var(--header-height)) !important;
+    padding-bottom: calc(30% - var(--header-height));
     z-index: 600; /* Set a higher z-index value than the .foreground-picture */
 }
 
@@ -363,8 +367,8 @@ body {
     padding-top: 0px !important;
     flex-direction: row !important;
     width: 100vw !important;
-    padding-bottom: 50% !important;
-    height: calc(100% - 64px) !important;
+    padding-bottom: 56px !important;
+    height: 100% !important;
 }
 
 .content-intro {
