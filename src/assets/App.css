@@ -378,6 +378,8 @@ body {
     border-radius: 15px;
     padding-inline-start: 14px;
     padding-inline-end: 12px;
+    padding-top: 0px;
+    padding-bottom: 15px;
     margin: 15px;
     min-width: 50%; /* Adjust as needed */
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
@@ -389,17 +391,65 @@ body {
     z-index: 100;
 }
 
-.content-experience {
+.content-media {
+    border-radius: 15px;
+    margin: 15px;
+    min-width: 50%; /* Adjust as needed */
+    box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    flex-grow: 1;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+}
+
+.media-container {
     border-radius: 15px;
     padding-inline-start: 14px;
     padding-inline-end: 12px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    min-width: 50%; /* Adjust as needed */
+    background-color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+}
+
+.media-title {
+    padding-top: 12px !important;
+}
+
+.media-text {
+    padding-top: 0px !important;
+    padding-bottom: 20px;
+}
+
+.content-experience {
+    display: flex;
+    border-radius: 15px;
+    padding-inline-start: 20px;
+    padding-inline-end: 12px;
+    padding-top: 10px;
+    padding-bottom: 16px;
     margin: 15px;
     min-width: 33%;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
     background-color: white;
     flex-shrink: 0; /* Prevent shrinking */
     flex-basis: 0;
+    flex-direction: column; /* Change flex direction to row */
+    position: relative; /* Make sure it's positioned relative to allow z-index to work */
+    z-index: 100;
+}
+
+.experience-container {
+    display: flex;
+    min-width: 33%;
+    padding-bottom: 0px !important;
     flex-direction: row; /* Change flex direction to row */
     position: relative; /* Make sure it's positioned relative to allow z-index to work */
     z-index: 100;
@@ -417,8 +467,8 @@ body {
 .experience-text {
     flex: 1; /* Allow the text div to grow and take available space */
     padding-top: 10px;
+    padding-bottom: 0px !important;
 }
-
 
 h1 {
     font-family: "IM Fell DW Pica", "Zilla Slab", serif !important;
@@ -455,7 +505,7 @@ h3 {
 p {
     font-family: "Helvetica", sans-serif !important;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 /* Disable selection */
@@ -492,6 +542,16 @@ p {
     object-fit: cover;
 }
 
+.media-thumbnail {
+    z-index: 200;
+    position: relative;
+    box-shadow: 0px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
+    height: auto;
+    max-width: 100%;
+    max-height: 230px;
+    object-fit: cover;
+}
+
 .project-title {
     padding-left: 10px;
     padding-right: 10px;
@@ -505,4 +565,9 @@ p {
     padding-top: 0px !important;
     padding-bottom: 10px;
     font-size: 14px;
+}
+
+h5 {
+    padding-top: 6px;
+    padding-bottom: 0px;
 }
