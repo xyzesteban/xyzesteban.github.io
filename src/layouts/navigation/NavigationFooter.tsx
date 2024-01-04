@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useAppContext } from '../../context/AppContext';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate from React Router
 
-import { BottomNavigation, BottomNavigationAction, Box } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import CodeIcon from "@mui/icons-material/Code";

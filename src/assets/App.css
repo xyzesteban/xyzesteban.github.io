@@ -598,19 +598,24 @@ h5 {
 .project-media {
     min-height: 166px;
     min-width: 250px;
+    height: 10vh;
+    width: 2vw;
     object-fit: cover;
+    object-position:top;
     border-radius: 15px;
     border-color: black;
     border-width: 1px;
+    overflow-y: hidden;
 }
 
 .project-scroller {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .project-container {
-    flex: 1;
     padding: 10px;
+    max-height: 220px;
 }

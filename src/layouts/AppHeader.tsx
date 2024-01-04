@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Toolbar from '@mui/material/Toolbar';
 import SidebarToggle from '../components/ui/SidebarToggle';
 
 const AppHeader = ({ isCompactHeader }) => {

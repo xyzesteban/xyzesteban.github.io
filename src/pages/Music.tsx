@@ -12,13 +12,13 @@ const Experience = () => {
         imageAlt="Saint Dvorak banner picture - holding a guitar"
         title="Saint Dvorak"
         mediaText={
-          <p>Saint Dvorak is a solo music project by Esteban D. Espinoza. Originally performing original songs and covers with only an
-            acoustic guitar, a backing track, and live vocals, the project now has a focus on recording and production of alternative
-            and electronic rock, and makes heavy use of both virtual and live instruments to craft its sound.<br /><br />
+          <p><strong>Saint Dvorak</strong> is a solo music project by Esteban D. Espinoza. Originally performing original songs and covers with only an
+            acoustic guitar, a backing track, and live vocals, the project now has a focus on recording and production of <strong>alternative </strong>
+            and <strong>electronic rock</strong>, and makes heavy use of both virtual and live instruments to craft its sound.<br /><br />
 
-            Among the project's sonic influences are Tame Impala, Empire of the Sun, The 1975, Foals, and Joywave, and its lyrical styles 
-            and themes take inspiration from pop culture and modern technology. Saint Dvorak's debut album, Daydreamer, is currently in 
-            recording and will be released in Q4 2024.
+            Among the project's sonic influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975 and Joywave, and its 
+            lyrical styles and themes take inspiration from pop culture and modern technology. <strong>Saint Dvorak's debut album, Daydreamer, 
+            is currently being recorded</strong> and will be released in Q4 2024.
           </p>
         }
       >
@@ -62,13 +62,13 @@ const Experience = () => {
         imageAlt="Studio set up for the band AGES at The Record Co"
         title="AGES"
         mediaText={
-          <p>AGES is an alternative rock band formed at Northeastern University by Amani Cavender, Chuck Stein, Esteban D. Espinoza, and Reece Graham.<br /><br />
+          <p><strong>AGES</strong> is an alternative rock band formed at Northeastern University by Amani Cavender, Chuck Stein, Esteban D. Espinoza, and Reece Graham.<br /><br />
 
             The group's sound bears influences ranging from Deafheaven to Burial, infusing various subgenres of rock music with electronic and orchestral
-            elements, along with a wall-of-sound production style inspired by shoegaze and post-rock.<br /><br />
+            elements, along with a wall-of-sound production style inspired by <strong>shoegaze</strong> and <strong>post-rock</strong>.<br /><br />
 
             Our flagship EP release, Bury the Tone, was recorded at The Record Co in Boston, MA. All four songs of the EP were showcased for the first time at
-            Northeastern's 2022 Music Technology Capstone, and the EP was released for streaming the following year.
+            <strong> Northeastern's 2022 Music Technology Capstone</strong>, and the EP was released for streaming the following year.
           </p>
         }
       >

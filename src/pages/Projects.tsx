@@ -15,7 +15,7 @@ const projectModalData = {
   metaversal: {
     title: 'Metaversal',
     subtitle: 'VR-powered Business Intelligence for Meta Quest',
-    imagePath: 'assets/projects-placeholder.jpg',
+    imagePath: 'assets/MetaversalBarGraph.png',
     description: <p><strong>Team Members</strong>: Esteban Espinoza, Casey Honaker, Christopher Jackson, Dhiraj Kamath, Evan Reilly, Sean Neary, Vanessa Reese<br/><br/>
                     Metaversal is a research project with the goal of exploring VR technology to optimize the work of B2B customers, with a focus 
                     on business intelligence and collaboration.<br/> The project was conducted at IBM as part of the 2022 First-Year Developer Challenge and received
@@ -36,12 +36,12 @@ const projectModalData = {
                     VR application via the virtual reality headset of their choice, or a WebGL client in a standard web browser.
                     
                   </p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    additionalMedia: ['assets/MetaversalBarGraph.png','assets/MetaversalScatterplot2.png', 'assets/MetaversalUnity.png', 'assets/MetaversalScatterplot1.png', 'assets/MetaversalFlow.png']
   },
   amadeus: {
     title: 'Amadeus',
     subtitle: 'Music composition software using a stylus and Optical Music Recognition (OMR)',
-    imagePath: 'assets/projects-placeholder.jpg',
+    imagePath: 'assets/AmadeusLogo.png',
     description: <p>Amadeus is an iPad and tablet application for digital music composition, with stylus support and automatic recognition of musical notes via Optical
                     Music Recognition (OMR).<br/>The original prototype was first showcased at Northeastern's 2022 Music Technology Capstone and is being further 
                     developed independently to soon provide a digital music composition experience akin to its analog counterpart.<br/><br/>
@@ -55,18 +55,18 @@ const projectModalData = {
                       <ul>- Steep learning curve, low retention</ul>
                     </li><br/>
 
-                    When devicing a solution, I explored the latest research in OMR, finding that most research in the area is focused on a top-down approach to 
+                    When creating this solution, I explored the latest research in OMR, finding that most research in the area is focused on a top-down approach to 
                     transcribe existing handwritten compositions.<br/>
                     The first prototype of Amadeus implements a bottom-up approach to OMR, enabling input from a composer via a stylus, identifying it using 
                     an Amazon Rekognition or Tensorflow neural network, and displaying a digital note that can be re-positioned as needed.<br/>
                     Additionally, Amadeus will serve as a data collection pipeline for additional OMR training data in the future.
                   </p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    additionalMedia: ['assets/AmadeusLogo.png','assets/AmadeusHome.png','assets/AmadeusDemo.gif']
   },
   messina: {
     title: 'Messina Digital',
     subtitle: 'Implementation of Bon Iver\'s real-time harmonizer using Max/MSP',
-    imagePath: 'assets/projects-placeholder.jpg',
+    imagePath: 'assets/MessinaCompact.png',
     description: <p><strong>Team Members</strong>: Esteban Espinoza, Emma Price<br/><br/>
                     The Messina Digital is a MIDI and vocal instrument that attempts to emulate harmonizers used by the likes of Bon Iver and Jacob Collier.<br/>
                     With the Messina Digital, a performer may sing into a microphone and use a MIDI instrument to create harmonies in real-time.<br/><br/>
@@ -76,7 +76,7 @@ const projectModalData = {
                     In an attempt to follow Chris Messina's analog approach with the Eventide H6000, we provide the option to auto-tune the original vocal
                     to create a "dry" signal, and also allow MIDI input of notes in a range of two octaves to create up to four different harmonies.
                 </p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    additionalMedia: ['assets/MessinaCompact.png','assets/MessinaFull.png']
   },
   corbal: {
     title: 'ArtistLaunch',
@@ -142,9 +142,9 @@ const Projects = () => {
         {/* <ContentCard imagePath='assets/projects-placeholder.jpg'>Tetris 3D</ContentCard> */}
         {/* <ContentCard imagePath='assets/projects-placeholder.jpg'>Minesweeper</ContentCard> */}
         {/* <ContentCard imagePath='assets/projects-placeholder.jpg'>2048</ContentCard> */}
-        <ContentCard onClick={() => handleOpen('metaversal')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Metaversal'>VR-powered Business Intelligence for Meta Quest</ContentCard>
-        <ContentCard onClick={() => handleOpen('amadeus')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Amadeus'>Music composition software using a stylus and Optical Music Recognition (OMR)</ContentCard>
-        <ContentCard onClick={() => handleOpen('messina')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Messina Digital'>Implementation of Bon Iver's real-time harmonizer using Max/MSP</ContentCard>
+        <ContentCard onClick={() => handleOpen('metaversal')} imagePath='assets/MetaversalBarGraph.png' imageAlt="" title='Metaversal'>VR-powered Business Intelligence for Meta Quest</ContentCard>
+        <ContentCard onClick={() => handleOpen('amadeus')} imagePath='assets/AmadeusLogo.png' imageAlt="" title='Amadeus'>Music composition software using a stylus and Optical Music Recognition (OMR)</ContentCard>
+        <ContentCard onClick={() => handleOpen('messina')} imagePath='assets/MessinaCompact.png' imageAlt="" title='Messina Digital'>Implementation of Bon Iver's real-time harmonizer using Max/MSP</ContentCard>
         <ContentCard onClick={() => handleOpen('corbal')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='ArtistLaunch'>Corbal Distribution's in-house platform to connect artists with music curators</ContentCard>
         <ContentCard onClick={() => handleOpen('shortfall')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Shortfall'>An interactive and educational manufacturing supply chain simulation for Mech Eng. students</ContentCard>
         <ContentCard onClick={() => handleOpen('burncam')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Burncam Medical'>Telemedicine app prototype for burn patients using React Native and AWS</ContentCard>
