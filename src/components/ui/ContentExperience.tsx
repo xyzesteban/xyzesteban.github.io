@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const ContentExperience = ({ children, imagePath, imageAlt, title = "", date = "", headline = "" }) => {
+const ContentExperience = ({ children = <></>, imagePath, imageAlt, title = "", date = "", headline = "" }) => {
 
     return (
         <div className="content-experience">
@@ -16,7 +16,7 @@ const ContentExperience = ({ children, imagePath, imageAlt, title = "", date = "
                     <div className="text-container media-text"><h5 style={{ marginBottom: '0px' }}>{headline}</h5></div>
                 </div>
             </div>
-            {children? children : <></>}
+            {children}
         </div>
     );
 }

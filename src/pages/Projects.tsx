@@ -16,21 +16,66 @@ const projectModalData = {
     title: 'Metaversal',
     subtitle: 'VR-powered Business Intelligence for Meta Quest',
     imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>Metaversal description</p>,
+    description: <p><strong>Team Members</strong>: Esteban Espinoza, Casey Honaker, Christopher Jackson, Dhiraj Kamath, Evan Reilly, Sean Neary, Vanessa Reese<br/><br/>
+                    Metaversal is a research project with the goal of exploring VR technology to optimize the work of B2B customers, with a focus 
+                    on business intelligence and collaboration.<br/> The project was conducted at IBM as part of the 2022 First-Year Developer Challenge and received
+                    the IBM Jumpstart Developer Judges' Choice Winner Award.<br/><br/>
+                    
+                    Requirements gathered via user research and supported by our original MVP include: 
+                    <li>
+                      <ul>- A virtual room/space where data can be displayed</ul>
+                      <ul>- Compatibility with standard data types (Particularly CSV files)</ul>
+                      <ul>- Generating basic data visualizations</ul>
+                      <ul>- Multiple users able to work in the same space, real-time streaming, and cross-platform support</ul>
+                      <ul>- Real-time streaming and cross-platform support for users without a headset</ul>
+                    </li><br/>
+                    
+                    The project was implemented using the OpenXR framework as a foundation to enable cross-platform support, with a traditional MERN (MongoDB, Express, 
+                    React, Node) stack for the application. The application backend was built with Node + Express, with additional support for IBM Cloud Object Storage (COS) 
+                    for storing and retrieving CSV files. The presenter may upload files to COS using a React web client, and users may interact in real-time with the 
+                    VR application via the virtual reality headset of their choice, or a WebGL client in a standard web browser.
+                    
+                  </p>,
     additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
   },
   amadeus: {
     title: 'Amadeus',
     subtitle: 'Music composition software using a stylus and Optical Music Recognition (OMR)',
     imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>Amadeus description</p>,
+    description: <p>Amadeus is an iPad and tablet application for digital music composition, with stylus support and automatic recognition of musical notes via Optical
+                    Music Recognition (OMR).<br/>The original prototype was first showcased at Northeastern's 2022 Music Technology Capstone and is being further 
+                    developed independently to soon provide a digital music composition experience akin to its analog counterpart.<br/><br/>
+
+                    User research was conducted via surveys of existing software including Sibelius, Finale, and MuseScore were conducted to better understand the 
+                    current issues of digital music composition:<br/>
+                    <li>
+                      <ul>- Too many steps for inserting notes, such as selecting target location for notes, and browsing through menus for symbols</ul>
+                      <ul>- Mapping - little similarity with the traditional process for handwritten music composition</ul>
+                      <ul>- Maximum productivity requires learning complicated keyboard shortcuts</ul>
+                      <ul>- Steep learning curve, low retention</ul>
+                    </li><br/>
+
+                    When devicing a solution, I explored the latest research in OMR, finding that most research in the area is focused on a top-down approach to 
+                    transcribe existing handwritten compositions.<br/>
+                    The first prototype of Amadeus implements a bottom-up approach to OMR, enabling input from a composer via a stylus, identifying it using 
+                    an Amazon Rekognition or Tensorflow neural network, and displaying a digital note that can be re-positioned as needed.<br/>
+                    Additionally, Amadeus will serve as a data collection pipeline for additional OMR training data in the future.
+                  </p>,
     additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
   },
   messina: {
     title: 'Messina Digital',
     subtitle: 'Implementation of Bon Iver\'s real-time harmonizer using Max/MSP',
     imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>Messina Digital description</p>,
+    description: <p><strong>Team Members</strong>: Esteban Espinoza, Emma Price<br/><br/>
+                    The Messina Digital is a MIDI and vocal instrument that attempts to emulate harmonizers used by the likes of Bon Iver and Jacob Collier.<br/>
+                    With the Messina Digital, a performer may sing into a microphone and use a MIDI instrument to create harmonies in real-time.<br/><br/>
+
+                    After doing research on similar instruments that manipulate samples and real-time audio such as Bon Iver's Messina and the Eventide H6000, 
+                    the Fairlight CMI, and Antares' Auto-Tune and Harmony Engine, we successfully implemented a 4-part harmonizer using Max/MSP.<br/>
+                    In an attempt to follow Chris Messina's analog approach with the Eventide H6000, we provide the option to auto-tune the original vocal
+                    to create a "dry" signal, and also allow MIDI input of notes in a range of two octaves to create up to four different harmonies.
+                </p>,
     additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
   },
   corbal: {
