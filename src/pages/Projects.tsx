@@ -109,7 +109,7 @@ const projectModalData = {
                     <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Orion Wilmerding<br/><br/>
                 </p>,
-    additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHifi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
+    additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHiFi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
   },
   gradpath: {
     title: 'GradPath',
