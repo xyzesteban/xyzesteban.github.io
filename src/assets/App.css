@@ -538,6 +538,7 @@ p {
     flex-direction: row;
     position: relative;
     z-index: 100;
+    cursor: pointer;
 }
 
 .project-thumbnail {

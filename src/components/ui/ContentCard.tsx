@@ -3,7 +3,7 @@ import * as React from 'react';
 const ContentCard = ({ children, title, imagePath, imageAlt, onClick }) => {
 
   return (
-    <a className="content-card" onClick={onClick}>
+    <div className="content-card" onClick={onClick}>
       {imagePath &&
         <img src={imagePath} alt={imageAlt} className="project-thumbnail" />
       }
@@ -11,7 +11,7 @@ const ContentCard = ({ children, title, imagePath, imageAlt, onClick }) => {
         <h3 className="project-title">{title}</h3>
         <p className="project-description-short">{children}</p>
       </div>
-    </a>
+    </div>
   );
 }
 

@@ -16,9 +16,9 @@ const projectModalData = {
     title: 'Metaversal',
     subtitle: 'VR-powered Business Intelligence for Meta Quest',
     imagePath: 'assets/MetaversalBarGraph.png',
-    description: <p><strong>Team Members</strong>: Esteban Espinoza, Casey Honaker, Christopher Jackson, Dhiraj Kamath, Evan Reilly, Sean Neary, Vanessa Reese<br/><br/>
+    description: <p><strong>Team Members</strong>: Esteban D. Espinoza, Casey Honaker, Christopher Jackson, Dhiraj Kamath, Evan Reilly, Sean Neary, Vanessa Reese<br/><br/>
                     <strong>Tech Stack</strong>: Unity Engine, OpenXR, MongoDB, Express, React, Node.js<br/><br/>
-                    <strong>Client/Stakeholders: Dr. Michael Haydock</strong><br/><br/>
+                    <strong>Client/Stakeholders:</strong> Dr. Michael Haydock<br/><br/>
                     Metaversal is a research project with the goal of exploring VR technology to optimize the work of B2B customers, with a focus 
                     on business intelligence and collaboration.<br/> The project was conducted at IBM as part of the 2022 First-Year Developer Challenge and received
                     the IBM Jumpstart Developer Judges' Choice Winner Award.<br/><br/>
@@ -36,7 +36,6 @@ const projectModalData = {
                     React, Node) stack for the back-end and web client and Unity for the VR application. The server was built with Node + Express, with additional support 
                     for IBM Cloud Object Storage (COS) to store and retrieve CSV files. The presenter may upload files to COS using a React web client, and users may interact in real-time with the 
                     VR application via the virtual reality headset of their choice, or a WebGL client in a standard web browser.
-                    
                   </p>,
     additionalMedia: ['assets/MetaversalBarGraph.png','assets/MetaversalScatterplot2.png', 'assets/MetaversalUnity.png', 'assets/MetaversalScatterplot1.png', 'assets/MetaversalFlow.png']
   },
@@ -71,7 +70,7 @@ const projectModalData = {
     title: 'Messina Digital',
     subtitle: 'Implementation of Bon Iver\'s real-time harmonizer using Max/MSP',
     imagePath: 'assets/MessinaCompact.png',
-    description: <p><strong>Team Members</strong>: Esteban Espinoza, Emma Price<br/><br/>
+    description: <p><strong>Team Members</strong>: Esteban D. Espinoza, Emma Price<br/><br/>
                     The Messina Digital is a MIDI and vocal instrument that attempts to emulate harmonizers used by the likes of Bon Iver and Jacob Collier.<br/>
                     With the Messina Digital, a performer may sing into a microphone and use a MIDI instrument to create harmonies in real-time.<br/><br/>
 
@@ -85,8 +84,8 @@ const projectModalData = {
   corbal: {
     title: 'ArtistLaunch',
     subtitle: 'Corbal Distribution\'s in-house platform to connect artists with music curators',
-    imagePath: 'assets/CorbalCurator.png',
-    description: <p><strong>Team Members</strong>: Jason Paul Darimevula, Esteban Espinoza, Salil Khan, Jay Srinivasan, Omar Shoura, Brian Nguyen, Gerri Fox, Jason Cheung<br/><br/>
+    imagePath: 'assets/CorbalLogo.png',
+    description: <p><strong>Team Members</strong>: Jason P. Darimevula, Esteban D. Espinoza, Salil Khan, Jay Srinivasan, Omar Shoura, Brian Nguyen, Gerri Fox, Jason Cheung<br/><br/>
                     <strong>Tech Stack</strong>: React, Python, Django, Microsoft SQL Server<br/><br/>
                     <strong>Client/Stakeholders</strong>: Corbal Distribution/Records<br/><br/>
                   </p>,
@@ -96,17 +95,17 @@ const projectModalData = {
     title: 'Shortfall',
     subtitle: 'An interactive and educational manufacturing supply chain simulation for Mech Eng. students',
     imagePath: 'assets/ShortfallHome.png',
-    description: <p><strong>Team Members</strong>: Ryan Gehrlein, Esteban Espinoza, Alex Swenson, Dominik Ritzenhoff, Asana Srivastava, Julia Golison, Henry Stachowiak, Luca Sharbani<br/><br/>
+    description: <p><strong>Team Members</strong>: Ryan Gehrlein, Esteban D. Espinoza, Alex Swenson, Dominik Ritzenhoff, Ashna Srivastava, Julia Golison, Henry Stachowiak, Luca Sharbani<br/><br/>
                     <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Dr. Jacqueline Isaacs & Dr. Mark Sivak<br/><br/>
                   </p>,
     additionalMedia: ['assets/ShortfallHome.png','assets/ShortfallWireframe.png','assets/ShortfallFlow.png', 'assets/ShortfallDev1.png', 'assets/ShortfallDev2.png', 'assets/ShortfallDev3.png']
   },
   burncam: {
-    title: 'Burncam Medical',
+    title: 'BurnCam Medical',
     subtitle: 'An augmented telemedicine platform for burn patients using React Native and AWS',
     imagePath: 'assets/BurncamLogo.png',
-    description: <p><strong>Team Members</strong>: Nikhil Bhat, Ryan Gehrlein, Esteban Espinoza, Rochen Zhuang, Alex Nikanov, Cynthia Xie, Matt Tong<br/><br/>
+    description: <p><strong>Team Members</strong>: Nikhil Bhat, Ryan Gehrlein, Esteban D. Espinoza, Rochen Zhuang, Alex Nikanov, Cynthia Xie, Matt Tong<br/><br/>
                     <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Orion Wilmerding<br/><br/>
                 </p>,
@@ -123,17 +122,17 @@ const projectModalData = {
     title: 'Butter',
     subtitle: 'A social media application built around crowdsourcing of food & restaurant reviews',
     imagePath: 'assets/ButterLogo.png',
-    description: <p><strong>Team Members</strong>: Cullen Lampasso, Jason Crouse, Esteban Espinoza, Unnas Hussain, Elena Silva, Cynthia Xie, Cathleen Zhang<br/><br/>
+    description: <p><strong>Team Members</strong>: Cullen Lampasso, Jason Crouse, Esteban D. Espinoza, Unnas Hussain, Elena Silva, Cynthia Xie, Cathleen Zhang<br/><br/>
                     <strong>Tech Stack</strong>: React Native<br/><br/>
                     <strong>Client/Stakeholders</strong>: Olivia Laskowski<br/><br/>
                 </p>,
-    additionalMedia: ['assets/ButterLogo.png','assets/ButterRecForm.png']
+    additionalMedia: ['assets/ButterLogo.png','assets/ButterApp.png','assets/ButterRecForm.png']
   },
   smartypill: {
     title: 'SmartyPill',
     subtitle: 'An automatic pill and water dispenser that ensures you\'re taking the right pills at the right time.',
     imagePath: 'assets/SmartyPillLogo.png',
-    description: <p><strong>Team Members</strong>: Noah Appleby, Elena Silva, Esteban Espinoza, Haley Fogelson, Thomas Keith, Zachary Hillman<br/><br/>
+    description: <p><strong>Team Members</strong>: Noah Appleby, Elena Silva, Esteban D. Espinoza, Haley Fogelson, Thomas Keith, Zachary Hillman<br/><br/>
                     <strong>Tech Stack</strong>: React, Flask, Python<br/><br/>
                     <strong>Client/Stakeholders</strong>: Matthew Swenson<br/><br/>
                   </p>,
@@ -164,9 +163,9 @@ const Projects = () => {
         <ContentCard onClick={() => handleOpen('metaversal')} imagePath='assets/MetaversalBarGraph.png' imageAlt="" title='Metaversal'>VR-powered Business Intelligence for Meta Quest</ContentCard>
         <ContentCard onClick={() => handleOpen('amadeus')} imagePath='assets/AmadeusLogo.png' imageAlt="" title='Amadeus'>Music composition software using a stylus and Optical Music Recognition (OMR)</ContentCard>
         <ContentCard onClick={() => handleOpen('messina')} imagePath='assets/MessinaCompact.png' imageAlt="" title='Messina Digital'>Implementation of Bon Iver's real-time harmonizer using Max/MSP</ContentCard>
-        <ContentCard onClick={() => handleOpen('corbal')} imagePath='assets/CorbalCurator.png' imageAlt="" title='ArtistLaunch'>Corbal Distribution's in-house platform to connect artists with music curators</ContentCard>
+        <ContentCard onClick={() => handleOpen('corbal')} imagePath='assets/CorbalLogo.png' imageAlt="" title='ArtistLaunch'>Corbal Distribution's in-house platform to connect artists with music curators</ContentCard>
         <ContentCard onClick={() => handleOpen('shortfall')} imagePath='assets/ShortfallHome.png' imageAlt="" title='Shortfall'>An interactive and educational manufacturing supply chain simulation for Mech Eng. students</ContentCard>
-        <ContentCard onClick={() => handleOpen('burncam')} imagePath='assets/BurncamFinal.png' imageAlt="" title='Burncam Medical'>An augmented telemedicine platform for burn patients using React Native and AWS</ContentCard>
+        <ContentCard onClick={() => handleOpen('burncam')} imagePath='assets/BurncamFinal.png' imageAlt="" title='BurnCam Medical'>An augmented telemedicine platform for burn patients using React Native and AWS</ContentCard>
         {/* <ContentCard onClick={() => handleOpen('gradpath')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='GradPath'>All-in-one, cross-platform Learning Management and Student Information System (LMS+SIS)</ContentCard> */}
         <ContentCard onClick={() => handleOpen('butter')} imagePath='assets/ButterLogo.png' imageAlt="" title='Butter'>A social media application built around crowdsourcing of food & restaurant reviews</ContentCard>
         {/* <ContentCard imagePath='assets/projects-placeholder.jpg'>Filemeister</ContentCard> */}
