@@ -12,7 +12,7 @@ const About = () => {
           I currently work as a <strong>Full-Stack Software Developer</strong> for IBM, where I have delved in DevOps, API development, test automation, design thinking, and Agile software development. In this position, I functioned as a <strong>technical leader</strong>, leading scrum meetings and retrospectives, bringing attention to pain points in our development
           process and addressing them, and enabling other team members in technical areas as needed.<br /><br />During my free time, I enjoy writing, recording, and publishing music. First specializing in Spanish classical guitar, I now have a focus on alternative and electronic rock, produced with Ableton Live in my home studio.
           I am currently <strong>in the process of recording an album</strong> with a target release date of Q4 2024.<br /><br /><strong>Originally from Nuevo Laredo, Mexico</strong>, I started my career in its sister city of Laredo, TX where I took the initiative to teach myself the fundamentals of programming and write and perform music before college. After completing my
-          university studies, I am <strong>now based in Cambridge, MA</strong>, where I am looking to make new connections in both the technology & music industries.<br /><br />See my resume here.</p>
+          university studies, I am <strong>now based in Cambridge, MA</strong>, where I am looking to make new connections in both the technology & music industries.<br /><br />See my resume <a href={'assets/EstebanEspinoza_Resume.pdf'} target="_blank" rel="noopener noreferrer">here</a>.</p>
         {/* <h3>Recent Updates</h3>
           <p>To be added...</p> */}
       </ContentIntro>

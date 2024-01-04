@@ -15,7 +15,6 @@ const NavigationSidebar = ({ isCompactSidebar }) => {
     const navigate = useNavigate();
 
     const [showText, setShowText] = useState(sidebarOpen);
-    const [expandTime, setExpandTime] = useState(null);
 
     useEffect(() => {
         if (!sidebarOpen) {
@@ -25,11 +24,11 @@ const NavigationSidebar = ({ isCompactSidebar }) => {
             // If sidebar is expanded, set a timer for delayed appearance of text
             const timer = setTimeout(() => {
                 setShowText(true);
-            }, expandTime || 300);
+            }, 300);
 
             return () => clearTimeout(timer);
         }
-    }, [sidebarOpen, expandTime]);
+    }, [sidebarOpen]);
 
     const navigateTo = (route) => {
         changePage(route);

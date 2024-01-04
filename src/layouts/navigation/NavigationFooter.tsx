@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useAppContext } from '../../context/AppContext';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate from React Router
 
@@ -12,21 +12,30 @@ import HeadsetIcon from "@mui/icons-material/Headset";
 const NavigationFooter = () => {
 
     const { page, changePage } = useAppContext(); // Use the context hook to access the state and functions
+    const [navBarValue, setNavBarValue] = useState(page);
     const navigate = useNavigate();
 
     const navigateTo = (route) => {
-        console.log(route)
         changePage(route);
         // Use the navigate function to navigate to the selected route
         navigate(`/${route}`);
     };
+
+    // Listen for changes in the URL and update the active value accordingly
+    useEffect(() => {
+        const currentRoute = window.location.pathname.replace('/', '') || '';
+        if (page !== currentRoute) {
+            changePage(currentRoute);
+        }
+        setNavBarValue(currentRoute)
+    }, [page, window.location.pathname]);
 
     return (
         <>
             <div style={{ position: "absolute", bottom: 0, width: '100%', zIndex: 600 }}>
                 <BottomNavigation
                     showLabels
-                    value={page}
+                    value={navBarValue}
                     onChange={(event, newValue) => {
                         navigateTo(newValue);
                     }}
