@@ -17,6 +17,8 @@ const projectModalData = {
     subtitle: 'VR-powered Business Intelligence for Meta Quest',
     imagePath: 'assets/MetaversalBarGraph.png',
     description: <p><strong>Team Members</strong>: Esteban Espinoza, Casey Honaker, Christopher Jackson, Dhiraj Kamath, Evan Reilly, Sean Neary, Vanessa Reese<br/><br/>
+                    <strong>Tech Stack</strong>: Unity Engine, OpenXR, MongoDB, Express, React, Node.js<br/><br/>
+                    <strong>Client/Stakeholders: Dr. Michael Haydock</strong><br/><br/>
                     Metaversal is a research project with the goal of exploring VR technology to optimize the work of B2B customers, with a focus 
                     on business intelligence and collaboration.<br/> The project was conducted at IBM as part of the 2022 First-Year Developer Challenge and received
                     the IBM Jumpstart Developer Judges' Choice Winner Award.<br/><br/>
@@ -31,8 +33,8 @@ const projectModalData = {
                     </li><br/>
                     
                     The project was implemented using the OpenXR framework as a foundation to enable cross-platform support, with a traditional MERN (MongoDB, Express, 
-                    React, Node) stack for the application. The application backend was built with Node + Express, with additional support for IBM Cloud Object Storage (COS) 
-                    for storing and retrieving CSV files. The presenter may upload files to COS using a React web client, and users may interact in real-time with the 
+                    React, Node) stack for the back-end and web client and Unity for the VR application. The server was built with Node + Express, with additional support 
+                    for IBM Cloud Object Storage (COS) to store and retrieve CSV files. The presenter may upload files to COS using a React web client, and users may interact in real-time with the 
                     VR application via the virtual reality headset of their choice, or a WebGL client in a standard web browser.
                     
                   </p>,
@@ -42,7 +44,9 @@ const projectModalData = {
     title: 'Amadeus',
     subtitle: 'Music composition software using a stylus and Optical Music Recognition (OMR)',
     imagePath: 'assets/AmadeusLogo.png',
-    description: <p>Amadeus is an iPad and tablet application for digital music composition, with stylus support and automatic recognition of musical notes via Optical
+    description: <p>
+                    <strong>Tech Stack</strong>: React Native, AWS Lambda, Python, Tensorflow, Rekognition<br/><br/>
+                    Amadeus is an iPad and tablet application for digital music composition, with stylus support and automatic recognition of musical notes via Optical
                     Music Recognition (OMR).<br/>The original prototype was first showcased at Northeastern's 2022 Music Technology Capstone and is being further 
                     developed independently to soon provide a digital music composition experience akin to its analog counterpart.<br/><br/>
 
@@ -81,44 +85,59 @@ const projectModalData = {
   corbal: {
     title: 'ArtistLaunch',
     subtitle: 'Corbal Distribution\'s in-house platform to connect artists with music curators',
-    imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>ArtistLaunch description</p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    imagePath: 'assets/CorbalCurator.png',
+    description: <p><strong>Team Members</strong>: Jason Paul Darimevula, Esteban Espinoza, Salil Khan, Jay Srinivasan, Omar Shoura, Brian Nguyen, Gerri Fox, Jason Cheung<br/><br/>
+                    <strong>Tech Stack</strong>: React, Python, Django, Microsoft SQL Server<br/><br/>
+                    <strong>Client/Stakeholders</strong>: Corbal Distribution/Records<br/><br/>
+                  </p>,
+    additionalMedia: ['assets/CorbalCurator.png','assets/CorbalWireframes.png','assets/CorbalDatabase.png', 'assets/CorbalFeed.png']
   },
   shortfall: {
     title: 'Shortfall',
     subtitle: 'An interactive and educational manufacturing supply chain simulation for Mech Eng. students',
-    imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>Shortfall description</p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    imagePath: 'assets/ShortfallHome.png',
+    description: <p><strong>Team Members</strong>: Ryan Gehrlein, Esteban Espinoza, Alex Swenson, Dominik Ritzenhoff, Asana Srivastava, Julia Golison, Henry Stachowiak, Luca Sharbani<br/><br/>
+                    <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
+                    <strong>Client/Stakeholders</strong>: Dr. Jacqueline Isaacs & Dr. Mark Sivak<br/><br/>
+                  </p>,
+    additionalMedia: ['assets/ShortfallHome.png','assets/ShortfallWireframe.png','assets/ShortfallFlow.png', 'assets/ShortfallDev1.png', 'assets/ShortfallDev2.png', 'assets/ShortfallDev3.png']
   },
   burncam: {
     title: 'Burncam Medical',
-    subtitle: 'Telemedicine app prototype for burn patients using React Native and AWS',
-    imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>Burncam Medical description</p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    subtitle: 'An augmented telemedicine platform for burn patients using React Native and AWS',
+    imagePath: 'assets/BurncamLogo.png',
+    description: <p><strong>Team Members</strong>: Nikhil Bhat, Ryan Gehrlein, Esteban Espinoza, Rochen Zhuang, Alex Nikanov, Cynthia Xie, Matt Tong<br/><br/>
+                    <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
+                    <strong>Client/Stakeholders</strong>: Orion Wilmerding<br/><br/>
+                </p>,
+    additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHifi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
   },
   gradpath: {
     title: 'GradPath',
     subtitle: 'All-in-one, cross-platform Learning Management and Student Information System (LMS+SIS)',
     imagePath: 'assets/projects-placeholder.jpg',
     description: <p>GradPath description</p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
   },
   butter: {
     title: 'Butter',
     subtitle: 'A social media application built around crowdsourcing of food & restaurant reviews',
-    imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>Butter description</p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    imagePath: 'assets/ButterLogo.png',
+    description: <p><strong>Team Members</strong>: Cullen Lampasso, Jason Crouse, Esteban Espinoza, Unnas Hussain, Elena Silva, Cynthia Xie, Cathleen Zhang<br/><br/>
+                    <strong>Tech Stack</strong>: React Native<br/><br/>
+                    <strong>Client/Stakeholders</strong>: Olivia Laskowski<br/><br/>
+                </p>,
+    additionalMedia: ['assets/ButterLogo.png','assets/ButterRecForm.png']
   },
   smartypill: {
     title: 'SmartyPill',
-    subtitle: 'React front-end for an automatic pill and water dispenser',
-    imagePath: 'assets/projects-placeholder.jpg',
-    description: <p>SmartyPill description</p>,
-    additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
+    subtitle: 'An automatic pill and water dispenser that ensures you\'re taking the right pills at the right time.',
+    imagePath: 'assets/SmartyPillLogo.png',
+    description: <p><strong>Team Members</strong>: Noah Appleby, Elena Silva, Esteban Espinoza, Haley Fogelson, Thomas Keith, Zachary Hillman<br/><br/>
+                    <strong>Tech Stack</strong>: React, Flask, Python<br/><br/>
+                    <strong>Client/Stakeholders</strong>: Matthew Swenson<br/><br/>
+                  </p>,
+    additionalMedia: ['assets/SmartyPillLogo.png','assets/SmartyPillHome.png','assets/SmartyPillPrescriptions.png','assets/SmartyPillModal.png','assets/SmartyPillTeam.webp']
   }
 }
 
@@ -145,13 +164,13 @@ const Projects = () => {
         <ContentCard onClick={() => handleOpen('metaversal')} imagePath='assets/MetaversalBarGraph.png' imageAlt="" title='Metaversal'>VR-powered Business Intelligence for Meta Quest</ContentCard>
         <ContentCard onClick={() => handleOpen('amadeus')} imagePath='assets/AmadeusLogo.png' imageAlt="" title='Amadeus'>Music composition software using a stylus and Optical Music Recognition (OMR)</ContentCard>
         <ContentCard onClick={() => handleOpen('messina')} imagePath='assets/MessinaCompact.png' imageAlt="" title='Messina Digital'>Implementation of Bon Iver's real-time harmonizer using Max/MSP</ContentCard>
-        <ContentCard onClick={() => handleOpen('corbal')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='ArtistLaunch'>Corbal Distribution's in-house platform to connect artists with music curators</ContentCard>
-        <ContentCard onClick={() => handleOpen('shortfall')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Shortfall'>An interactive and educational manufacturing supply chain simulation for Mech Eng. students</ContentCard>
-        <ContentCard onClick={() => handleOpen('burncam')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Burncam Medical'>Telemedicine app prototype for burn patients using React Native and AWS</ContentCard>
-        <ContentCard onClick={() => handleOpen('gradpath')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='GradPath'>All-in-one, cross-platform Learning Management and Student Information System (LMS+SIS)</ContentCard>
-        <ContentCard onClick={() => handleOpen('butter')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='Butter'>A social media application built around crowdsourcing of food & restaurant reviews</ContentCard>
+        <ContentCard onClick={() => handleOpen('corbal')} imagePath='assets/CorbalCurator.png' imageAlt="" title='ArtistLaunch'>Corbal Distribution's in-house platform to connect artists with music curators</ContentCard>
+        <ContentCard onClick={() => handleOpen('shortfall')} imagePath='assets/ShortfallHome.png' imageAlt="" title='Shortfall'>An interactive and educational manufacturing supply chain simulation for Mech Eng. students</ContentCard>
+        <ContentCard onClick={() => handleOpen('burncam')} imagePath='assets/BurncamFinal.png' imageAlt="" title='Burncam Medical'>An augmented telemedicine platform for burn patients using React Native and AWS</ContentCard>
+        {/* <ContentCard onClick={() => handleOpen('gradpath')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='GradPath'>All-in-one, cross-platform Learning Management and Student Information System (LMS+SIS)</ContentCard> */}
+        <ContentCard onClick={() => handleOpen('butter')} imagePath='assets/ButterLogo.png' imageAlt="" title='Butter'>A social media application built around crowdsourcing of food & restaurant reviews</ContentCard>
         {/* <ContentCard imagePath='assets/projects-placeholder.jpg'>Filemeister</ContentCard> */}
-        <ContentCard onClick={() => handleOpen('smartypill')} imagePath='assets/projects-placeholder.jpg' imageAlt="" title='SmartyPill'>React front-end for an automatic pill and water dispenser</ContentCard>
+        <ContentCard onClick={() => handleOpen('smartypill')} imagePath='assets/SmartyPillLogo.png' imageAlt="" title='SmartyPill'>An automatic pill and water dispenser that ensures you're taking the right pills at the right time</ContentCard>
         {/* <ContentCard imagePath='assets/projects-placeholder.jpg'>Asteroids</ContentCard> */}
       </ContentGrid>
       <Modal
@@ -170,7 +189,7 @@ const Projects = () => {
           <div className="project-scroller">
             {projectModalData[modalContent]?.additionalMedia.map((imagePath, index) => (
               <div key={index} className="project-container">
-                <img src={imagePath} className="project-media" alt={`Additional Media ${index + 1}`} style={{ width: '100%' }} />
+                <img src={imagePath} className="project-media" alt={`Additional Media ${index + 1}`} />
               </div>
             ))}
           </div>
