@@ -24,11 +24,11 @@ const projectModalData = {
                     
                     Requirements gathered via user research and supported by our original MVP include: 
                     <li>
-                      <ul>- A virtual room/space where data can be displayed</ul>
-                      <ul>- Compatibility with standard data types (Particularly CSV files)</ul>
-                      <ul>- Generating basic data visualizations</ul>
-                      <ul>- Multiple users able to work in the same space, real-time streaming, and cross-platform support</ul>
-                      <ul>- Real-time streaming and cross-platform support for users without a headset</ul>
+                      <ul>• A virtual room/space where data can be displayed</ul>
+                      <ul>• Compatibility with standard data types (Particularly CSV files)</ul>
+                      <ul>• Generating basic data visualizations</ul>
+                      <ul>• Multiple users able to work in the same space, real-time streaming, and cross-platform support</ul>
+                      <ul>• Real-time streaming and cross-platform support for users without a headset</ul>
                     </li><br/>
                     
                     The project was implemented using the OpenXR framework as a foundation to enable cross-platform support, with a traditional MERN (MongoDB, Express, 
@@ -52,10 +52,10 @@ const projectModalData = {
                     User research was conducted via surveys of existing software including Sibelius, Finale, and MuseScore, to better understand the 
                     current issues of digital music composition:<br/>
                     <li>
-                      <ul>- Too many steps for inserting notes, such as selecting target location for notes, and browsing through menus for symbols</ul>
-                      <ul>- Mapping - little similarity with the traditional process for handwritten music composition</ul>
-                      <ul>- Maximum productivity requires learning complicated keyboard shortcuts</ul>
-                      <ul>- Steep learning curve, low retention</ul>
+                      <ul>• Too many steps for inserting notes, such as selecting target location for notes, and browsing through menus for symbols</ul>
+                      <ul>• Mapping: little similarity with the traditional process for handwritten music composition</ul>
+                      <ul>• Maximum productivity requires learning complicated keyboard shortcuts</ul>
+                      <ul>• Steep learning curve, low retention</ul>
                     </li><br/>
 
                     When creating this solution, I explored the latest research in OMR, finding that most research in the area is focused on a top-down approach to 

@@ -41,11 +41,11 @@ const Experience = () => {
       >
         <p>
           <ul>
-            <li>- Maintained and developed pipeline for 40+ on-prem and Docker deployments as Lead Build Certification Engineer</li>
-            <li>- Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
-            <li>- Launched and supported suit of 140+ Cypress tests on SaaS offering, increasing code coverage by 11%</li>
-            <li>- Championed agile software development practices as Scrum Master for Back-end and AI Solutions teams</li>
-            <li>- Mentored dozens of developers in multiple DevOps areas including CI/CD, Docker, Ansible, and test automation</li>
+            <li>• Maintained and developed pipeline for 40+ on-prem and Docker deployments as Lead Build Certification Engineer</li>
+            <li>• Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
+            <li>• Launched and supported suit of 140+ Cypress tests on SaaS offering, increasing code coverage by 11%</li>
+            <li>• Championed agile software development practices as Scrum Master for Back-end and AI Solutions teams</li>
+            <li>• Mentored dozens of developers in multiple DevOps areas including CI/CD, Docker, Ansible, and test automation</li>
           </ul>
         </p>
       </ContentExperience>
@@ -59,18 +59,18 @@ const Experience = () => {
         <p>
           <h5>ArtistLaunch</h5>
           <ul>
-            <li>- Worked with project lead and stakeholders from Corbal Distribution to identify project deliverables</li>
-            <li>- Conducted behavioral and technical interviews for aspiring engineering and design candidates</li>
-            <li>- Managed React development of music curation and insights dashboards for Corbal Distribution's artist roster</li>
-            <li>- Hosted whiteboarding and knowledge sharing sessions to encourage active participation from the team</li>
-            <li>- Facilitated developer meetings as Scrum master and triaged issues promptly to teams of 6-8 engineers</li>
+            <li>• Worked with project lead and stakeholders from Corbal Distribution to identify project deliverables</li>
+            <li>• Conducted behavioral and technical interviews for aspiring engineering and design candidates</li>
+            <li>• Managed React development of music curation and insights dashboards for Corbal Distribution's artist roster</li>
+            <li>• Hosted whiteboarding and knowledge sharing sessions to encourage active participation from the team</li>
+            <li>• Facilitated developer meetings as Scrum master and triaged issues promptly to teams of 6-8 engineers</li>
           </ul>
           <h5>Shortfall</h5>
           <ul>
-            <li>- Trained a team of 6 incoming software engineers in the MERN (MongoDB, Express, React, Node.js)</li>
-            <li>- Authored and published in-depth onboarding and training documentations, showcasing strong technical writing skills</li>
-            <li>- Led weekly enablement sessions for GraphQL API and general database and system design</li>
-            <li>- Managed all DevOps tasks related to the project, including Travis CI/CD pipeline and deployment via Heroku</li>
+            <li>• Trained a team of 6 incoming software engineers in the MERN (MongoDB, Express, React, Node.js)</li>
+            <li>• Authored and published in-depth onboarding and training documentations, showcasing strong technical writing skills</li>
+            <li>• Led weekly enablement sessions for GraphQL API and general database and system design</li>
+            <li>• Managed all DevOps tasks related to the project, including Travis CI/CD pipeline and deployment via Heroku</li>
           </ul>
         </p>
       </ContentExperience>
@@ -84,23 +84,23 @@ const Experience = () => {
         <p>
           <h5>BurnCam Medical</h5>
           <ul>
-            <li>- Developed a full-stack prototype in React Native for telemedicine startup BurnCam Medical</li>
-            <li>- Implemented responsive user profile & dashboard views for patients and physicians, enabling cross-platform support</li>
-            <li>- Assisted with DevOps and infrastructure tasks related to AWS Lambda, AWS Amplify, and DynamoDB</li>
+            <li>• Developed a full-stack prototype in React Native for telemedicine startup BurnCam Medical</li>
+            <li>• Implemented responsive user profile & dashboard views for patients and physicians, enabling cross-platform support</li>
+            <li>• Assisted with DevOps and infrastructure tasks related to AWS Lambda, AWS Amplify, and DynamoDB</li>
           </ul>
           <h5>Butter</h5>
           <ul>
-            <li>- Contributed to development of the initial MVP for review crowdsourcing social media app Butter</li>
-            <li>- Implemented functional wireframes for search, profile, and recommendation form using React Native</li>
-            <li>- Completed high fidelity UI styling and API integration for profile & recommendation form views</li>
-            <li>- Assisted with post-MVP high fidelity UI/UX design of Search and Following views using Figma</li>
+            <li>• Contributed to development of the initial MVP for review crowdsourcing social media app Butter</li>
+            <li>• Implemented functional wireframes for search, profile, and recommendation form using React Native</li>
+            <li>• Completed high fidelity UI styling and API integration for profile & recommendation form views</li>
+            <li>• Assisted with post-MVP high fidelity UI/UX design of Search and Following views using Figma</li>
           </ul>
           <h5>SmartyPill</h5>
           <ul>
-            <li>- Worked on the front-end development of web client for smart pill dispenser startup SmartyPill</li>
-            <li>- Implemented modal & form to add new prescriptions to the database using React & Material UI</li>
-            <li>- Added API connections + component interaction and navigation using React Router and custom hooks</li>
-            <li>- Created multiple re-usable stylesheets, and functional and presentational components for prescription management</li>
+            <li>• Worked on the front-end development of web client for smart pill dispenser startup SmartyPill</li>
+            <li>• Implemented modal & form to add new prescriptions to the database using React & Material UI</li>
+            <li>• Added API connections + component interaction and navigation using React Router and custom hooks</li>
+            <li>• Created multiple re-usable stylesheets, and functional and presentational components for prescription management</li>
           </ul>
         </p>
       </ContentExperience>
@@ -113,9 +113,9 @@ const Experience = () => {
       >
         <p>
           <ul>
-            <li>- Designed and delivered Adobe XD prototypes for A/V inventory application and relational database</li>
-            <li>- Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
-            <li>- Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
+            <li>• Designed and delivered Adobe XD prototypes for A/V inventory application and relational database</li>
+            <li>• Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
+            <li>• Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
           </ul>
         </p>
       </ContentExperience>
@@ -128,10 +128,10 @@ const Experience = () => {
       >
         <p>
           <ul>
-            <li>- Provided first line of defense customer support in-person, and via phone, e-mail & chat</li>
-            <li>- Maintained 40+ student PC kiosks across campus and reported their daily status to Chief Information Officer</li>
-            <li>- Decommissioned & retired storage devices to comply with university's security policies</li>
-            <li>- Transported and documented surplus A/V equipment</li>
+            <li>• Provided first line of defense customer support in-person, and via phone, e-mail & chat</li>
+            <li>• Maintained 40+ student PC kiosks across campus and reported their daily status to Chief Information Officer</li>
+            <li>• Decommissioned & retired storage devices to comply with university's security policies</li>
+            <li>• Transported and documented surplus A/V equipment</li>
           </ul>
         </p>
       </ContentExperience>
