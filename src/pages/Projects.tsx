@@ -115,14 +115,6 @@ const projectModalData = {
                 </p>,
     additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHiFi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
   },
-  // gradpath: {
-  //   id: 'gradpath',
-  //   title: 'GradPath',
-  //   subtitle: 'TODO: All-in-one, cross-platform Learning Management and Student Information System (LMS+SIS)',
-  //   imagePath: 'assets/projects-placeholder.jpg',
-  //   description: <p>TODO: GradPath description</p>,
-  //   additionalMedia: ['assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg','assets/projects-placeholder.jpg']
-  // },
   butter: {
     id: 'butter',
     title: 'Butter',
