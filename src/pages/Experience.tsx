@@ -30,8 +30,7 @@ const Experience = () => {
         imageAlt=""
         title={"St. Augustine High School - Laredo, TX"}
         date={"September 2013 - May 2015"}
-      >
-      </ContentExperience>
+      />
       <h2 style={{ color: 'white' }}>Experience</h2>
       <ContentExperience
         imagePath={"assets/IBM-Logo.jpeg"}
