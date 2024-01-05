@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const ContentCard = ({ children, title, imagePath, imageAlt, onClick }) => {
+const ContentCard = ({ title, subtitle, imagePath, imageAlt, onClick }) => {
 
   return (
     <div className="content-card" onClick={onClick}>
@@ -9,7 +9,7 @@ const ContentCard = ({ children, title, imagePath, imageAlt, onClick }) => {
       }
       <div>
         <h3 className="project-title">{title}</h3>
-        <p className="project-description-short">{children}</p>
+        <p className="project-description-short">{subtitle}</p>
       </div>
     </div>
   );
