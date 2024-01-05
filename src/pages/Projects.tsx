@@ -49,7 +49,7 @@ const projectModalData = {
                     Music Recognition (OMR).<br/>The original prototype was first showcased at Northeastern's 2022 Music Technology Capstone and is being further 
                     developed independently to soon provide a digital music composition experience akin to its analog counterpart.<br/><br/>
 
-                    User research was conducted via surveys of existing software including Sibelius, Finale, and MuseScore were conducted to better understand the 
+                    User research was conducted via surveys of existing software including Sibelius, Finale, and MuseScore, to better understand the 
                     current issues of digital music composition:<br/>
                     <li>
                       <ul>- Too many steps for inserting notes, such as selecting target location for notes, and browsing through menus for symbols</ul>
