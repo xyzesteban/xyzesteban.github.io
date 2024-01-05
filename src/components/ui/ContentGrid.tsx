@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 
 const ContentGrid = ({ children }) => {
   return (
-    <Box sx={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '15px'}}>
+    <Box className="content-grid">
       {children}
     </Box>
   );
