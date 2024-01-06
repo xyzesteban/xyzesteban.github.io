@@ -16,8 +16,9 @@ const projectModalData = {
     subtitle: 'VR-powered Business Intelligence for Meta Quest',
     imagePath: 'assets/MetaversalBarGraph.png',
     description: <p><strong>Team Members</strong>: Esteban D. Espinoza, Casey Honaker, Christopher Jackson, Dhiraj Kamath, Evan Reilly, Sean Neary, Vanessa Reese<br/><br/>
-                    <strong>Tech Stack</strong>: Unity Engine, OpenXR, MongoDB, Express, React, Node.js<br/><br/>
+                    <strong>Tech Stack</strong>: Unity Engine, OpenXR, React, Node.js, Express, MongoDB, IBM Cloud<br/><br/>
                     <strong>Client/Stakeholders:</strong> Dr. Michael Haydock<br/><br/>
+                    <strong>My Role:</strong> Back-End Developer, Infrastructure Developer<br/><br/>
                     Metaversal is a research project with the goal of exploring VR technology to optimize the work of B2B customers, with a focus 
                     on business intelligence and collaboration.<br/> The project was conducted at IBM as part of the 2022 First-Year Developer Challenge and received
                     the IBM Jumpstart Developer Judges' Choice Winner Award.<br/><br/>
@@ -44,7 +45,7 @@ const projectModalData = {
     subtitle: 'Music composition software using a stylus and Optical Music Recognition (OMR)',
     imagePath: 'assets/AmadeusLogo.png',
     description: <p>
-                    <strong>Tech Stack</strong>: React Native, AWS Lambda, Python, Tensorflow, Rekognition<br/><br/>
+                    <strong>Tech Stack</strong>: React Native, Typescript, AWS Lambda, Amazon S3, Tensorflow, Rekognition<br/><br/>
                     Amadeus is an iPad and tablet application for digital music composition, with stylus support and automatic recognition of musical notes via Optical
                     Music Recognition (OMR).<br/>The original prototype was first showcased at Northeastern's 2022 Music Technology Capstone and is being further 
                     developed independently to soon provide a digital music composition experience akin to its analog counterpart.<br/><br/>
@@ -69,7 +70,7 @@ const projectModalData = {
   messina: {
     id: 'messina',
     title: 'Messina Digital',
-    subtitle: 'Implementation of Bon Iver\'s real-time harmonizer using Max/MSP',
+    subtitle: 'Implementation of Bon Iver + Chris Messina\'s real-time harmonizer using Max/MSP',
     imagePath: 'assets/MessinaCompact.png',
     description: <p><strong>Team Members</strong>: Esteban D. Espinoza, Emma Price<br/><br/>
                     The Messina Digital is a MIDI and vocal instrument that attempts to emulate harmonizers used by the likes of Bon Iver and Jacob Collier.<br/>
@@ -88,8 +89,9 @@ const projectModalData = {
     subtitle: 'Corbal Distribution\'s in-house platform to connect artists with music curators',
     imagePath: 'assets/CorbalLogo.png',
     description: <p><strong>Team Members</strong>: Jason P. Darimevula, Esteban D. Espinoza, Salil Khan, Jay Srinivasan, Omar Shoura, Brian Nguyen, Gerri Fox, Jason Cheung<br/><br/>
-                    <strong>Tech Stack</strong>: React, Python, Django, Microsoft SQL Server<br/><br/>
+                    <strong>Tech Stack</strong>: React, Typescript, Django, Python, Microsoft SQL Server<br/><br/>
                     <strong>Client/Stakeholders</strong>: Corbal Distribution/Records<br/><br/>
+                    <strong>My Role:</strong> Software Technical Lead<br/><br/>
                   </p>,
     additionalMedia: ['assets/CorbalCurator.png','assets/CorbalWireframes.png','assets/CorbalDatabase.png', 'assets/CorbalFeed.png']
   },
@@ -99,8 +101,9 @@ const projectModalData = {
     subtitle: 'An interactive and educational manufacturing supply chain simulation for Mech Eng. students',
     imagePath: 'assets/ShortfallHome.png',
     description: <p><strong>Team Members</strong>: Ryan Gehrlein, Esteban D. Espinoza, Alex Swenson, Dominik Ritzenhoff, Ashna Srivastava, Julia Golison, Henry Stachowiak, Luca Sharbani<br/><br/>
-                    <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
+                    <strong>Tech Stack</strong>: React, Javascript, Node.js, Express, GraphQL, MongoDB<br/><br/>
                     <strong>Client/Stakeholders</strong>: Dr. Jacqueline Isaacs & Dr. Mark Sivak<br/><br/>
+                    <strong>My Role:</strong> Software Technical Lead<br/><br/>
                   </p>,
     additionalMedia: ['assets/ShortfallHome.png','assets/ShortfallWireframe.png','assets/ShortfallFlow.png', 'assets/ShortfallDev1.png', 'assets/ShortfallDev2.png', 'assets/ShortfallDev3.png']
   },
@@ -110,8 +113,9 @@ const projectModalData = {
     subtitle: 'An augmented telemedicine platform for burn patients using React Native and AWS',
     imagePath: 'assets/BurncamFinal.png',
     description: <p><strong>Team Members</strong>: Nikhil Bhat, Ryan Gehrlein, Esteban D. Espinoza, Rochen Zhuang, Alex Nikanov, Cynthia Xie, Matt Tong<br/><br/>
-                    <strong>Tech Stack</strong>: React, MongoDB, Express, Node.js, GraphQL<br/><br/>
+                    <strong>Tech Stack</strong>: React Native, Javascript, Node.js, AWS Lambda, DynamoDB<br/><br/>
                     <strong>Client/Stakeholders</strong>: Orion Wilmerding<br/><br/>
+                    <strong>My Role:</strong> Full-Stack Developer<br/><br/>
                 </p>,
     additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHiFi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
   },
@@ -121,8 +125,9 @@ const projectModalData = {
     subtitle: 'A social media application built around crowdsourcing of food & restaurant reviews',
     imagePath: 'assets/ButterLogo.png',
     description: <p><strong>Team Members</strong>: Cullen Lampasso, Jason Crouse, Esteban D. Espinoza, Unnas Hussain, Elena Silva, Cynthia Xie, Cathleen Zhang<br/><br/>
-                    <strong>Tech Stack</strong>: React Native<br/><br/>
+                    <strong>Tech Stack</strong>: React Native, Typescript, Node.js, Express, PostgreSQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Olivia Laskowski<br/><br/>
+                    <strong>My Role:</strong> Front-End Developer<br/><br/>
                 </p>,
     additionalMedia: ['assets/ButterLogo.png','assets/ButterApp.png','assets/ButterRecForm.png']
   },
@@ -131,10 +136,11 @@ const projectModalData = {
     subtitle: 'An automatic pill and water dispenser that ensures you\'re taking the right pills at the right time.',
     imagePath: 'assets/SmartyPillLogo.png',
     description: <p><strong>Team Members</strong>: Noah Appleby, Elena Silva, Esteban D. Espinoza, Haley Fogelson, Thomas Keith, Zachary Hillman<br/><br/>
-                    <strong>Tech Stack</strong>: React, Flask, Python<br/><br/>
+                    <strong>Tech Stack</strong>: React, Javascript, Flask, Python, PostgreSQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Matthew Swenson<br/><br/>
+                    <strong>My Role:</strong> Front-End Developer<br/><br/>
                   </p>,
-    additionalMedia: ['assets/SmartyPillLogo.png','assets/SmartyPillHome.png','assets/SmartyPillPrescriptions.png','assets/SmartyPillModal.png','assets/SmartyPillTeam.webp']
+    additionalMedia: ['assets/SmartyPillLogo.png','assets/SmartyPillHardware.jpeg','assets/SmartyPillHome.png','assets/SmartyPillPrescriptions.png','assets/SmartyPillModal.png','assets/SmartyPillTeam.webp']
   }
 }
 

@@ -15,7 +15,7 @@ const Experience = () => {
         date={"September 2018 - May 2022"}
         headline={"B.S. in Computer Science + Music Composition and Technology"}
       >
-        <p>Activities and Societies: Generate Product Development, Husky Songwriting Club, Americorps Jumpstart Tutor/Mentor, Latin American Student Organization (LASO)</p>
+        <p>Activities and Societies: Americorps Jumpstart Tutor/Mentor, Husky Songwriting Club, Latin American Student Organization (LASO)</p>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/TexasAcademy.png"}
@@ -42,9 +42,10 @@ const Experience = () => {
         <p>
           <ul>
             <li>• Maintained and developed pipeline for 40+ on-prem and Docker deployments as Lead Build Certification Engineer</li>
+            <li>• Launched and supported suite of 140+ Cypress tests on OpenPages SaaS offering, increasing code coverage by 11%</li>
+            <li>• Developed back-end + infrastructure for a VR-powered business intelligence prototype with Unity, OpenXR, and the MERN stack (MongoDB, Express, React, Node.js)</li>
             <li>• Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
-            <li>• Launched and supported suit of 140+ Cypress tests on SaaS offering, increasing code coverage by 11%</li>
-            <li>• Championed agile software development practices as Scrum Master for Back-end and AI Solutions teams</li>
+            <li>• Championed agile software development practices as Scrum Master for back-end and AI solutions teams</li>
             <li>• Mentored dozens of developers in multiple DevOps areas including CI/CD, Docker, Ansible, and test automation</li>
           </ul>
         </p>
@@ -56,7 +57,7 @@ const Experience = () => {
         date={"July 2021 - May 2022"}
         headline={"Software Technical Lead"}
       >
-        <p>
+        <>
           <h5>ArtistLaunch</h5>
           <ul>
             <li>• Worked with project lead and stakeholders from Corbal Distribution to identify project deliverables</li>
@@ -67,12 +68,12 @@ const Experience = () => {
           </ul>
           <h5>Shortfall</h5>
           <ul>
-            <li>• Trained a team of 6 incoming software engineers in the MERN (MongoDB, Express, React, Node.js)</li>
+            <li>• Trained a team of 6 incoming software engineers in the MERN stack (MongoDB, Express, React, Node.js)</li>
             <li>• Authored and published in-depth onboarding and training documentations, showcasing strong technical writing skills</li>
             <li>• Led weekly enablement sessions for GraphQL API and general database and system design</li>
             <li>• Managed all DevOps tasks related to the project, including Travis CI/CD pipeline and deployment via Heroku</li>
           </ul>
-        </p>
+          </>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/Generate.jpeg"}
@@ -81,7 +82,7 @@ const Experience = () => {
         date={"September 2019 - June 2021"}
         headline={"Build Studio Engineer in Software"}
       >
-        <p>
+        <>
           <h5>BurnCam Medical</h5>
           <ul>
             <li>• Developed a full-stack prototype in React Native for telemedicine startup BurnCam Medical</li>
@@ -97,12 +98,12 @@ const Experience = () => {
           </ul>
           <h5>SmartyPill</h5>
           <ul>
-            <li>• Worked on the front-end development of web client for smart pill dispenser startup SmartyPill</li>
+            <li>• Worked on front-end of React web client for smart pill dispenser startup SmartyPill</li>
             <li>• Implemented modal & form to add new prescriptions to the database using React & Material UI</li>
             <li>• Added API connections + component interaction and navigation using React Router and custom hooks</li>
             <li>• Created multiple re-usable stylesheets, and functional and presentational components for prescription management</li>
           </ul>
-        </p>
+        </>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/HarvardPublicHealth.jpg"}
@@ -111,13 +112,11 @@ const Experience = () => {
         date={"January 2020 - July 2020"}
         headline={"IT Project Management Intern"}
       >
-        <p>
           <ul>
             <li>• Designed and delivered Adobe XD prototypes for A/V inventory application and relational database</li>
             <li>• Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
             <li>• Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
           </ul>
-        </p>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/TAMIU.svg.png"}
@@ -126,14 +125,12 @@ const Experience = () => {
         date={"May 2017 - May 2018"}
         headline={"1st Level Support Technician"}
       >
-        <p>
           <ul>
             <li>• Provided first line of defense customer support in-person, and via phone, e-mail & chat</li>
             <li>• Maintained 40+ student PC kiosks across campus and reported their daily status to Chief Information Officer</li>
             <li>• Decommissioned & retired storage devices to comply with university's security policies</li>
             <li>• Transported and documented surplus A/V equipment</li>
           </ul>
-        </p>
       </ContentExperience>
       <h2 style={{ color: 'white' }}>Skills</h2>
       <ContentIntro>

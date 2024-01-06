@@ -13,7 +13,7 @@ const ContentExperience = ({ children = <></>, imagePath, imageAlt, title = "", 
                 <div className="experience-text">
                     <h3>{title}</h3>
                     <p>{date}</p>
-                    <div className="text-container media-text"><h5 style={{ marginBottom: '0px' }}>{headline}</h5></div>
+                    <div className="text-container media-text"><h4 style={{ marginBottom: '0px', marginTop: '0px', paddingTop: '15px' }}>{headline}</h4></div>
                 </div>
             </div>
             {children}

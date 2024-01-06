@@ -25,6 +25,13 @@ li {
     src: url('./fonts/Helvetica.ttf') format('ttf');
 }
 
+/* latin */
+@font-face {
+    font-family: 'Archivo';
+    src: url('./fonts/Archivo.ttf') format('ttf');
+    src: url('https://fonts.gstatic.com/s/archivo/v19/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2') format('woff2');
+}
+
 @font-face {
     font-family: 'IM Fell DW Pica';
     src: url('./fonts/Pica.ttf') format('truetype'), /* Corrected format specifier */
@@ -68,6 +75,7 @@ li {
 }
 
 body {
+    font-family: "Archivo", "Helvetica", sans-serif !important;
     overflow: hidden;
 }
 
@@ -472,7 +480,7 @@ body {
 }
 
 h1 {
-    font-family: "IM Fell DW Pica", "Zilla Slab", serif !important;
+    font-family: "IM Fell DW Pica", serif !important;
     text-align: center;
     color: black; 
     width: 100%; 
@@ -504,7 +512,7 @@ h3 {
 }
 
 p {
-    font-family: "Helvetica", sans-serif !important;
+    font-family: "Archivo", "Helvetica", sans-serif !important;
     padding-top: 15px;
     padding-bottom: 0px;
 }
@@ -690,9 +698,16 @@ p {
     font-size: 14px;
 }
 
+h4 {
+    font-family: "Archivo", "Helvetica", sans-serif !important;
+}
+
 h5 {
-    padding-top: 6px;
-    padding-bottom: 0px;
+    font-family: "Archivo", "Helvetica", sans-serif !important;
+}
+
+h6 {
+    font-family: "Archivo", "Helvetica", sans-serif !important;
 }
 
 .modal-style {
@@ -734,3 +749,13 @@ h5 {
     padding: 10px;
     max-height: 220px;
 }
+
+ul {
+    margin-top: 8px;
+    list-style-type: disc; /* or your preferred list-style-type */
+  }
+  
+  li {
+    
+    margin-bottom: 8px; /* Adjust the value to increase or decrease the space between bullet points */
+  }
