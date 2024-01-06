@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b47bd414.css",
-    "main.js": "/static/js/main.a84ab1d1.js",
+    "main.css": "/static/css/main.ab74730c.css",
+    "main.js": "/static/js/main.77f63a38.js",
     "static/js/787.6cf6b794.chunk.js": "/static/js/787.6cf6b794.chunk.js",
+    "static/fonts/Archivo.ttf": "/static/fonts/Archivo.ttf",
     "static/fonts/Helvetica.ttf": "/static/fonts/Helvetica.ttf",
     "static/fonts/ZillaSlab.ttf": "/static/fonts/ZillaSlab.ttf",
     "static/fonts/Pica.ttf": "/static/fonts/Pica.ttf",
@@ -16,14 +17,15 @@
     "static/media/Wavefont.woff": "/static/media/Wavefont.7d6647e9b886ca8935b9.woff",
     "static/media/ZillaSlab.ttf": "/static/media/ZillaSlab.9d1030969d54d9810062.ttf",
     "static/media/Wavefont.ttf": "/static/media/Wavefont.b27d20275435f456d883.ttf",
+    "static/media/Archivo.ttf": "/static/media/Archivo.d39e57c51b2a7b3d744b.ttf",
     "static/media/Pica.woff": "/static/media/Pica.0ef5935363a6cb5098e6.woff",
     "static/media/Pica.ttf": "/static/media/Pica.08a95400d06a02c571c8.ttf",
-    "main.b47bd414.css.map": "/static/css/main.b47bd414.css.map",
-    "main.a84ab1d1.js.map": "/static/js/main.a84ab1d1.js.map",
+    "main.ab74730c.css.map": "/static/css/main.ab74730c.css.map",
+    "main.77f63a38.js.map": "/static/js/main.77f63a38.js.map",
     "787.6cf6b794.chunk.js.map": "/static/js/787.6cf6b794.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b47bd414.css",
-    "static/js/main.a84ab1d1.js"
+    "static/css/main.ab74730c.css",
+    "static/js/main.77f63a38.js"
   ]
 }
