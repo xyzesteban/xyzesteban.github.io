@@ -16,7 +16,7 @@ const Experience = () => {
             acoustic guitar, a backing track, and live vocals, the project now has a focus on recording and production of <strong>alternative </strong>
             and <strong>electronic rock</strong>, and makes heavy use of both virtual and live instruments to craft its sound.<br /><br />
 
-            Among the project's sonic influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975 and Joywave, and its 
+            Among the project's sonic influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975, and Joywave, and its 
             lyrical styles and themes take inspiration from pop culture and modern technology. <strong>Saint Dvorak's debut album, Daydreamer, 
             is currently being recorded</strong> and will be released in Q4 2024.
           </p>
