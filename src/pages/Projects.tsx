@@ -89,9 +89,27 @@ const projectModalData = {
     subtitle: 'Corbal Distribution\'s in-house platform to connect artists with music curators',
     imagePath: 'assets/CorbalLogo.png',
     description: <p><strong>Team Members</strong>: Jason P. Darimevula, Esteban D. Espinoza, Salil Khan, Jay Srinivasan, Omar Shoura, Brian Nguyen, Gerri Fox, Jason Cheung<br/><br/>
-                    <strong>Tech Stack</strong>: React, Typescript, Django, Python, Microsoft SQL Server<br/><br/>
+                    <strong>Tech Stack</strong>: React, Redux, Typescript, Django, Python, Microsoft SQL Server<br/><br/>
                     <strong>Client/Stakeholders</strong>: Corbal Distribution/Records<br/><br/>
                     <strong>My Role:</strong> Software Technical Lead<br/><br/>
+                    ArtistLaunch is a full-stack application looking to provide a system that artists and playlist curators can use to collaborate and do business with each other.<br/>
+                    The first full MVP was designed and developed by Generate Product Development, as a contractor for Corbal Distribution/Records.<br/><br/>
+
+                    Some existing issues in the natural process for music discovery and outreach:
+                    <li>
+                      <ul>• Lack of exposure and promotion: it is difficult for new artists to break into the market by themselves</ul>
+                      <ul>• Lack of connections with curators: it is difficult for artists to obtain contact information of playlist curators</ul>
+                      <ul>• Lack of monetary security: artists have to pay curators upfront but there are no guarantees or systems to ensure the agreement is honored</ul>
+                      <ul>• Lack of incentive: there is typically no room for artist to negotiate for better fees, and curators are not incentivized for playlist performance</ul>
+                    </li><br/>
+
+                    In ArtistLaunch, artists are the driving force behind Artist Launch. With this application, they will be able to pitch songs to curators and choose to take or
+                    negotiate any received offers. Playlist curators can see songs pitched by artists and will be able to bid on a song if it is relevant to their content. If the bid
+                    is accepted, they can place the song on one of their playlists.<br/><br/>
+
+                    ArtistLaunch's API is built using Python and Django, with support for Microsoft SQL Server to support existing Corbal services, and the front-end was developed 
+                    with React and Redux. As part of the MVP, the development team implemented the front-end for the Artist Dashboard + Feed, as well as Curator Dashboard + 
+                    Feed and a mock and functional API, and the design team completed branding materials as well as an additional view for Stats.
                   </p>,
     additionalMedia: ['assets/CorbalCurator.png','assets/CorbalWireframes.png','assets/CorbalDatabase.png', 'assets/CorbalFeed.png']
   },
@@ -104,6 +122,13 @@ const projectModalData = {
                     <strong>Tech Stack</strong>: React, Javascript, Node.js, Express, GraphQL, MongoDB<br/><br/>
                     <strong>Client/Stakeholders</strong>: Dr. Jacqueline Isaacs & Dr. Mark Sivak<br/><br/>
                     <strong>My Role:</strong> Software Technical Lead<br/><br/>
+                    Shortfall is an educational business simulation game where students can see how their decisions impact their company's economic, ecological, and social impact.<br/>
+                    The primary goal of this project was for Generate Product Development to rebuild the no longer supported Adobe Flash prototype from the ground up using modern tools and platform.<br/><br/>
+
+                    A prototype was completed as a collaboration between Generate Product Development's software development, UI/UX design, and branding teams. The software team for Shortfall 
+                    implemented the latest Shortfall prototype using a MERN (MongoDB, Express, React, Node.js) + GraphQL, and a functioning prototype for both the front-end and back-end was developed.<br/>
+                    Additionally, the product was designed with further development in mind and was made to be easy to expand upon or refactor later as needed. An in-depth API spec and development guide
+                    was created by the development team and delivered to the clients to enable development by a future team.
                   </p>,
     additionalMedia: ['assets/ShortfallHome.png','assets/ShortfallWireframe.png','assets/ShortfallFlow.png', 'assets/ShortfallDev1.png', 'assets/ShortfallDev2.png', 'assets/ShortfallDev3.png']
   },
@@ -116,6 +141,20 @@ const projectModalData = {
                     <strong>Tech Stack</strong>: React Native, Javascript, Node.js, AWS Lambda, DynamoDB<br/><br/>
                     <strong>Client/Stakeholders</strong>: Orion Wilmerding<br/><br/>
                     <strong>My Role:</strong> Full-Stack Developer<br/><br/>
+                    BurnCam is an augmented telemedicine platform that fits right in your pocket, seeking to conveniently connect burn patients with experts at any time.<br/>
+                    Burns need an expert, but experts are rare. This scarcity affects triage and transfers, where 50% of transfers made by local providers are 
+                    unnecessary, and 8% are not transferred soon enough. It also affects follow-up care, as long transport times lowers patient compliance and can 
+                    cause relapses or complications.<br/>The foundation of the software is a HIPAA compliant, lightweight telemedicine service that runs on any smartphone or computer browser, meeting 
+                    health provider's main three needs: accessibility, simplicity, and security.
+                    <br/><br/>
+
+                    Generate Product Development worked with BurnCam Medical Inc. to develop on an existing MVP written in plain HTML and JavaScript and redesigned 
+                    the UI, re-worked the back-end and transitioned to a cross-platform application that runs on both mobile and web.<br/>
+                    The new BurnCam Medical application was developed using React Native, with heavy use of the Expo platform to deploy testing environments and 
+                    implement a front-end with responsive design in mind. The app is powered by a combination of multiple AWS services, including Cognito, API Gateway, 
+                    AWS Lambda, S3, and DynamoDB.<br/><br/>
+
+                    Burncam was released on the Apple App Store and Google Play Store in Q4 2023.
                 </p>,
     additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHiFi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
   },
@@ -128,6 +167,15 @@ const projectModalData = {
                     <strong>Tech Stack</strong>: React Native, Typescript, Node.js, Express, PostgreSQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Olivia Laskowski<br/><br/>
                     <strong>My Role:</strong> Front-End Developer<br/><br/>
+                    Butter is a social media application focused on providing its users with reliable food & restaurant reviews in any city.<br/>
+                    Trying to find a great new place to eat around your own home is unnecessarily difficult. There are countless resources for those wishing to 
+                    explore the culinary scene in any city; however, the desired information is obscured by vast amounts of low-quality reviews.
+                    Butter seeks to build a unique community of trusted local recommenders and a repository of high-quality recommendations by using a unique 
+                    methodology and implementing high standards for content and information verification.<br/><br/>
+
+                    Generate Product Development received branding materials created by Northeastern University's Scout and used that to develop the app's first MVP.<br/>
+                    Butter's front-end was developed using React Native, with iOS and Android smartphones in mind, and its back-end was implemented with Express and 
+                    PostgreSQL.
                 </p>,
     additionalMedia: ['assets/ButterLogo.png','assets/ButterApp.png','assets/ButterRecForm.png']
   },
@@ -139,6 +187,13 @@ const projectModalData = {
                     <strong>Tech Stack</strong>: React, Javascript, Flask, Python, PostgreSQL<br/><br/>
                     <strong>Client/Stakeholders</strong>: Matthew Swenson<br/><br/>
                     <strong>My Role:</strong> Front-End Developer<br/><br/>
+                    SmartyPill is an automatic pill dispenser designed to help senior citizens and medically compromised people take their medications on 
+                    time and as prescribed. Generate Product Development worked with SmartyPill founders to develop the product's 4th prototype.<br/><br/>
+
+                    This project was a collaboration between Generate's hardware and software divisions, with the former implementing a novel universal 
+                    pill canister design that can dispense a single pill of a large range of sizes, and the former implementing an application for 
+                    prescription management and device integration that can be connected to the hardware. The team implemented an API using Flask, and a 
+                    dynamic web app prototype using React.
                   </p>,
     additionalMedia: ['assets/SmartyPillLogo.png','assets/SmartyPillHardware.jpeg','assets/SmartyPillHome.png','assets/SmartyPillPrescriptions.png','assets/SmartyPillModal.png','assets/SmartyPillTeam.webp']
   }
