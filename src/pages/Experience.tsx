@@ -39,16 +39,14 @@ const Experience = () => {
         date={"January 2021 - present"}
         headline={"Full-Stack Software Developer"}
       >
-        <p>
-          <ul>
-            <li>• Maintained and developed pipeline for 40+ on-prem and Docker deployments as Lead Build Certification Engineer</li>
-            <li>• Launched and supported suite of 140+ Cypress tests on OpenPages SaaS offering, increasing code coverage by 11%</li>
-            <li>• Developed back-end + infrastructure for a VR-powered business intelligence prototype with Unity, OpenXR, and the MERN stack (MongoDB, Express, React, Node.js)</li>
-            <li>• Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
-            <li>• Championed agile software development practices as Scrum Master for back-end and AI solutions teams</li>
-            <li>• Mentored dozens of developers in multiple DevOps areas including CI/CD, Docker, Ansible, and test automation</li>
-          </ul>
-        </p>
+        <ul>
+          <li>• Maintained and developed pipeline for 40+ on-prem and Docker deployments as Lead Build Certification Engineer</li>
+          <li>• Launched and supported suite of 140+ Cypress tests on OpenPages SaaS offering, increasing code coverage by 11%</li>
+          <li>• Developed back-end + infrastructure for a VR-powered business intelligence prototype with Unity, OpenXR, and the MERN stack (MongoDB, Express, React, Node.js)</li>
+          <li>• Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
+          <li>• Championed agile software development practices as Scrum Master for back-end and AI solutions teams</li>
+          <li>• Mentored dozens of developers in multiple DevOps areas including CI/CD, Docker, Ansible, and test automation</li>
+        </ul>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/Generate.jpeg"}
@@ -73,7 +71,7 @@ const Experience = () => {
             <li>• Led weekly enablement sessions for GraphQL API and general database and system design</li>
             <li>• Managed all DevOps tasks related to the project, including Travis CI/CD pipeline and deployment via Heroku</li>
           </ul>
-          </>
+        </>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/Generate.jpeg"}
@@ -112,11 +110,11 @@ const Experience = () => {
         date={"January 2020 - July 2020"}
         headline={"IT Project Management Intern"}
       >
-          <ul>
-            <li>• Designed and delivered Adobe XD prototypes for A/V inventory application and relational database</li>
-            <li>• Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
-            <li>• Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
-          </ul>
+        <ul>
+          <li>• Designed and delivered Adobe XD prototypes for A/V inventory application and relational database</li>
+          <li>• Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
+          <li>• Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
+        </ul>
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/TAMIU.svg.png"}
@@ -125,12 +123,12 @@ const Experience = () => {
         date={"May 2017 - May 2018"}
         headline={"1st Level Support Technician"}
       >
-          <ul>
-            <li>• Provided first line of defense customer support in-person, and via phone, e-mail & chat</li>
-            <li>• Maintained 40+ student PC kiosks across campus and reported their daily status to Chief Information Officer</li>
-            <li>• Decommissioned & retired storage devices to comply with university's security policies</li>
-            <li>• Transported and documented surplus A/V equipment</li>
-          </ul>
+        <ul>
+          <li>• Provided first line of defense customer support in-person, and via phone, e-mail & chat</li>
+          <li>• Maintained 40+ student PC kiosks across campus and reported their daily status to Chief Information Officer</li>
+          <li>• Decommissioned & retired storage devices to comply with university's security policies</li>
+          <li>• Transported and documented surplus A/V equipment</li>
+        </ul>
       </ContentExperience>
       <h2 style={{ color: 'white' }}>Skills</h2>
       <ContentIntro>
