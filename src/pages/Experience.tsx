@@ -111,7 +111,7 @@ const Experience = () => {
         headline={"IT Project Management Intern"}
       >
         <ul>
-          <li>• Designed and delivered Adobe XD prototypes for A/V inventory application and relational database</li>
+          <li>• Designed and delivered functional wireframe design for A/V inventory application and relational database</li>
           <li>• Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
           <li>• Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
         </ul>
