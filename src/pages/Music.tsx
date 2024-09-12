@@ -18,7 +18,7 @@ const Experience = () => {
 
             Among the project's sonic influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975, and Joywave, and its 
             lyrical styles and themes take inspiration from pop culture and modern technology. <strong>Saint Dvorak's debut album, Daydreamer, 
-            is currently being recorded</strong> and will be released in Q4 2024.
+            is currently being recorded</strong> and will be released in Q1 2025.
           </p>
         }
       >
@@ -62,7 +62,7 @@ const Experience = () => {
         imageAlt="Studio set up for the band AGES at The Record Co"
         title="AGES"
         mediaText={
-          <p><strong>AGES</strong> is an alternative rock band formed at Northeastern University by Amani Cavender, Chuck Stein, Esteban D. Espinoza, and Reece Graham.<br /><br />
+          <p><strong>AGES</strong> is an alternative rock band formed at Northeastern University by Amani Cavender, Chuck Stein, Esteban Espinoza, and Reece Graham.<br /><br />
 
             The group's sound bears influences ranging from Deafheaven to Burial, infusing various subgenres of rock music with electronic and orchestral
             elements, along with a wall-of-sound production style inspired by <strong>shoegaze</strong> and <strong>post-rock</strong>.<br /><br />
