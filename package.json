@@ -1,8 +1,8 @@
 {
-  "name": "xyzes.github.io",
+  "name": "estebandavid.es",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xyzes.github.io/",
+  "homepage": "estebandavid.es/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@emotion/react": "^11.11.1",
@@ -93,7 +93,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.1"
   },
   "jest": {
     "roots": [
