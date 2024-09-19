@@ -13,7 +13,7 @@ const Experience = () => {
         imageAlt="Logo of IBM (International Business Machines)"
         title={"IBM - Lowell, MA"}
         date={"January 2021 - present"}
-        headline={"Full-Stack Software Developer"}
+        headline={"Software Developer"}
       >
         <ul>
           <li>• Implemented and maintained services and third-party integrations for IBM governance, risk, and compliance (GRC) on-prem and SaaS offerings, enhancing data processing efficiency and improving security and compliance metrics</li>
@@ -21,10 +21,9 @@ const Experience = () => {
           <li>• Oversaw development of server-side logic for award-winning VR business intelligence prototype as part of the IBM Jumpstart Developer Challenge</li>
           <li>• Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
           <li>• Served as Scrum Master for three major releases, coordinating a cross-functional team of 20+ back-end developers, AI developers, and offering managers to deliver key features and enhancements</li>
-          <li>• Mentored dozens of developers in areas such as development environment setup, dependency management, CI/CD, vulnerability scanning and remediation, build certification & testing, configuration management, and third-party upgrades & integrations</li>
-          <li>• Optimized daily reporting and build certification of 20+ on-prem product deployments tracked via Jenkins</li>
           <li>• Developed JUnit tests for application SDK with support for IBM Cloud Pak for Data (CP4D) product deployments</li>
           <li>• Reported, tracked, and resolved issues related to Cypress automated testing suite of 140+ test cases and Jest suite of 200+ test cases</li>
+          <li>• Mentored dozens of developers in areas such as development environment setup, dependency management, CI/CD, vulnerability scanning and remediation, build certification & testing, configuration management, and third-party upgrades & integrations</li>
         </ul>
       </ContentExperience>
       <ContentExperience
@@ -49,7 +48,7 @@ const Experience = () => {
         imageAlt=""
         title={"Generate Product Development - Boston, MA"}
         date={"September 2019 - June 2021"}
-        headline={"Build Studio Engineer in Software"}
+        headline={"Front-End Software Engineer"}
       >
         <>
           <ul>
