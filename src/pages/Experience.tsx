@@ -7,30 +7,6 @@ const Experience = () => {
 
   return (
     <ResponsiveWrapper>
-      <h2 style={{ color: 'white' }}>Education</h2>
-      <ContentExperience
-        imagePath={"assets/Northeastern.png"}
-        imageAlt="seal of Northeastern University in Boston, Massachusetts"
-        title={"Northeastern University - Boston, MA"}
-        date={"September 2018 - May 2022"}
-        headline={"B.S. in Computer Science + Music Composition and Technology"}
-      >
-        <p>Activities and Societies: Americorps Jumpstart Tutor/Mentor, Husky Songwriting Club, Latin American Student Organization (LASO)</p>
-      </ContentExperience>
-      <ContentExperience
-        imagePath={"assets/TexasAcademy.png"}
-        imageAlt="logo of Texas Academy of STEM Studies in Laredo Texas"
-        title={"Julieta & Frank Staggs Academy of International and STEM Studies - Laredo, TX"}
-        date={"September 2016 - May 2018"}
-      >
-        <p>Activities and Societies: TAMIU Office of Information Technology, TAMIU House of Collective Performers, Student Philanthropy Council</p>
-      </ContentExperience>
-      <ContentExperience
-        imagePath={"assets/SAHS.jpeg"}
-        imageAlt="seal of Saint Augustine High School"
-        title={"St. Augustine High School - Laredo, TX"}
-        date={"September 2013 - May 2015"}
-      />
       <h2 style={{ color: 'white' }}>Experience</h2>
       <ContentExperience
         imagePath={"assets/IBM-Logo.jpeg"}
@@ -112,6 +88,30 @@ const Experience = () => {
           <li>• Documented and transported surplus A/V equipment as requested by the CIO office</li>
         </ul>
       </ContentExperience>
+      <h2 style={{ color: 'white' }}>Education</h2>
+      <ContentExperience
+        imagePath={"assets/Northeastern.png"}
+        imageAlt="seal of Northeastern University in Boston, Massachusetts"
+        title={"Northeastern University - Boston, MA"}
+        date={"September 2018 - May 2022"}
+        headline={"B.S. in Computer Science + Music Composition and Technology"}
+      >
+        <p>Activities and Societies: Americorps Jumpstart Tutor/Mentor, Husky Songwriting Club, Latin American Student Organization (LASO)</p>
+      </ContentExperience>
+      <ContentExperience
+        imagePath={"assets/TexasAcademy.png"}
+        imageAlt="logo of Texas Academy of STEM Studies in Laredo Texas"
+        title={"Julieta & Frank Staggs Academy of International and STEM Studies - Laredo, TX"}
+        date={"September 2016 - May 2018"}
+      >
+        <p>Activities and Societies: TAMIU Office of Information Technology, TAMIU House of Collective Performers, Student Philanthropy Council</p>
+      </ContentExperience>
+      <ContentExperience
+        imagePath={"assets/SAHS.jpeg"}
+        imageAlt="seal of Saint Augustine High School"
+        title={"St. Augustine High School - Laredo, TX"}
+        date={"September 2013 - May 2015"}
+      />
       <h2 style={{ color: 'white' }}>Skills</h2>
       <ContentIntro>
         <p>
