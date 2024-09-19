@@ -15,8 +15,8 @@ const App = () => {
                 <Routes>
                     {/* Landing page is set to "About" */}
                     <Route path="/" element={<About />} />
-                    <Route path="/software" element={<Projects />} />
                     <Route path="/experience" element={<Experience />} />
+                    <Route path="/software" element={<Projects />} />
                     <Route path="/music" element={<Music />} />
                     {/* Define more routes as needed */}
                 </Routes>

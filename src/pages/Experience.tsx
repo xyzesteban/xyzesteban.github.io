@@ -40,12 +40,15 @@ const Experience = () => {
         headline={"Full-Stack Software Developer"}
       >
         <ul>
-          <li>• Maintained and developed pipeline for 40+ on-prem and Docker deployments as Lead Build Certification Engineer</li>
-          <li>• Launched and supported suite of 140+ Cypress tests on OpenPages SaaS offering, increasing code coverage by 11%</li>
-          <li>• Developed back-end + infrastructure for a VR-powered business intelligence prototype with Unity, OpenXR, and the MERN stack (MongoDB, Express, React, Node.js)</li>
+          <li>• Implemented and maintained services and third-party integrations for IBM governance, risk, and compliance (GRC) on-prem and SaaS offerings, enhancing data processing efficiency and improving security and compliance metrics</li>
+          <li>• Developed pipeline and build reporting system for 80+ product deployments, reducing build reporting time and errors, and resulting in a tripled increase in developer productivity</li>
+          <li>• Oversaw development of server-side logic for award-winning VR business intelligence prototype as part of the IBM Jumpstart Developer Challenge</li>
           <li>• Contributed to development of OpenPages installer in Node.js and release management for three major releases</li>
-          <li>• Championed agile software development practices as Scrum Master for back-end and AI solutions teams</li>
-          <li>• Mentored dozens of developers in multiple DevOps areas including CI/CD, Docker, Ansible, and test automation</li>
+          <li>• Served as Scrum Master for three major releases, coordinating a cross-functional team of 20+ back-end developers, AI developers, and offering managers to deliver key features and enhancements</li>
+          <li>• Mentored dozens of developers in areas such as development environment setup, dependency management, CI/CD, vulnerability scanning and remediation, build certification & testing, configuration management, and third-party upgrades & integrations</li>
+          <li>• Optimized daily reporting and build certification of 20+ on-prem product deployments tracked via Jenkins</li>
+          <li>• Developed JUnit tests for application SDK with support for IBM Cloud Pak for Data (CP4D) product deployments</li>
+          <li>• Reported, tracked, and resolved issues related to Cypress automated testing suite of 140+ test cases and Jest suite of 200+ test cases</li>
         </ul>
       </ContentExperience>
       <ContentExperience
@@ -56,20 +59,12 @@ const Experience = () => {
         headline={"Software Technical Lead"}
       >
         <>
-          <h5>ArtistLaunch</h5>
           <ul>
-            <li>• Worked with project lead and stakeholders from Corbal Distribution to identify project deliverables</li>
-            <li>• Conducted behavioral and technical interviews for aspiring engineering and design candidates</li>
-            <li>• Managed React development of music curation and insights dashboards for Corbal Distribution's artist roster</li>
-            <li>• Hosted whiteboarding and knowledge sharing sessions to encourage active participation from the team</li>
-            <li>• Facilitated developer meetings as Scrum master and triaged issues promptly to teams of 6-8 engineers</li>
-          </ul>
-          <h5>Shortfall</h5>
-          <ul>
-            <li>• Trained a team of 6 incoming software engineers in the MERN stack (MongoDB, Express, React, Node.js)</li>
-            <li>• Authored and published in-depth onboarding and training documentations, showcasing strong technical writing skills</li>
-            <li>• Led weekly enablement sessions for GraphQL API and general database and system design</li>
-            <li>• Managed all DevOps tasks related to the project, including Travis CI/CD pipeline and deployment via Heroku</li>
+            <li>• Served as technical lead for two teams of 6-8 university students, overseeing feature development and code handoff of two prototypes for early-stage startups</li>
+            <li>• Conducted over fifty behavioral and technical interviews for aspiring engineering and design candidates</li>
+            <li>• Hosted knowledge sharing-sessions for system design, UI development, Rest API development, and DevOps tools</li>
+            <li>• Enabled all DevOps tasks (version control, CI/CD pipelines, product deployment) as outlined in project requirements</li>
+            <li>• Authored and delivered in-depth onboarding, development environment setup, and handoff documentation for future developers, showcasing strong technical writing skills</li>
           </ul>
         </>
       </ContentExperience>
@@ -81,25 +76,12 @@ const Experience = () => {
         headline={"Build Studio Engineer in Software"}
       >
         <>
-          <h5>BurnCam Medical</h5>
           <ul>
-            <li>• Developed a full-stack prototype in React Native for telemedicine startup BurnCam Medical</li>
-            <li>• Implemented responsive user profile & dashboard views for patients and physicians, enabling cross-platform support</li>
-            <li>• Assisted with DevOps and infrastructure tasks related to AWS Lambda, AWS Amplify, and DynamoDB</li>
-          </ul>
-          <h5>Butter</h5>
-          <ul>
-            <li>• Contributed to development of the initial MVP for review crowdsourcing social media app Butter</li>
-            <li>• Implemented functional wireframes for search, profile, and recommendation form using React Native</li>
-            <li>• Completed high fidelity UI styling and API integration for profile & recommendation form views</li>
-            <li>• Assisted with post-MVP high fidelity UI/UX design of Search and Following views using Figma</li>
-          </ul>
-          <h5>SmartyPill</h5>
-          <ul>
-            <li>• Worked on front-end of React web client for smart pill dispenser startup SmartyPill</li>
-            <li>• Implemented modal & form to add new prescriptions to the database using React & Material UI</li>
-            <li>• Added API connections + component interaction and navigation using React Router and custom hooks</li>
-            <li>• Created multiple re-usable stylesheets, and functional and presentational components for prescription management</li>
+            <li>• Created modular and re-usable UI components for five different Series A and B startups</li>
+            <li>• Implemented responsive dashboards and components for product MVPs, enabling cross-platform support and consistent experiences across devices</li>
+            <li>• Completed high fidelity UI styling, following the latest accessibility practices</li>
+            <li>• Enhanced existing codebases with modern technologies as requested by the client, while providing the original functionality</li>
+            <li>• Assisted with infrastructure development and project management tasks such as version control, development documentation, prototype deployment and testing, and product handoff</li>
           </ul>
         </>
       </ContentExperience>
@@ -113,7 +95,7 @@ const Experience = () => {
         <ul>
           <li>• Designed and delivered functional wireframe design for A/V inventory application and relational database</li>
           <li>• Managed OS upgrades and cross-platform software migrations for 150+ staff virtual environments</li>
-          <li>• Completed technical support tasks for remote work setups, as assigned by Senior IT Project Manager</li>
+          <li>• Completed technical support tasks for administrators and researchers, as assigned by Senior IT Project Manager</li>
         </ul>
       </ContentExperience>
       <ContentExperience
@@ -124,10 +106,10 @@ const Experience = () => {
         headline={"1st Level Support Technician"}
       >
         <ul>
-          <li>• Provided first line of defense customer support in-person, and via phone, e-mail & chat</li>
-          <li>• Maintained 40+ student PC kiosks across campus and reported their daily status to Chief Information Officer</li>
-          <li>• Decommissioned & retired storage devices to comply with university's security policies</li>
-          <li>• Transported and documented surplus A/V equipment</li>
+          <li>• Provided first line of defense technical support both in-person, and remotely via phone, e-mail, and chat for TAMIU students, professors, and administrators</li>
+          <li>• Maintained 40+ student PC kiosks across campus and reported their daily status to key stakeholders, increasing self-service usage</li>
+          <li>• Decommissioned and disabled unused storage devices to comply with security policies</li>
+          <li>• Documented and transported surplus A/V equipment as requested by the CIO office</li>
         </ul>
       </ContentExperience>
       <h2 style={{ color: 'white' }}>Skills</h2>
