@@ -48,7 +48,7 @@ const Experience = () => {
         imageAlt=""
         title={"Generate Product Development - Boston, MA"}
         date={"September 2019 - June 2021"}
-        headline={"Front-End Software Engineer"}
+        headline={"Software Engineer"}
       >
         <>
           <ul>
