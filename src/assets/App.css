@@ -18,6 +18,10 @@ li {
     box-sizing: border-box;
 }
 
+p {
+    text-justify: auto;
+}
+
 /* Fonts */
 
 @font-face {
@@ -84,7 +88,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: white;
+    background-color: #ffffef;
     outline-width: 1px !important;
     outline-color: black;
     flex-direction: row;
@@ -118,7 +122,7 @@ body {
 
 .sidebar-button:hover,
 .sidebar-button:hover h3 {
-    color: white !important;
+    color: #ffffef !important;
 }
 
 .sidebar-toggle {
@@ -146,7 +150,7 @@ body {
 
 /* Updated default button styles */
 .MuiButton-root {
-    background-color: white;
+    background-color: #ffffef;
     color: black;
     border: 0px solid transparent !important; /* Add a border to distinguish the button */
     display: block; /* Display as block-level elements to take full width */
@@ -159,7 +163,7 @@ body {
 }
 
 .green-button {
-    background-color: white;
+    background-color: #ffffef;
     color: black;
     box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
@@ -172,11 +176,11 @@ body {
   
 .green-button:hover {
     background-color: green !important;
-    color: white !important;
+    color: #ffffef !important;
 }
   
 .blue-button {
-    background-color: white;
+    background-color: #ffffef;
     color: black;
     box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
@@ -188,12 +192,12 @@ body {
 }
   
 .blue-button:hover {
-    background-color: blue !important;
-    color: white !important;
+    background-color: rgb(4, 4, 146) !important;
+    color: #ffffef !important;
 }
   
 .yellow-button {
-    background-color: white;
+    background-color: #ffffef;
     color: black;
     box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
@@ -206,11 +210,11 @@ body {
   
 .yellow-button:hover {
     background-color: #c78203 !important;
-    color: white !important;
+    color: #ffffef !important;
 }
   
 .red-button {
-    background-color: white;
+    background-color: #ffffef;
     color: black;
     box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
     display: block !important; /* Display as block-level elements to take full width */
@@ -223,7 +227,7 @@ body {
   
 .red-button:hover {
     background-color: red !important;
-    color: white !important;
+    color: #ffffef !important;
 }
 
 /* Default styles for the icons */
@@ -275,6 +279,7 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: 0;
+    user-select: none;
 }
 
 .background-container {
@@ -301,7 +306,7 @@ body {
     height: calc(100% - var(--header-height) + 15px); 
     width: 100%;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
-    background-color: white;
+    background-color: #ffffef;
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -316,12 +321,13 @@ body {
 .foreground-container {
     flex: 1;
     display: flex;
-    flex-shrink: 0; /* Add this line */
+    flex-shrink: 0;
     flex-direction: column;
     min-height: 100px;
     height: 100%;
     position: relative; /* Added relative positioning */
     transition: opacity 1000ms ease 500ms;
+    user-select: none;
 }
 
 .foreground-center {
@@ -391,12 +397,18 @@ body {
     margin: 15px;
     min-width: 50%; /* Adjust as needed */
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
-    background-color: white;
+    background-color: #ffffef;
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
     position: relative;
     z-index: 100;
+}
+
+.content-intro p {
+    text-align: justify;
+    justify-content: center;
 }
 
 .content-media {
@@ -404,7 +416,7 @@ body {
     margin: 15px;
     min-width: 50%; /* Adjust as needed */
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
-    background-color: white;
+    background-color: #ffffef;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -419,7 +431,7 @@ body {
     padding-top: 5px;
     padding-bottom: 15px;
     min-width: 50%; /* Adjust as needed */
-    background-color: white;
+    background-color: #ffffef;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -433,6 +445,7 @@ body {
 }
 
 .media-text {
+    text-align: justify;
     padding-top: 0px !important;
     padding-bottom: 20px;
 }
@@ -447,7 +460,7 @@ body {
     margin: 15px;
     min-width: 33%;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3); 
-    background-color: white;
+    background-color: #ffffef;
     flex-shrink: 0; /* Prevent shrinking */
     flex-basis: 0;
     flex-direction: column; /* Change flex direction to row */
@@ -470,6 +483,7 @@ body {
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 10px;
+    user-select: none;
     flex: 1;
 }
 
@@ -508,7 +522,7 @@ h3 {
 }
 
 .button-title:hover {
-    color: white;
+    color: #ffffef;
 }
 
 p {
@@ -587,13 +601,56 @@ p {
     min-height: 133px;
     height: 12vh;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
-    background-color: white;
+    background-color: #ffffef;
     overflow: hidden;
+    user-select: none;
     display: flex;
     flex-direction: row;
     position: relative;
     z-index: 100;
     cursor: pointer;
+}
+
+.content-contact {
+    border-radius: 15px;
+    margin: 15px;
+    min-height: 133px;
+    min-width: 133px;
+    width: 10vh;
+    box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
+    background-color: #ffffef;
+    user-select: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.content-contact:hover img {
+    filter: invert(1);
+}
+
+.content-contact-button {
+    background-color: #ffffef;
+    color: black;
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
+    display: block !important; /* Display as block-level elements to take full width */
+    text-align: center; /* Center-align text within the button */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bold !important; /* Set the font weight to bold */
+    transition: opacity 1s ease !important; /* Add a transition for the opacity property */
+}
+  
+.content-contact-button:hover {
+    background-color: rgb(4, 4, 146) !important;
+    color: #ffffef !important;
 }
 
 @media only screen and (max-width: 400px) and (orientation: portrait) {
@@ -675,6 +732,7 @@ p {
     height: auto;
     max-width: 100%;
     max-height: 350px;
+    user-select: none;
     object-fit: cover;
     object-position: top;
 }
@@ -717,7 +775,7 @@ h6 {
     transform: translate(-50%, -50%);
     height: 80%;
     width: 75%;
-    background-color: white;
+    background-color: #ffffef;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     padding: 4;
@@ -743,6 +801,7 @@ h6 {
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: hidden;
+    user-select: none;
 }
 
 .project-container {

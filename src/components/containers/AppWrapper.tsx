@@ -10,7 +10,7 @@ const AppWrapper = ({ sidebarType, children }) => {
   useEffect(() => {
     // Update background based on the current route
     if (pathname === '/') {
-      setBackgroundColor('blue');
+      setBackgroundColor('#0404a2');
     } else if (pathname === '/experience') {
       setBackgroundColor('green');
     } else if (pathname === '/software') {
