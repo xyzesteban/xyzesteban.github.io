@@ -32,13 +32,14 @@ const NavigationFooter = () => {
 
     return (
         <>
-            <div style={{ position: "absolute", bottom: 0, width: '100%', zIndex: 600 }}>
+            <div style={{ position: "absolute", bottom: 0, width: '100%', zIndex: 600, backgroundColor: '#ffffef' }}>
                 <BottomNavigation
                     showLabels
                     value={navBarValue}
                     onChange={(event, newValue) => {
                         navigateTo(newValue);
                     }}
+                    style={{backgroundColor: '#ffffef'}}
                 >
                     <BottomNavigationAction label="About" icon={<HomeIcon />} value="" />
                     <BottomNavigationAction label="CV" icon={<BusinessCenterIcon />} value="experience" />
