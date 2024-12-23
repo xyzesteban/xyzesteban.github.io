@@ -23,6 +23,16 @@ const Experience = () => {
         }
       >
         <iframe
+          title="Fantastic Preview from Spotify"
+          style={{ borderRadius: "12px", userSelect: "none"}} 
+          src="https://open.spotify.com/embed/track/3kyFS6yQe6zh7av6Ih1S03?utm_source=generator" 
+          width="100%" 
+          height="160" 
+          frameBorder="0" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+          loading="lazy"
+        />
+        <iframe
           title="Synth Party People Preview from Spotify"
           style={{ borderRadius: "12px", userSelect: "none"}} 
           src="https://open.spotify.com/embed/track/3iFGZrwHUztqGTAsz2BTe9?utm_source=generator" 
@@ -31,7 +41,6 @@ const Experience = () => {
           frameBorder="0" 
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
           loading="lazy"
-          
         />
         <iframe 
           title="Technicolor Paradise Preview from Spotify"
@@ -42,16 +51,6 @@ const Experience = () => {
           frameBorder="0" 
           allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
           loading="lazy" 
-        />
-        <iframe 
-          title="Nomad Preview from Spotify"
-          style={{ borderRadius: "12px", userSelect: "none" }} 
-          src="https://open.spotify.com/embed/track/3UAS1pgFmumgSAtaxYjNcJ?utm_source=generator&theme=0" 
-          width="100%" 
-          height="160" 
-          frameBorder="0" 
-          allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-          loading="lazy"
         />
         <iframe 
           title="In The Fire Full Demo from Soundcloud"
