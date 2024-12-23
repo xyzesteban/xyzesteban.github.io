@@ -136,7 +136,7 @@ const projectModalData = {
     id: 'burncam',
     title: 'BurnCam Medical',
     subtitle: 'An augmented telemedicine platform for burn patients using React Native and AWS',
-    imagePath: 'assets/BurncamFinal.png',
+    imagePath: 'assets/BurnCamFinal.png',
     description: <p><strong>Team Members</strong>: Nikhil Bhat, Ryan Gehrlein, Esteban D. Espinoza, Rochen Zhuang, Alex Nikanov, Cynthia Xie, Matt Tong<br/><br/>
                     <strong>Tech Stack</strong>: React Native, Javascript, Node.js, AWS Lambda, DynamoDB<br/><br/>
                     <strong>Client/Stakeholders</strong>: Orion Wilmerding<br/><br/>
@@ -156,7 +156,7 @@ const projectModalData = {
 
                     Burncam was released on the Apple App Store and Google Play Store in Q4 2023.
                 </p>,
-    additionalMedia: ['assets/BurncamFinal.png','assets/BurncamHiFi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
+    additionalMedia: ['assets/BurnCamFinal.png','assets/BurncamHiFi.png','assets/BurncamFlow.jpg', 'assets/BurncamFiles.png', 'assets/BurncamWireframe.png']
   },
   butter: {
     id: 'butter',
