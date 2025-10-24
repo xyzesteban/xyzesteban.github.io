@@ -7,6 +7,10 @@ const Experience = () => {
   return (
     <ResponsiveWrapper>
       <h2 style={{ color: 'white' }}>Music</h2>
+      {/* TODO: <h2 style={{color:'white'}}>RNGLDR Records Ltd</h2>
+        <ContentMedia imagePath={""}>
+          <p>Under construction...</p>
+        </ContentMedia> */}
       <ContentMedia
         imagePath={"assets/SoloBanner.jpg"}
         imageAlt="Saint Dvorak banner picture - holding a guitar"
@@ -14,14 +18,24 @@ const Experience = () => {
         mediaText={
           <p><strong>Saint Dvorak</strong> is a solo music project by Esteban D. Espinoza. Originally performing original songs and covers with only an
             acoustic guitar, a backing track, and live vocals, the project now has a focus on recording and production of <strong>alternative </strong>
-            and <strong>electronic rock</strong>, and makes heavy use of both virtual and live instruments to craft its sound.<br /><br />
+            and <strong>electronic rock</strong>, and makes heavy use of both virtual and live instruments to craft its sound. Among the project's 
+            influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975, and Joywave. <br /><br />
 
-            Among the project's sonic influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975, and Joywave, and its 
-            lyrical styles and themes take inspiration from pop culture and modern technology. <strong>Saint Dvorak's debut album, Daydreamer, 
-            is currently being recorded</strong> and will be released in Q2 2025.
+            <strong>Saint Dvorak's debut album, Daydreamer, 
+            is currently being recorded</strong> and will be released in Q1 2026.
           </p>
         }
       >
+        <iframe
+          title="In The Fire Preview from Spotify"
+          style={{ borderRadius: "12px", userSelect: "none"}} 
+          src="https://open.spotify.com/embed/track/23IZBmACRVMekpWUhHJkPf?utm_source=generator" 
+          width="100%" 
+          height="160" 
+          frameBorder="0" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+          loading="lazy"
+        />
         <iframe
           title="Fantastic Preview from Spotify"
           style={{ borderRadius: "12px", userSelect: "none"}} 
@@ -52,14 +66,11 @@ const Experience = () => {
           allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
           loading="lazy" 
         />
-        <iframe 
-          title="In The Fire Full Demo from Soundcloud"
-          width="100%"
-          height="150"
-          style={{ borderRadius: "15px", border: "0px", paddingBottom: "12px", userSelect: "none" }}
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1907966633&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        />
       </ContentMedia>
+      {/* TODO: <h2 style={{color:'white'}}>Chef Dumbbirch</h2>
+        <ContentMedia imagePath={""}>
+          <p>Under construction...</p>
+        </ContentMedia> */}
       <ContentMedia
         imagePath={"assets/AgesBanner.jpg"}
         imageAlt="Studio set up for the band AGES at The Record Co"
@@ -86,10 +97,6 @@ const Experience = () => {
           loading="lazy"
         />
       </ContentMedia>
-      {/* TODO: <h2 style={{color:'white'}}>RNGLDR Records Ltd</h2>
-        <ContentMedia imagePath={""}>
-          <p>Under construction...</p>
-        </ContentMedia> */}
     </ResponsiveWrapper>
   )
 }

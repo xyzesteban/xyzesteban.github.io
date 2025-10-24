@@ -9,10 +9,38 @@ const Experience = () => {
     <ResponsiveWrapper>
       <h2 style={{ color: 'white' }}>Experience</h2>
       <ContentExperience
+        imagePath={"assets/Xfinity.png"}
+        imageAlt="Logo of Xfinity)"
+        title={"Xfinity - Cambridge, MA"}
+        date={"March 2025 - Present"}
+        headline={"Technical Sales Consultant II"}
+      >
+        <ul>
+          <li>• Added ~$8K average new monthly revenue from Internet, TV, Mobile, Smart Home, and Comcast Business services</li>
+          <li>• Delivered tailored consultations and solutions to ~180 customers per month, maintaining top spot in NPS metrics
+          for Cambridge, MA district for three consecutive months</li>
+          <li>• Served as designated store Apple Expert, delivering product education, technical support, and seamless device
+          activations and transfers for iPhone, iPad, and Apple Watch users</li>
+        </ul>
+      </ContentExperience>
+      <ContentExperience
+        imagePath={"assets/Starbucks.png"}
+        imageAlt="Logo of Starbucks)"
+        title={"Starbucks - Cambridge, MA"}
+        date={"Nov 2024 - March 2025"}
+        headline={"Barista Trainer"}
+      >
+        <ul>
+          <li>• Trained new partners on beverage routines, store standards, and the LATTE framework for customer engagement, contributing to the third top-selling store in the district (Harvard Square - Grab n' Go)</li>
+          <li>• Elevated café operations through precision, speed, and authentic customer connection</li>
+          <li>• Led a high-quality café experience by example during peak hours, maintaining composure and delivering handcrafted beverages with accuracy and care in a fast-paced environment</li>
+        </ul>
+      </ContentExperience>
+      <ContentExperience
         imagePath={"assets/IBM-Logo.jpeg"}
         imageAlt="Logo of IBM (International Business Machines)"
         title={"IBM - Lowell, MA"}
-        date={"January 2021 - present"}
+        date={"January 2021 - Oct 2024"}
         headline={"Software Developer"}
       >
         <ul>
