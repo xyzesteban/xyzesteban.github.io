@@ -9,31 +9,18 @@ const Experience = () => {
     <ResponsiveWrapper>
       <h2 style={{ color: 'white' }}>Experience</h2>
       <ContentExperience
-        imagePath={"assets/Xfinity.png"}
-        imageAlt="Logo of Xfinity)"
-        title={"Xfinity - Cambridge, MA"}
-        date={"March 2025 - Present"}
-        headline={"Technical Sales Consultant II"}
+        imagePath={"assets/comcast.png"}
+        imageAlt="Logo of Comcast)"
+        title={"Comcast - Cambridge, MA"}
+        date={"July 2025 - Present"}
+        headline={"IT Sales Consultant II"}
       >
         <ul>
-          <li>• Added ~$8K average new monthly revenue from Internet, TV, Mobile, Smart Home, and Comcast Business services</li>
-          <li>• Delivered tailored consultations and solutions to ~180 customers per month, maintaining top spot in NPS metrics
-          for Cambridge, MA district for three consecutive months</li>
+          <li>• Managed accounts for ~200 customers per month, serving as the main point of contact for technical questions and demonstrations of new products for Xfinity and Comcast Business customers.</li>
+          <li>• Produced an average of $8K monthly revenue from new accounts, retention consultations, and device purchases.</li>
+          <li>• Provided in-house support and operations management for CRM and inventory software in local Xfinity locations.</li>
           <li>• Served as designated store Apple Expert, delivering product education, technical support, and seamless device
           activations and transfers for iPhone, iPad, and Apple Watch users</li>
-        </ul>
-      </ContentExperience>
-      <ContentExperience
-        imagePath={"assets/Starbucks.png"}
-        imageAlt="Logo of Starbucks)"
-        title={"Starbucks - Cambridge, MA"}
-        date={"Nov 2024 - March 2025"}
-        headline={"Barista Trainer"}
-      >
-        <ul>
-          <li>• Trained new partners on beverage routines, store standards, and the LATTE framework for customer engagement, contributing to the third top-selling store in the district (Harvard Square - Grab n' Go)</li>
-          <li>• Elevated café operations through precision, speed, and authentic customer connection</li>
-          <li>• Led a high-quality café experience by example during peak hours, maintaining composure and delivering handcrafted beverages with accuracy and care in a fast-paced environment</li>
         </ul>
       </ContentExperience>
       <ContentExperience
