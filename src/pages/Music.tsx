@@ -17,8 +17,8 @@ const Experience = () => {
         title="Saint Dvorak"
         mediaText={
           <p><strong>Saint Dvorak</strong> is a solo music project by Esteban D. Espinoza. Originally performing original songs and covers with only an
-            acoustic guitar, a backing track, and live vocals, the project now has a focus on recording and production of <strong>alternative </strong>
-            and <strong>electronic rock</strong>, and makes heavy use of both virtual and live instruments to craft its sound. Among the project's 
+            acoustic guitar, a backing track, and live vocals, the project now has a focus on recording and production of <strong>electronic rock </strong>
+            and <strong>electro-pop</strong>, and makes heavy use of both virtual and live instruments to craft its sound. Among the project's 
             influences are Tame Impala, LCD Soundsystem, Empire of the Sun, The 1975, and Joywave. <br /><br />
 
             <strong>Saint Dvorak's debut album, Daydreamer, 
@@ -81,7 +81,7 @@ const Experience = () => {
             The group's sound bears influences ranging from Deafheaven to Burial, infusing various subgenres of rock music with electronic and orchestral
             elements, along with a wall-of-sound production style inspired by <strong>shoegaze</strong> and <strong>post-rock</strong>.<br /><br />
 
-            Our flagship EP release, Bury the Tone, was recorded at The Record Co in Boston, MA. All four songs of the EP were showcased for the first time at
+            Our flagship EP release, Bury the Tone, was showcased for the first time at
             <strong> Northeastern's 2022 Music Technology Capstone</strong>, and the EP was released for streaming the following year.
           </p>
         }

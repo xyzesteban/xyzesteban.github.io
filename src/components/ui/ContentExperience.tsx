@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const ContentExperience = ({ children = <></>, imagePath, imageAlt, title = "", date = "", headline = "" }) => {
+const ContentExperience = ({ children = <></>, imagePath = "", imageAlt = "", title = "", date = "", headline = ""}) => {
 
     return (
         <div className="content-experience">

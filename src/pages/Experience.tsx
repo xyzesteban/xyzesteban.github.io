@@ -9,10 +9,25 @@ const Experience = () => {
     <ResponsiveWrapper>
       <h2 style={{ color: 'white' }}>Experience</h2>
       <ContentExperience
+        imagePath={"assets/AbineDM.png"}
+        imageAlt="Logo of DeleteMe"
+        title={"DeleteMe"}
+        date={"September 2026 - Present"}
+        headline={"Score Advisor"}
+      >
+        {/* <ul>
+          <li>• Managed accounts for ~200 customers per month, serving as the main point of contact for technical questions and demonstrations of new products for Xfinity and Comcast Business customers.</li>
+          <li>• Produced an average of $8K monthly revenue from new accounts, retention consultations, and device purchases.</li>
+          <li>• Provided in-house support and operations management for CRM and inventory software in local Xfinity locations.</li>
+          <li>• Served as designated store Apple Expert, delivering product education, technical support, and seamless device
+          activations and transfers for iPhone, iPad, and Apple Watch users</li>
+        </ul> */}
+      </ContentExperience>
+      <ContentExperience
         imagePath={"assets/comcast.png"}
-        imageAlt="Logo of Comcast)"
-        title={"Comcast - Cambridge, MA"}
-        date={"July 2025 - Present"}
+        imageAlt="Logo of Comcast Corporation"
+        title={"Comcast"}
+        date={"July 2025 - August 2026"}
         headline={"IT Sales Consultant II"}
       >
         <ul>
@@ -26,7 +41,7 @@ const Experience = () => {
       <ContentExperience
         imagePath={"assets/IBM-Logo.jpeg"}
         imageAlt="Logo of IBM (International Business Machines)"
-        title={"IBM - Lowell, MA"}
+        title={"IBM"}
         date={"January 2021 - Oct 2024"}
         headline={"Software Developer"}
       >
@@ -43,8 +58,8 @@ const Experience = () => {
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/Generate.jpeg"}
-        imageAlt=""
-        title={"Generate Product Development - Boston, MA"}
+        imageAlt="Logo of Generate Product Development at Northeastern"
+        title={"Generate Product Development"}
         date={"July 2021 - May 2022"}
         headline={"Software Technical Lead"}
       >
@@ -60,8 +75,8 @@ const Experience = () => {
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/Generate.jpeg"}
-        imageAlt=""
-        title={"Generate Product Development - Boston, MA"}
+        imageAlt="Logo of Generate Product Development at Northeastern"
+        title={"Generate Product Development"}
         date={"September 2019 - June 2021"}
         headline={"Software Engineer"}
       >
@@ -78,7 +93,7 @@ const Experience = () => {
       <ContentExperience
         imagePath={"assets/HarvardPublicHealth.jpg"}
         imageAlt=""
-        title={"Harvard T.H. Chan School of Public Health - Boston, MA"}
+        title={"Harvard T.H. Chan School of Public Health"}
         date={"January 2020 - July 2020"}
         headline={"IT Project Management Intern"}
       >
@@ -105,8 +120,8 @@ const Experience = () => {
       <h2 style={{ color: 'white' }}>Education</h2>
       <ContentExperience
         imagePath={"assets/Northeastern.png"}
-        imageAlt="seal of Northeastern University in Boston, Massachusetts"
-        title={"Northeastern University - Boston, MA"}
+        imageAlt="seal of Northeastern University"
+        title={"Northeastern University"}
         date={"September 2018 - May 2022"}
         headline={"B.S. in Computer Science + Music Composition and Technology"}
       >
@@ -114,7 +129,7 @@ const Experience = () => {
       </ContentExperience>
       <ContentExperience
         imagePath={"assets/TexasAcademy.png"}
-        imageAlt="logo of Texas Academy of STEM Studies in Laredo Texas"
+        imageAlt="logo of Texas Academy of STEM Studies"
         title={"Julieta & Frank Staggs Academy of International and STEM Studies - Laredo, TX"}
         date={"September 2016 - May 2018"}
       >
